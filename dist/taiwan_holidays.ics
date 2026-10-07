@@ -1,0 +1,1226 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Taiwan Calendar Project//TW//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:台灣國定假日 (人事行政總處)
+X-WR-TIMEZONE:Asia/Taipei
+X-WR-CALDESC:依據行政院人事行政總處最新公告之政府行政
+ 機關辦公日曆表，包含國定假日、彈性放假、補假與補
+ 行上班日。每年自動更新。
+BEGIN:VTIMEZONE
+TZID:Asia/Taipei
+X-LIC-LOCATION:Asia/Taipei
+BEGIN:STANDARD
+TZOFFSETFROM:+0800
+TZOFFSETTO:+0800
+TZNAME:CST
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:tw-holiday-20240101@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:開國紀念日
+DTSTART;VALUE=DATE:20240101
+DTEND;VALUE=DATE:20240102
+DESCRIPTION:中華民國法定紀念日及節日：開國紀念日\n資料
+ 來源：行政院人事行政總處政府行政機關辦公日曆表 (htt
+ ps://www.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20240208@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:小年夜
+DTSTART;VALUE=DATE:20240208
+DTEND;VALUE=DATE:20240209
+DESCRIPTION:中華民國法定紀念日及節日：小年夜\n資料來源
+ ：行政院人事行政總處政府行政機關辦公日曆表 (https://w
+ ww.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20240209@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:農曆除夕
+DTSTART;VALUE=DATE:20240209
+DTEND;VALUE=DATE:20240210
+DESCRIPTION:中華民國法定紀念日及節日：農曆除夕\n資料來
+ 源：行政院人事行政總處政府行政機關辦公日曆表 (https:
+ //www.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20240210@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:春節
+DTSTART;VALUE=DATE:20240210
+DTEND;VALUE=DATE:20240211
+DESCRIPTION:中華民國法定紀念日及節日：春節\n資料來源：
+ 行政院人事行政總處政府行政機關辦公日曆表 (https://www.
+ dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20240211@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:春節
+DTSTART;VALUE=DATE:20240211
+DTEND;VALUE=DATE:20240212
+DESCRIPTION:中華民國法定紀念日及節日：春節\n資料來源：
+ 行政院人事行政總處政府行政機關辦公日曆表 (https://www.
+ dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20240212@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:春節
+DTSTART;VALUE=DATE:20240212
+DTEND;VALUE=DATE:20240213
+DESCRIPTION:中華民國法定紀念日及節日：春節\n資料來源：
+ 行政院人事行政總處政府行政機關辦公日曆表 (https://www.
+ dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20240213@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:春節 補假
+DTSTART;VALUE=DATE:20240213
+DTEND;VALUE=DATE:20240214
+DESCRIPTION:春節逢例假日或連假，依規定予以補假\n資料來
+ 源：行政院人事行政總處政府行政機關辦公日曆表 (https:
+ //www.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20240214@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:春節 補假
+DTSTART;VALUE=DATE:20240214
+DTEND;VALUE=DATE:20240215
+DESCRIPTION:春節逢例假日或連假，依規定予以補假\n資料來
+ 源：行政院人事行政總處政府行政機關辦公日曆表 (https:
+ //www.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-work-20240217@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:【補班】補行上班
+DTSTART;VALUE=DATE:20240217
+DTEND;VALUE=DATE:20240218
+DESCRIPTION:行政院人事行政總處公告補行上班日（需上班）
+ \n資料來源：行政院人事行政總處政府行政機關辦公日曆
+ 表 (https://www.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:補班日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20240228@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:和平紀念日
+DTSTART;VALUE=DATE:20240228
+DTEND;VALUE=DATE:20240229
+DESCRIPTION:中華民國法定紀念日及節日：和平紀念日\n資料
+ 來源：行政院人事行政總處政府行政機關辦公日曆表 (htt
+ ps://www.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20240404@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:兒童節及民族掃墓節
+DTSTART;VALUE=DATE:20240404
+DTEND;VALUE=DATE:20240405
+DESCRIPTION:中華民國法定紀念日及節日：兒童節及民族掃墓
+ 節\n資料來源：行政院人事行政總處政府行政機關辦公日
+ 曆表 (https://www.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20240405@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:兒童節及民族掃墓節 補假
+DTSTART;VALUE=DATE:20240405
+DTEND;VALUE=DATE:20240406
+DESCRIPTION:兒童節及民族掃墓節逢例假日或連假，依規定予
+ 以補假\n資料來源：行政院人事行政總處政府行政機關辦
+ 公日曆表 (https://www.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20240610@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:端午節
+DTSTART;VALUE=DATE:20240610
+DTEND;VALUE=DATE:20240611
+DESCRIPTION:中華民國法定紀念日及節日：端午節\n資料來源
+ ：行政院人事行政總處政府行政機關辦公日曆表 (https://w
+ ww.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20240917@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:中秋節
+DTSTART;VALUE=DATE:20240917
+DTEND;VALUE=DATE:20240918
+DESCRIPTION:中華民國法定紀念日及節日：中秋節\n資料來源
+ ：行政院人事行政總處政府行政機關辦公日曆表 (https://w
+ ww.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20241010@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:國慶日
+DTSTART;VALUE=DATE:20241010
+DTEND;VALUE=DATE:20241011
+DESCRIPTION:中華民國法定紀念日及節日：國慶日\n資料來源
+ ：行政院人事行政總處政府行政機關辦公日曆表 (https://w
+ ww.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20250101@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:開國紀念日
+DTSTART;VALUE=DATE:20250101
+DTEND;VALUE=DATE:20250102
+DESCRIPTION:中華民國法定紀念日及節日：開國紀念日\n資料
+ 來源：行政院人事行政總處政府行政機關辦公日曆表 (htt
+ ps://www.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20250127@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:小年夜
+DTSTART;VALUE=DATE:20250127
+DTEND;VALUE=DATE:20250128
+DESCRIPTION:中華民國法定紀念日及節日：小年夜\n資料來源
+ ：行政院人事行政總處政府行政機關辦公日曆表 (https://w
+ ww.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20250128@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:農曆除夕
+DTSTART;VALUE=DATE:20250128
+DTEND;VALUE=DATE:20250129
+DESCRIPTION:中華民國法定紀念日及節日：農曆除夕\n資料來
+ 源：行政院人事行政總處政府行政機關辦公日曆表 (https:
+ //www.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20250129@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:春節
+DTSTART;VALUE=DATE:20250129
+DTEND;VALUE=DATE:20250130
+DESCRIPTION:中華民國法定紀念日及節日：春節\n資料來源：
+ 行政院人事行政總處政府行政機關辦公日曆表 (https://www.
+ dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20250130@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:春節
+DTSTART;VALUE=DATE:20250130
+DTEND;VALUE=DATE:20250131
+DESCRIPTION:中華民國法定紀念日及節日：春節\n資料來源：
+ 行政院人事行政總處政府行政機關辦公日曆表 (https://www.
+ dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20250131@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:春節
+DTSTART;VALUE=DATE:20250131
+DTEND;VALUE=DATE:20250201
+DESCRIPTION:中華民國法定紀念日及節日：春節\n資料來源：
+ 行政院人事行政總處政府行政機關辦公日曆表 (https://www.
+ dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-work-20250208@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:【補班】補行上班
+DTSTART;VALUE=DATE:20250208
+DTEND;VALUE=DATE:20250209
+DESCRIPTION:行政院人事行政總處公告補行上班日（需上班）
+ \n資料來源：行政院人事行政總處政府行政機關辦公日曆
+ 表 (https://www.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:補班日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20250228@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:和平紀念日
+DTSTART;VALUE=DATE:20250228
+DTEND;VALUE=DATE:20250301
+DESCRIPTION:中華民國法定紀念日及節日：和平紀念日\n資料
+ 來源：行政院人事行政總處政府行政機關辦公日曆表 (htt
+ ps://www.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20250403@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:兒童節及民族掃墓節 補假
+DTSTART;VALUE=DATE:20250403
+DTEND;VALUE=DATE:20250404
+DESCRIPTION:兒童節及民族掃墓節逢例假日或連假，依規定予
+ 以補假\n資料來源：行政院人事行政總處政府行政機關辦
+ 公日曆表 (https://www.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20250404@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:兒童節及民族掃墓節
+DTSTART;VALUE=DATE:20250404
+DTEND;VALUE=DATE:20250405
+DESCRIPTION:中華民國法定紀念日及節日：兒童節及民族掃墓
+ 節\n資料來源：行政院人事行政總處政府行政機關辦公日
+ 曆表 (https://www.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20250530@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:端午節 補假
+DTSTART;VALUE=DATE:20250530
+DTEND;VALUE=DATE:20250531
+DESCRIPTION:端午節逢例假日或連假，依規定予以補假\n資料
+ 來源：行政院人事行政總處政府行政機關辦公日曆表 (htt
+ ps://www.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20250531@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:端午節
+DTSTART;VALUE=DATE:20250531
+DTEND;VALUE=DATE:20250601
+DESCRIPTION:中華民國法定紀念日及節日：端午節\n資料來源
+ ：行政院人事行政總處政府行政機關辦公日曆表 (https://w
+ ww.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20250928@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:孔子誕辰紀念日
+DTSTART;VALUE=DATE:20250928
+DTEND;VALUE=DATE:20250929
+DESCRIPTION:中華民國法定紀念日及節日：孔子誕辰紀念日\n
+ 資料來源：行政院人事行政總處政府行政機關辦公日曆
+ 表 (https://www.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20250929@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:孔子誕辰紀念日 補假
+DTSTART;VALUE=DATE:20250929
+DTEND;VALUE=DATE:20250930
+DESCRIPTION:孔子誕辰紀念日逢例假日或連假，依規定予以補
+ 假\n資料來源：行政院人事行政總處政府行政機關辦公日
+ 曆表 (https://www.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20251006@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:中秋節
+DTSTART;VALUE=DATE:20251006
+DTEND;VALUE=DATE:20251007
+DESCRIPTION:中華民國法定紀念日及節日：中秋節\n資料來源
+ ：行政院人事行政總處政府行政機關辦公日曆表 (https://w
+ ww.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20251010@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:國慶日
+DTSTART;VALUE=DATE:20251010
+DTEND;VALUE=DATE:20251011
+DESCRIPTION:中華民國法定紀念日及節日：國慶日\n資料來源
+ ：行政院人事行政總處政府行政機關辦公日曆表 (https://w
+ ww.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20251024@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:臺灣光復暨金門古寧頭大捷紀念日 補假
+DTSTART;VALUE=DATE:20251024
+DTEND;VALUE=DATE:20251025
+DESCRIPTION:臺灣光復暨金門古寧頭大捷紀念日逢例假日或連
+ 假，依規定予以補假\n資料來源：行政院人事行政總處政
+ 府行政機關辦公日曆表 (https://www.dgpa.gov.tw/information?uid=41
+ &pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20251025@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:臺灣光復暨金門古寧頭大捷紀念日
+DTSTART;VALUE=DATE:20251025
+DTEND;VALUE=DATE:20251026
+DESCRIPTION:中華民國法定紀念日及節日：臺灣光復暨金門古
+ 寧頭大捷紀念日\n資料來源：行政院人事行政總處政府行
+ 政機關辦公日曆表 (https://www.dgpa.gov.tw/information?uid=41&pid=1
+ 2573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20251225@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:行憲紀念日
+DTSTART;VALUE=DATE:20251225
+DTEND;VALUE=DATE:20251226
+DESCRIPTION:中華民國法定紀念日及節日：行憲紀念日\n資料
+ 來源：行政院人事行政總處政府行政機關辦公日曆表 (htt
+ ps://www.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20260101@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:開國紀念日
+DTSTART;VALUE=DATE:20260101
+DTEND;VALUE=DATE:20260102
+DESCRIPTION:中華民國法定紀念日及節日：開國紀念日\n資料
+ 來源：行政院人事行政總處政府行政機關辦公日曆表 (htt
+ ps://www.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20260215@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:小年夜
+DTSTART;VALUE=DATE:20260215
+DTEND;VALUE=DATE:20260216
+DESCRIPTION:中華民國法定紀念日及節日：小年夜\n資料來源
+ ：行政院人事行政總處政府行政機關辦公日曆表 (https://w
+ ww.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20260216@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:農曆除夕
+DTSTART;VALUE=DATE:20260216
+DTEND;VALUE=DATE:20260217
+DESCRIPTION:中華民國法定紀念日及節日：農曆除夕\n資料來
+ 源：行政院人事行政總處政府行政機關辦公日曆表 (https:
+ //www.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20260217@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:春節
+DTSTART;VALUE=DATE:20260217
+DTEND;VALUE=DATE:20260218
+DESCRIPTION:中華民國法定紀念日及節日：春節\n資料來源：
+ 行政院人事行政總處政府行政機關辦公日曆表 (https://www.
+ dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20260218@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:春節
+DTSTART;VALUE=DATE:20260218
+DTEND;VALUE=DATE:20260219
+DESCRIPTION:中華民國法定紀念日及節日：春節\n資料來源：
+ 行政院人事行政總處政府行政機關辦公日曆表 (https://www.
+ dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20260219@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:春節
+DTSTART;VALUE=DATE:20260219
+DTEND;VALUE=DATE:20260220
+DESCRIPTION:中華民國法定紀念日及節日：春節\n資料來源：
+ 行政院人事行政總處政府行政機關辦公日曆表 (https://www.
+ dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20260220@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:春節 補假
+DTSTART;VALUE=DATE:20260220
+DTEND;VALUE=DATE:20260221
+DESCRIPTION:春節逢例假日或連假，依規定予以補假\n資料來
+ 源：行政院人事行政總處政府行政機關辦公日曆表 (https:
+ //www.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20260227@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:和平紀念日 補假
+DTSTART;VALUE=DATE:20260227
+DTEND;VALUE=DATE:20260228
+DESCRIPTION:和平紀念日逢例假日或連假，依規定予以補假\n
+ 資料來源：行政院人事行政總處政府行政機關辦公日曆
+ 表 (https://www.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20260228@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:和平紀念日
+DTSTART;VALUE=DATE:20260228
+DTEND;VALUE=DATE:20260301
+DESCRIPTION:中華民國法定紀念日及節日：和平紀念日\n資料
+ 來源：行政院人事行政總處政府行政機關辦公日曆表 (htt
+ ps://www.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20260403@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:兒童節與清明節 補假
+DTSTART;VALUE=DATE:20260403
+DTEND;VALUE=DATE:20260404
+DESCRIPTION:兒童節與清明節逢例假日或連假，依規定予以補
+ 假\n資料來源：行政院人事行政總處政府行政機關辦公日
+ 曆表 (https://www.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20260404@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:兒童節
+DTSTART;VALUE=DATE:20260404
+DTEND;VALUE=DATE:20260405
+DESCRIPTION:中華民國法定紀念日及節日：兒童節\n資料來源
+ ：行政院人事行政總處政府行政機關辦公日曆表 (https://w
+ ww.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20260405@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:清明節
+DTSTART;VALUE=DATE:20260405
+DTEND;VALUE=DATE:20260406
+DESCRIPTION:中華民國法定紀念日及節日：清明節\n資料來源
+ ：行政院人事行政總處政府行政機關辦公日曆表 (https://w
+ ww.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20260406@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:清明節與兒童節 補假
+DTSTART;VALUE=DATE:20260406
+DTEND;VALUE=DATE:20260407
+DESCRIPTION:清明節與兒童節逢例假日或連假，依規定予以補
+ 假\n資料來源：行政院人事行政總處政府行政機關辦公日
+ 曆表 (https://www.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20260501@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:勞動節
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
+DESCRIPTION:中華民國法定紀念日及節日：勞動節\n資料來源
+ ：行政院人事行政總處政府行政機關辦公日曆表 (https://w
+ ww.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20260619@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:端午節
+DTSTART;VALUE=DATE:20260619
+DTEND;VALUE=DATE:20260620
+DESCRIPTION:中華民國法定紀念日及節日：端午節\n資料來源
+ ：行政院人事行政總處政府行政機關辦公日曆表 (https://w
+ ww.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20260925@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:中秋節
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+DESCRIPTION:中華民國法定紀念日及節日：中秋節\n資料來源
+ ：行政院人事行政總處政府行政機關辦公日曆表 (https://w
+ ww.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20260928@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:孔子誕辰紀念日/教師節
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20260929
+DESCRIPTION:中華民國法定紀念日及節日：孔子誕辰紀念日/
+ 教師節\n資料來源：行政院人事行政總處政府行政機關辦
+ 公日曆表 (https://www.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20261009@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:國慶日 補假
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+DESCRIPTION:國慶日逢例假日或連假，依規定予以補假\n資料
+ 來源：行政院人事行政總處政府行政機關辦公日曆表 (htt
+ ps://www.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20261010@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:國慶日
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+DESCRIPTION:中華民國法定紀念日及節日：國慶日\n資料來源
+ ：行政院人事行政總處政府行政機關辦公日曆表 (https://w
+ ww.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20261025@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:臺灣光復暨金門古寧頭大捷紀念日
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+DESCRIPTION:中華民國法定紀念日及節日：臺灣光復暨金門古
+ 寧頭大捷紀念日\n資料來源：行政院人事行政總處政府行
+ 政機關辦公日曆表 (https://www.dgpa.gov.tw/information?uid=41&pid=1
+ 2573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20261026@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:臺灣光復暨金門古寧頭大捷紀念日 補假
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+DESCRIPTION:臺灣光復暨金門古寧頭大捷紀念日逢例假日或連
+ 假，依規定予以補假\n資料來源：行政院人事行政總處政
+ 府行政機關辦公日曆表 (https://www.dgpa.gov.tw/information?uid=41
+ &pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20261225@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:行憲紀念日
+DTSTART;VALUE=DATE:20261225
+DTEND;VALUE=DATE:20261226
+DESCRIPTION:中華民國法定紀念日及節日：行憲紀念日\n資料
+ 來源：行政院人事行政總處政府行政機關辦公日曆表 (htt
+ ps://www.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20270101@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:開國紀念日
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+DESCRIPTION:中華民國法定紀念日及節日：開國紀念日\n資料
+ 來源：行政院人事行政總處政府行政機關辦公日曆表 (htt
+ ps://www.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20270204@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:小年夜
+DTSTART;VALUE=DATE:20270204
+DTEND;VALUE=DATE:20270205
+DESCRIPTION:中華民國法定紀念日及節日：小年夜\n資料來源
+ ：行政院人事行政總處政府行政機關辦公日曆表 (https://w
+ ww.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20270205@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:農曆除夕
+DTSTART;VALUE=DATE:20270205
+DTEND;VALUE=DATE:20270206
+DESCRIPTION:中華民國法定紀念日及節日：農曆除夕\n資料來
+ 源：行政院人事行政總處政府行政機關辦公日曆表 (https:
+ //www.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20270206@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:春節
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+DESCRIPTION:中華民國法定紀念日及節日：春節\n資料來源：
+ 行政院人事行政總處政府行政機關辦公日曆表 (https://www.
+ dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20270207@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:春節
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+DESCRIPTION:中華民國法定紀念日及節日：春節\n資料來源：
+ 行政院人事行政總處政府行政機關辦公日曆表 (https://www.
+ dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20270208@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:春節
+DTSTART;VALUE=DATE:20270208
+DTEND;VALUE=DATE:20270209
+DESCRIPTION:中華民國法定紀念日及節日：春節\n資料來源：
+ 行政院人事行政總處政府行政機關辦公日曆表 (https://www.
+ dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20270209@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:春節 補假
+DTSTART;VALUE=DATE:20270209
+DTEND;VALUE=DATE:20270210
+DESCRIPTION:春節逢例假日或連假，依規定予以補假\n資料來
+ 源：行政院人事行政總處政府行政機關辦公日曆表 (https:
+ //www.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20270210@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:春節 補假
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270211
+DESCRIPTION:春節逢例假日或連假，依規定予以補假\n資料來
+ 源：行政院人事行政總處政府行政機關辦公日曆表 (https:
+ //www.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20270228@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:和平紀念日
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+DESCRIPTION:中華民國法定紀念日及節日：和平紀念日\n資料
+ 來源：行政院人事行政總處政府行政機關辦公日曆表 (htt
+ ps://www.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20270301@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:和平紀念日 補假
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+DESCRIPTION:和平紀念日逢例假日或連假，依規定予以補假\n
+ 資料來源：行政院人事行政總處政府行政機關辦公日曆
+ 表 (https://www.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20270404@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:兒童節
+DTSTART;VALUE=DATE:20270404
+DTEND;VALUE=DATE:20270405
+DESCRIPTION:中華民國法定紀念日及節日：兒童節\n資料來源
+ ：行政院人事行政總處政府行政機關辦公日曆表 (https://w
+ ww.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20270405@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:清明節
+DTSTART;VALUE=DATE:20270405
+DTEND;VALUE=DATE:20270406
+DESCRIPTION:中華民國法定紀念日及節日：清明節\n資料來源
+ ：行政院人事行政總處政府行政機關辦公日曆表 (https://w
+ ww.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20270406@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:清明節與兒童節 補假
+DTSTART;VALUE=DATE:20270406
+DTEND;VALUE=DATE:20270407
+DESCRIPTION:清明節與兒童節逢例假日或連假，依規定予以補
+ 假\n資料來源：行政院人事行政總處政府行政機關辦公日
+ 曆表 (https://www.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20270430@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:勞動節 補假
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+DESCRIPTION:勞動節逢例假日或連假，依規定予以補假\n資料
+ 來源：行政院人事行政總處政府行政機關辦公日曆表 (htt
+ ps://www.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20270501@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:勞動節
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+DESCRIPTION:中華民國法定紀念日及節日：勞動節\n資料來源
+ ：行政院人事行政總處政府行政機關辦公日曆表 (https://w
+ ww.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20270609@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:端午節
+DTSTART;VALUE=DATE:20270609
+DTEND;VALUE=DATE:20270610
+DESCRIPTION:中華民國法定紀念日及節日：端午節\n資料來源
+ ：行政院人事行政總處政府行政機關辦公日曆表 (https://w
+ ww.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20270915@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:中秋節
+DTSTART;VALUE=DATE:20270915
+DTEND;VALUE=DATE:20270916
+DESCRIPTION:中華民國法定紀念日及節日：中秋節\n資料來源
+ ：行政院人事行政總處政府行政機關辦公日曆表 (https://w
+ ww.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20270928@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:孔子誕辰紀念日/教師節
+DTSTART;VALUE=DATE:20270928
+DTEND;VALUE=DATE:20270929
+DESCRIPTION:中華民國法定紀念日及節日：孔子誕辰紀念日/
+ 教師節\n資料來源：行政院人事行政總處政府行政機關辦
+ 公日曆表 (https://www.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20271010@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:國慶日
+DTSTART;VALUE=DATE:20271010
+DTEND;VALUE=DATE:20271011
+DESCRIPTION:中華民國法定紀念日及節日：國慶日\n資料來源
+ ：行政院人事行政總處政府行政機關辦公日曆表 (https://w
+ ww.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20271011@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:國慶日 補假
+DTSTART;VALUE=DATE:20271011
+DTEND;VALUE=DATE:20271012
+DESCRIPTION:國慶日逢例假日或連假，依規定予以補假\n資料
+ 來源：行政院人事行政總處政府行政機關辦公日曆表 (htt
+ ps://www.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20271025@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:臺灣光復暨金門古寧頭大捷紀念日
+DTSTART;VALUE=DATE:20271025
+DTEND;VALUE=DATE:20271026
+DESCRIPTION:中華民國法定紀念日及節日：臺灣光復暨金門古
+ 寧頭大捷紀念日\n資料來源：行政院人事行政總處政府行
+ 政機關辦公日曆表 (https://www.dgpa.gov.tw/information?uid=41&pid=1
+ 2573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20271224@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:行憲紀念日 補假
+DTSTART;VALUE=DATE:20271224
+DTEND;VALUE=DATE:20271225
+DESCRIPTION:行憲紀念日逢例假日或連假，依規定予以補假\n
+ 資料來源：行政院人事行政總處政府行政機關辦公日曆
+ 表 (https://www.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20271225@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:行憲紀念日
+DTSTART;VALUE=DATE:20271225
+DTEND;VALUE=DATE:20271226
+DESCRIPTION:中華民國法定紀念日及節日：行憲紀念日\n資料
+ 來源：行政院人事行政總處政府行政機關辦公日曆表 (htt
+ ps://www.dgpa.gov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tw-holiday-20271231@dgpa.gov.tw
+DTSTAMP:20261007T051847Z
+SUMMARY:政府行政機關補假
+DTSTART;VALUE=DATE:20271231
+DTEND;VALUE=DATE:20280101
+DESCRIPTION:行政院人事行政總處公告補假\n資料來源：行政
+ 院人事行政總處政府行政機關辦公日曆表 (https://www.dgpa.g
+ ov.tw/information?uid=41&pid=12573)
+CATEGORIES:國定假日
+URL:https://www.dgpa.gov.tw/informationlist?uid=41
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

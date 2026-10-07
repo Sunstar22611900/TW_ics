@@ -1,0 +1,61 @@
+name: Auto Update Calendars
+
+on:
+  schedule:
+    # 每週一上午 11:00 (台灣時間 UTC+8，對應 UTC 03:00) 自動檢查更新
+    - cron: '0 3 * * 1'
+  workflow_dispatch: # 支援在 GitHub 網頁手動一鍵觸發
+  push:
+    branches:
+      - main
+      - master
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build-and-update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 檢出專案代碼
+        uses: actions/checkout@v4
+
+      - name: 安裝 Node.js 環境
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: 執行生成腳本 (強制檢查 DGPA 最新公告)
+        run: |
+          node src/generate.js --force-fetch
+
+      - name: 執行品質與精確度驗證
+        run: |
+          node test/verify.js
+
+      - name: 檢查並提交新版資料至存儲庫
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/cache/ dist/
+          if git diff --staged --quiet; then
+            echo "日曆資料已是最新，無需更新提交。"
+          else
+            git commit -m "chore(auto-update): 更新台灣國定假日與二十四節氣行事曆 [skip ci]"
+            git push
+          fi
+
+      - name: 上傳 GitHub Pages 產出工件
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist/
+
+      - name: 部署至 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

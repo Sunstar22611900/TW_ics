@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>台灣國定假日 & 二十四節氣 可訂閱行事曆 (iCalendar .ics)</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <style>
+    :root {
+      --pico-primary: #1e88e5;
+      --pico-primary-hover: #1565c0;
+    }
+    body { padding-top: 2rem; padding-bottom: 4rem; }
+    .card { background: var(--pico-card-background-color); border: 1px solid var(--pico-muted-border-color); border-radius: 12px; padding: 1.5rem; margin-bottom: 2rem; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+    .badge { display: inline-block; padding: 0.2rem 0.6rem; border-radius: 999px; font-size: 0.8rem; font-weight: 600; }
+    .badge-holiday { background: #ffebee; color: #c62828; }
+    .badge-makeup { background: #fff3e0; color: #e65100; }
+    .badge-work { background: #e8f5e9; color: #2e7d32; }
+    .badge-term { background: #e3f2fd; color: #1565c0; }
+    .btn-group { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; }
+    .url-box { font-family: monospace; font-size: 0.85rem; background: var(--pico-form-element-background-color); border: 1px dashed var(--pico-muted-border-color); padding: 0.5rem; border-radius: 6px; word-break: break-all; margin-top: 0.5rem; }
+    .grid-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem; }
+    .table-container { max-height: 480px; overflow-y: auto; }
+    table th, table td { font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header style="text-align: center; margin-bottom: 2.5rem;">
+      <h1>📅 台灣國定假日 & 二十四節氣 可訂閱行事曆</h1>
+      <p style="color: var(--pico-muted-color);">精準對齊行政院人事行政總處 (DGPA) 公告與現代天文學 DE441 星曆計算，每年自動更新</p>
+    </header>
+
+    <div class="grid-cards">
+      <!-- 國定假日卡片 -->
+      <div class="card">
+        <h3>🇹🇼 台灣國定假日與放假/補班日</h3>
+        <p>依據行政院人事行政總處最新辦公日曆表，包含國定假日、農曆除夕春節、紀念日放假、例假日補假及補行上班日。</p>
+        <div class="url-box" id="holiday-url">https://&lt;your-domain&gt;/taiwan_holidays.ics</div>
+        <div class="btn-group">
+          <button class="primary" onclick="subscribeCalendar('taiwan_holidays.ics')">⚡ 一鍵訂閱 (Apple / 系統日曆)</button>
+          <button class="secondary outline" onclick="copyIcsUrl('taiwan_holidays.ics')">📋 複製訂閱網址</button>
+          <a role="button" class="contrast outline" href="taiwan_holidays.ics" download>⬇️ 下載 .ics</a>
+        </div>
+      </div>
+
+      <!-- 24節氣卡片 -->
+      <div class="card">
+        <h3>🌱 二十四節氣 (天文時刻精準版)</h3>
+        <p>依據 ytliu0.github.io/ChineseCalendar 天文演算法（DE441 星曆與 Vondrák 歲差模型，精度達分鐘），標註各節氣之精準交節日期與時間。</p>
+        <div class="url-box" id="solar-url">https://&lt;your-domain&gt;/solar_terms.ics</div>
+        <div class="btn-group">
+          <button class="primary" onclick="subscribeCalendar('solar_terms.ics')">⚡ 一鍵訂閱 (Apple / 系統日曆)</button>
+          <button class="secondary outline" onclick="copyIcsUrl('solar_terms.ics')">📋 複製訂閱網址</button>
+          <a role="button" class="contrast outline" href="solar_terms.ics" download>⬇️ 下載 .ics</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 訂閱教學 -->
+    <section class="card" style="margin-top: 2rem;">
+      <h3>📖 如何在各裝置與行事曆中訂閱？</h3>
+      <div class="grid">
+        <div>
+          <h4>🍏 Apple 日曆 (iOS / macOS)</h4>
+          <ol>
+            <li>直接點擊上方「一鍵訂閱」按鈕。</li>
+            <li>系統將彈出提示，確認「訂閱」即可自動同步。</li>
+            <li>或在 iPhone「設定」&gt;「日曆」&gt;「帳號」&gt;「加入已訂閱的行事曆」，貼上訂閱網址。</li>
+          </ol>
+        </div>
+        <div>
+          <h4>🤖 Google 日曆 (Android / 網頁版)</h4>
+          <ol>
+            <li>點擊上方「複製訂閱網址」。</li>
+            <li>開啟 <a href="https://calendar.google.com" target="_blank">Google 日曆網頁版</a>。</li>
+            <li>在左側「其他日曆」旁點擊「+」號 &gt; 選擇「透過網址訂閱」。</li>
+            <li>貼上網址並點擊「新增日曆」即可！</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- 資料預覽 -->
+    <section style="margin-top: 2rem;">
+      <h2>🔍 當年度資料即時預覽 (2026 年)</h2>
+      <div class="grid">
+        <div class="card">
+          <h4>2026 國定假日與補班日 (22 天)</h4>
+          <div class="table-container">
+            <table>
+              <thead>
+                <tr><th>日期</th><th>星期</th><th>類別</th><th>名稱</th></tr>
+              </thead>
+              <tbody>
+                
+                  <tr>
+                    <td><strong>2026-01-01</strong></td>
+                    <td>週四</td>
+                    <td>
+                      <span class="badge badge-holiday">
+                        放假日
+                      </span>
+                    </td>
+                    <td>開國紀念日</td>
+                  </tr>
+                
+                  <tr>
+                    <td><strong>2026-02-15</strong></td>
+                    <td>週日</td>
+                    <td>
+                      <span class="badge badge-holiday">
+                        放假日
+                      </span>
+                    </td>
+                    <td>小年夜</td>
+                  </tr>
+                
+                  <tr>
+                    <td><strong>2026-02-16</strong></td>
+                    <td>週一</td>
+                    <td>
+                      <span class="badge badge-holiday">
+                        放假日
+                      </span>
+                    </td>
+                    <td>農曆除夕</td>
+                  </tr>
+                
+                  <tr>
+                    <td><strong>2026-02-17</strong></td>
+                    <td>週二</td>
+                    <td>
+                      <span class="badge badge-holiday">
+                        放假日
+                      </span>
+                    </td>
+                    <td>春節</td>
+                  </tr>
+                
+                  <tr>
+                    <td><strong>2026-02-18</strong></td>
+                    <td>週三</td>
+                    <td>
+                      <span class="badge badge-holiday">
+                        放假日
+                      </span>
+                    </td>
+                    <td>春節</td>
+                  </tr>
+                
+                  <tr>
+                    <td><strong>2026-02-19</strong></td>
+                    <td>週四</td>
+                    <td>
+                      <span class="badge badge-holiday">
+                        放假日
+                      </span>
+                    </td>
+                    <td>春節</td>
+                  </tr>
+                
+                  <tr>
+                    <td><strong>2026-02-20</strong></td>
+                    <td>週五</td>
+                    <td>
+                      <span class="badge badge-makeup">
+                        補假
+                      </span>
+                    </td>
+                    <td>春節 補假</td>
+                  </tr>
+                
+                  <tr>
+                    <td><strong>2026-02-27</strong></td>
+                    <td>週五</td>
+                    <td>
+                      <span class="badge badge-makeup">
+                        補假
+                      </span>
+                    </td>
+                    <td>和平紀念日 補假</td>
+                  </tr>
+                
+                  <tr>
+                    <td><strong>2026-02-28</strong></td>
+                    <td>週六</td>
+                    <td>
+                      <span class="badge badge-holiday">
+                        放假日
+                      </span>
+                    </td>
+                    <td>和平紀念日</td>
+                  </tr>
+                
+                  <tr>
+                    <td><strong>2026-04-03</strong></td>
+                    <td>週五</td>
+                    <td>
+                      <span class="badge badge-makeup">
+                        補假
+                      </span>
+                    </td>
+                    <td>兒童節與清明節 補假</td>
+                  </tr>
+                
+                  <tr>
+                    <td><strong>2026-04-04</strong></td>
+                    <td>週六</td>
+                    <td>
+                      <span class="badge badge-holiday">
+                        放假日
+                      </span>
+                    </td>
+                    <td>兒童節</td>
+                  </tr>
+                
+                  <tr>
+                    <td><strong>2026-04-05</strong></td>
+                    <td>週日</td>
+                    <td>
+                      <span class="badge badge-holiday">
+                        放假日
+                      </span>
+                    </td>
+                    <td>清明節</td>
+                  </tr>
+                
+                  <tr>
+                    <td><strong>2026-04-06</strong></td>
+                    <td>週一</td>
+                    <td>
+                      <span class="badge badge-makeup">
+                        補假
+                      </span>
+                    </td>
+                    <td>清明節與兒童節 補假</td>
+                  </tr>
+                
+                  <tr>
+                    <td><strong>2026-05-01</strong></td>
+                    <td>週五</td>
+                    <td>
+                      <span class="badge badge-holiday">
+                        放假日
+                      </span>
+                    </td>
+                    <td>勞動節</td>
+                  </tr>
+                
+                  <tr>
+                    <td><strong>2026-06-19</strong></td>
+                    <td>週五</td>
+                    <td>
+                      <span class="badge badge-holiday">
+                        放假日
+                      </span>
+                    </td>
+                    <td>端午節</td>
+                  </tr>
+                
+                  <tr>
+                    <td><strong>2026-09-25</strong></td>
+                    <td>週五</td>
+                    <td>
+                      <span class="badge badge-holiday">
+                        放假日
+                      </span>
+                    </td>
+                    <td>中秋節</td>
+                  </tr>
+                
+                  <tr>
+                    <td><strong>2026-09-28</strong></td>
+                    <td>週一</td>
+                    <td>
+                      <span class="badge badge-holiday">
+                        放假日
+                      </span>
+                    </td>
+                    <td>孔子誕辰紀念日/教師節</td>
+                  </tr>
+                
+                  <tr>
+                    <td><strong>2026-10-09</strong></td>
+                    <td>週五</td>
+                    <td>
+                      <span class="badge badge-makeup">
+                        補假
+                      </span>
+                    </td>
+                    <td>國慶日 補假</td>
+                  </tr>
+                
+                  <tr>
+                    <td><strong>2026-10-10</strong></td>
+                    <td>週六</td>
+                    <td>
+                      <span class="badge badge-holiday">
+                        放假日
+                      </span>
+                    </td>
+                    <td>國慶日</td>
+                  </tr>
+                
+                  <tr>
+                    <td><strong>2026-10-25</strong></td>
+                    <td>週日</td>
+                    <td>
+                      <span class="badge badge-holiday">
+                        放假日
+                      </span>
+                    </td>
+                    <td>臺灣光復暨金門古寧頭大捷紀念日</td>
+                  </tr>
+                
+                  <tr>
+                    <td><strong>2026-10-26</strong></td>
+                    <td>週一</td>
+                    <td>
+                      <span class="badge badge-makeup">
+                        補假
+                      </span>
+                    </td>
+                    <td>臺灣光復暨金門古寧頭大捷紀念日 補假</td>
+                  </tr>
+                
+                  <tr>
+                    <td><strong>2026-12-25</strong></td>
+                    <td>週五</td>
+                    <td>
+                      <span class="badge badge-holiday">
+                        放假日
+                      </span>
+                    </td>
+                    <td>行憲紀念日</td>
+                  </tr>
+                
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="card">
+          <h4>2026 二十四節氣時刻表 (24 個節氣)</h4>
+          <div class="table-container">
+            <table>
+              <thead>
+                <tr><th>節氣</th><th>公曆日期</th><th>精準交節時刻</th><th>黃經</th></tr>
+              </thead>
+              <tbody>
+                
+                  <tr>
+                    <td><span class="badge badge-term">小寒</span></td>
+                    <td><strong>2026-01-05</strong></td>
+                    <td>16:23</td>
+                    <td>285°</td>
+                  </tr>
+                
+                  <tr>
+                    <td><span class="badge badge-term">大寒</span></td>
+                    <td><strong>2026-01-20</strong></td>
+                    <td>09:45</td>
+                    <td>300°</td>
+                  </tr>
+                
+                  <tr>
+                    <td><span class="badge badge-term">立春</span></td>
+                    <td><strong>2026-02-04</strong></td>
+                    <td>04:02</td>
+                    <td>315°</td>
+                  </tr>
+                
+                  <tr>
+                    <td><span class="badge badge-term">雨水</span></td>
+                    <td><strong>2026-02-18</strong></td>
+                    <td>23:52</td>
+                    <td>330°</td>
+                  </tr>
+                
+                  <tr>
+                    <td><span class="badge badge-term">驚蟄</span></td>
+                    <td><strong>2026-03-05</strong></td>
+                    <td>21:59</td>
+                    <td>345°</td>
+                  </tr>
+                
+                  <tr>
+                    <td><span class="badge badge-term">春分</span></td>
+                    <td><strong>2026-03-20</strong></td>
+                    <td>22:46</td>
+                    <td>0°</td>
+                  </tr>
+                
+                  <tr>
+                    <td><span class="badge badge-term">清明</span></td>
+                    <td><strong>2026-04-05</strong></td>
+                    <td>02:40</td>
+                    <td>15°</td>
+                  </tr>
+                
+                  <tr>
+                    <td><span class="badge badge-term">穀雨</span></td>
+                    <td><strong>2026-04-20</strong></td>
+                    <td>09:39</td>
+                    <td>30°</td>
+                  </tr>
+                
+                  <tr>
+                    <td><span class="badge badge-term">立夏</span></td>
+                    <td><strong>2026-05-05</strong></td>
+                    <td>19:49</td>
+                    <td>45°</td>
+                  </tr>
+                
+                  <tr>
+                    <td><span class="badge badge-term">小滿</span></td>
+                    <td><strong>2026-05-21</strong></td>
+                    <td>08:37</td>
+                    <td>60°</td>
+                  </tr>
+                
+                  <tr>
+                    <td><span class="badge badge-term">芒種</span></td>
+                    <td><strong>2026-06-05</strong></td>
+                    <td>23:48</td>
+                    <td>75°</td>
+                  </tr>
+                
+                  <tr>
+                    <td><span class="badge badge-term">夏至</span></td>
+                    <td><strong>2026-06-21</strong></td>
+                    <td>16:25</td>
+                    <td>90°</td>
+                  </tr>
+                
+                  <tr>
+                    <td><span class="badge badge-term">小暑</span></td>
+                    <td><strong>2026-07-07</strong></td>
+                    <td>09:57</td>
+                    <td>105°</td>
+                  </tr>
+                
+                  <tr>
+                    <td><span class="badge badge-term">大暑</span></td>
+                    <td><strong>2026-07-23</strong></td>
+                    <td>03:13</td>
+                    <td>120°</td>
+                  </tr>
+                
+                  <tr>
+                    <td><span class="badge badge-term">立秋</span></td>
+                    <td><strong>2026-08-07</strong></td>
+                    <td>19:43</td>
+                    <td>135°</td>
+                  </tr>
+                
+                  <tr>
+                    <td><span class="badge badge-term">處暑</span></td>
+                    <td><strong>2026-08-23</strong></td>
+                    <td>10:19</td>
+                    <td>150°</td>
+                  </tr>
+                
+                  <tr>
+                    <td><span class="badge badge-term">白露</span></td>
+                    <td><strong>2026-09-07</strong></td>
+                    <td>22:41</td>
+                    <td>165°</td>
+                  </tr>
+                
+                  <tr>
+                    <td><span class="badge badge-term">秋分</span></td>
+                    <td><strong>2026-09-23</strong></td>
+                    <td>08:05</td>
+                    <td>180°</td>
+                  </tr>
+                
+                  <tr>
+                    <td><span class="badge badge-term">寒露</span></td>
+                    <td><strong>2026-10-08</strong></td>
+                    <td>14:29</td>
+                    <td>195°</td>
+                  </tr>
+                
+                  <tr>
+                    <td><span class="badge badge-term">霜降</span></td>
+                    <td><strong>2026-10-23</strong></td>
+                    <td>17:38</td>
+                    <td>210°</td>
+                  </tr>
+                
+                  <tr>
+                    <td><span class="badge badge-term">立冬</span></td>
+                    <td><strong>2026-11-07</strong></td>
+                    <td>17:52</td>
+                    <td>225°</td>
+                  </tr>
+                
+                  <tr>
+                    <td><span class="badge badge-term">小雪</span></td>
+                    <td><strong>2026-11-22</strong></td>
+                    <td>15:23</td>
+                    <td>240°</td>
+                  </tr>
+                
+                  <tr>
+                    <td><span class="badge badge-term">大雪</span></td>
+                    <td><strong>2026-12-07</strong></td>
+                    <td>10:53</td>
+                    <td>255°</td>
+                  </tr>
+                
+                  <tr>
+                    <td><span class="badge badge-term">冬至</span></td>
+                    <td><strong>2026-12-22</strong></td>
+                    <td>04:50</td>
+                    <td>270°</td>
+                  </tr>
+                
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer style="margin-top: 3rem; text-align: center; font-size: 0.85rem; color: var(--pico-muted-color);">
+      <p>資料來源：<a href="https://www.dgpa.gov.tw/information?uid=41&pid=12573" target="_blank">行政院人事行政總處</a> ｜ <a href="https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html" target="_blank">中華農曆月相與二十四節氣 (Yuk Tung Liu)</a></p>
+      <p>開源專案建置 ｜ 自動化定期更新</p>
+    </footer>
+  </main>
+
+  <script>
+    // 自動更新網址框為當前主機網址
+    const baseUrl = window.location.origin + window.location.pathname.replace(/\/[^/]*$/, '/');
+    document.getElementById('holiday-url').innerText = baseUrl + 'taiwan_holidays.ics';
+    document.getElementById('solar-url').innerText = baseUrl + 'solar_terms.ics';
+
+    function getAbsoluteUrl(filename) {
+      return baseUrl + filename;
+    }
+
+    function subscribeCalendar(filename) {
+      const fullUrl = getAbsoluteUrl(filename);
+      const webcalUrl = fullUrl.replace(/^https?:\/\//, 'webcal://');
+      window.location.href = webcalUrl;
+    }
+
+    function copyIcsUrl(filename) {
+      const fullUrl = getAbsoluteUrl(filename);
+      navigator.clipboard.writeText(fullUrl).then(() => {
+        alert('訂閱網址已複製到剪貼簿：\n' + fullUrl + '\n\n請至 Google 日曆「透過網址訂閱」貼上使用！');
+      }).catch(err => {
+        prompt('請手動複製訂閱網址：', fullUrl);
+      });
+    }
+  </script>
+</body>
+</html>

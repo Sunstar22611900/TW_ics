@@ -1,0 +1,24 @@
+{
+  "name": "taiwan-calendar-ics",
+  "version": "1.0.0",
+  "description": "台灣國定假日（行政院人事行政總處）與二十四節氣可訂閱 iCalendar (.ics) 自動生成器",
+  "main": "src/generate.js",
+  "scripts": {
+    "build": "node src/generate.js",
+    "update": "node src/generate.js --force-fetch",
+    "test": "node test/verify.js"
+  },
+  "keywords": [
+    "taiwan",
+    "holidays",
+    "dgpa",
+    "solar-terms",
+    "24-solar-terms",
+    "icalendar",
+    "ics",
+    "calendar",
+    "subscribe"
+  ],
+  "author": "Antigravity",
+  "license": "MIT"
+}

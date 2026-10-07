@@ -1,0 +1,6549 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Taiwan Calendar Project//TW//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:二十四節氣 (天文時刻)
+X-WR-TIMEZONE:Asia/Taipei
+X-WR-CALDESC:準確依據現代天文學定義（DE441星曆高精度模型
+ ）計算之二十四節氣，精準記錄每年各節氣之交節日期
+ 與時間。
+BEGIN:VTIMEZONE
+TZID:Asia/Taipei
+X-LIC-LOCATION:Asia/Taipei
+BEGIN:STANDARD
+TZOFFSETFROM:+0800
+TZOFFSETTO:+0800
+TZNAME:CST
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:solar-term-20200106-小寒@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小寒 (05:30)
+DTSTART;VALUE=DATE:20200106
+DTEND;VALUE=DATE:20200107
+DESCRIPTION:【二十四節氣：小寒】(Xiǎohán)\n交節時刻：2020-
+ 01-06 05:30 (UTC+8 台灣標準時間)\n太陽黃經：285° (冬季)\n節
+ 氣說明：太陽到達黃經285度，天氣寒冷但尚未至極\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20200120-大寒@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：大寒 (22:55)
+DTSTART;VALUE=DATE:20200120
+DTEND;VALUE=DATE:20200121
+DESCRIPTION:【二十四節氣：大寒】(Dàhán)\n交節時刻：2020-01
+ -20 22:55 (UTC+8 台灣標準時間)\n太陽黃經：300° (冬季)\n節
+ 氣說明：太陽到達黃經300度，一年中最嚴寒的時節\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20200204-立春@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立春 (17:03)
+DTSTART;VALUE=DATE:20200204
+DTEND;VALUE=DATE:20200205
+DESCRIPTION:【二十四節氣：立春】(Lìchūn)\n交節時刻：2020-0
+ 2-04 17:03 (UTC+8 台灣標準時間)\n太陽黃經：315° (春季)\n節
+ 氣說明：太陽到達黃經315度，春季開始，萬物復甦\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20200219-雨水@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：雨水 (12:57)
+DTSTART;VALUE=DATE:20200219
+DTEND;VALUE=DATE:20200220
+DESCRIPTION:【二十四節氣：雨水】(Yǔshuǐ)\n交節時刻：2020-0
+ 2-19 12:57 (UTC+8 台灣標準時間)\n太陽黃經：330° (春季)\n節
+ 氣說明：太陽到達黃經330度，氣溫回升，降雪轉化為降
+ 雨\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20200305-驚蟄@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：驚蟄 (10:57)
+DTSTART;VALUE=DATE:20200305
+DTEND;VALUE=DATE:20200306
+DESCRIPTION:【二十四節氣：驚蟄】(Jīngzhé)\n交節時刻：2020-
+ 03-05 10:57 (UTC+8 台灣標準時間)\n太陽黃經：345° (春季)\n節
+ 氣說明：太陽到達黃經345度，春雷始鳴，驚醒冬眠動物\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20200320-春分@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：春分 (11:50)
+DTSTART;VALUE=DATE:20200320
+DTEND;VALUE=DATE:20200321
+DESCRIPTION:【二十四節氣：春分】(Chūnfēn)\n交節時刻：2020-
+ 03-20 11:50 (UTC+8 台灣標準時間)\n太陽黃經：0° (春季)\n節
+ 氣說明：太陽到達黃經0度，晝夜平分，春季中分點\n計
+ 算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差
+ 高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20200404-清明@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：清明 (15:38)
+DTSTART;VALUE=DATE:20200404
+DTEND;VALUE=DATE:20200405
+DESCRIPTION:【二十四節氣：清明】(Qīngmíng)\n交節時刻：2020
+ -04-04 15:38 (UTC+8 台灣標準時間)\n太陽黃經：15° (春季)\n節
+ 氣說明：太陽到達黃經15度，天朗氣清，惠風和暢\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20200419-穀雨@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：穀雨 (22:45)
+DTSTART;VALUE=DATE:20200419
+DTEND;VALUE=DATE:20200420
+DESCRIPTION:【二十四節氣：穀雨】(Gǔyǔ)\n交節時刻：2020-04-
+ 19 22:45 (UTC+8 台灣標準時間)\n太陽黃經：30° (春季)\n節氣
+ 說明：太陽到達黃經30度，雨生百穀，秧苗得潤\n計算來
+ 源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高精
+ 度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20200505-立夏@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立夏 (08:51)
+DTSTART;VALUE=DATE:20200505
+DTEND;VALUE=DATE:20200506
+DESCRIPTION:【二十四節氣：立夏】(Lìxià)\n交節時刻：2020-05
+ -05 08:51 (UTC+8 台灣標準時間)\n太陽黃經：45° (夏季)\n節氣
+ 說明：太陽到達黃經45度，夏季開始，萬物生長繁茂\n計
+ 算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差
+ 高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20200520-小滿@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小滿 (21:49)
+DTSTART;VALUE=DATE:20200520
+DTEND;VALUE=DATE:20200521
+DESCRIPTION:【二十四節氣：小滿】(Xiǎomǎn)\n交節時刻：2020-
+ 05-20 21:49 (UTC+8 台灣標準時間)\n太陽黃經：60° (夏季)\n節
+ 氣說明：太陽到達黃經60度，麥類等夏熟作物籽粒開始飽
+ 滿\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20200605-芒種@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：芒種 (12:58)
+DTSTART;VALUE=DATE:20200605
+DTEND;VALUE=DATE:20200606
+DESCRIPTION:【二十四節氣：芒種】(Mángzhòng)\n交節時刻：202
+ 0-06-05 12:58 (UTC+8 台灣標準時間)\n太陽黃經：75° (夏季)\n
+ 節氣說明：太陽到達黃經75度，有芒大麥小麥成熟搶收，
+ 秋熟作物播種\n計算來源：ytliu0.github.io/ChineseCalendar (DE441
+ 星曆與Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20200621-夏至@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：夏至 (05:44)
+DTSTART;VALUE=DATE:20200621
+DTEND;VALUE=DATE:20200622
+DESCRIPTION:【二十四節氣：夏至】(Xiàzhì)\n交節時刻：2020-0
+ 6-21 05:44 (UTC+8 台灣標準時間)\n太陽黃經：90° (夏季)\n節
+ 氣說明：太陽到達黃經90度，北半球白晝最長、夜間最短
+ \n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák
+ 歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20200706-小暑@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小暑 (23:14)
+DTSTART;VALUE=DATE:20200706
+DTEND;VALUE=DATE:20200707
+DESCRIPTION:【二十四節氣：小暑】(Xiǎoshǔ)\n交節時刻：2020-
+ 07-06 23:14 (UTC+8 台灣標準時間)\n太陽黃經：105° (夏季)\n節
+ 氣說明：太陽到達黃經105度，天氣炎熱但未達極致\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20200722-大暑@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：大暑 (16:37)
+DTSTART;VALUE=DATE:20200722
+DTEND;VALUE=DATE:20200723
+DESCRIPTION:【二十四節氣：大暑】(Dàshǔ)\n交節時刻：2020-07
+ -22 16:37 (UTC+8 台灣標準時間)\n太陽黃經：120° (夏季)\n節
+ 氣說明：太陽到達黃經120度，一年中日照最多、氣溫最
+ 高的時節\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆
+ 與Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20200807-立秋@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立秋 (09:06)
+DTSTART;VALUE=DATE:20200807
+DTEND;VALUE=DATE:20200808
+DESCRIPTION:【二十四節氣：立秋】(Lìqiū)\n交節時刻：2020-08
+ -07 09:06 (UTC+8 台灣標準時間)\n太陽黃經：135° (秋季)\n節
+ 氣說明：太陽到達黃經135度，秋季開始，氣溫漸漸轉涼\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20200822-處暑@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：處暑 (23:45)
+DTSTART;VALUE=DATE:20200822
+DTEND;VALUE=DATE:20200823
+DESCRIPTION:【二十四節氣：處暑】(Chùshǔ)\n交節時刻：2020-0
+ 8-22 23:45 (UTC+8 台灣標準時間)\n太陽黃經：150° (秋季)\n節
+ 氣說明：太陽到達黃經150度，暑氣至此結束，秋意漸濃\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20200907-白露@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：白露 (12:08)
+DTSTART;VALUE=DATE:20200907
+DTEND;VALUE=DATE:20200908
+DESCRIPTION:【二十四節氣：白露】(Báilù)\n交節時刻：2020-09
+ -07 12:08 (UTC+8 台灣標準時間)\n太陽黃經：165° (秋季)\n節
+ 氣說明：太陽到達黃經165度，水氣凝結為露珠，氣溫下
+ 降顯著\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與
+ Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20200922-秋分@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：秋分 (21:31)
+DTSTART;VALUE=DATE:20200922
+DTEND;VALUE=DATE:20200923
+DESCRIPTION:【二十四節氣：秋分】(Qiūfēn)\n交節時刻：2020-0
+ 9-22 21:31 (UTC+8 台灣標準時間)\n太陽黃經：180° (秋季)\n節
+ 氣說明：太陽到達黃經180度，晝夜再次平分，秋季中分
+ 點\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20201008-寒露@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：寒露 (03:55)
+DTSTART;VALUE=DATE:20201008
+DTEND;VALUE=DATE:20201009
+DESCRIPTION:【二十四節氣：寒露】(Hánlù)\n交節時刻：2020-10
+ -08 03:55 (UTC+8 台灣標準時間)\n太陽黃經：195° (秋季)\n節
+ 氣說明：太陽到達黃經195度，氣溫更低，露水寒涼將凝
+ 為霜\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Von
+ drák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20201023-霜降@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：霜降 (07:00)
+DTSTART;VALUE=DATE:20201023
+DTEND;VALUE=DATE:20201024
+DESCRIPTION:【二十四節氣：霜降】(Shuāngjiàng)\n交節時刻：2
+ 020-10-23 07:00 (UTC+8 台灣標準時間)\n太陽黃經：210° (秋季)\
+ n節氣說明：太陽到達黃經210度，天氣漸冷，初霜出現\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20201107-立冬@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立冬 (07:14)
+DTSTART;VALUE=DATE:20201107
+DTEND;VALUE=DATE:20201108
+DESCRIPTION:【二十四節氣：立冬】(Lìdōng)\n交節時刻：2020-1
+ 1-07 07:14 (UTC+8 台灣標準時間)\n太陽黃經：225° (冬季)\n節
+ 氣說明：太陽到達黃經225度，冬季開始，作物收割完畢\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20201122-小雪@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小雪 (04:40)
+DTSTART;VALUE=DATE:20201122
+DTEND;VALUE=DATE:20201123
+DESCRIPTION:【二十四節氣：小雪】(Xiǎoxuě)\n交節時刻：2020-
+ 11-22 04:40 (UTC+8 台灣標準時間)\n太陽黃經：240° (冬季)\n節
+ 氣說明：太陽到達黃經240度，氣溫降到零度以下，開始
+ 降小雪\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與
+ Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20201207-大雪@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：大雪 (00:10)
+DTSTART;VALUE=DATE:20201207
+DTEND;VALUE=DATE:20201208
+DESCRIPTION:【二十四節氣：大雪】(Dàxuě)\n交節時刻：2020-12
+ -07 00:10 (UTC+8 台灣標準時間)\n太陽黃經：255° (冬季)\n節
+ 氣說明：太陽到達黃經255度，降雪量增多，地面積雪\n計
+ 算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差
+ 高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20201221-冬至@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：冬至 (18:02)
+DTSTART;VALUE=DATE:20201221
+DTEND;VALUE=DATE:20201222
+DESCRIPTION:【二十四節氣：冬至】(Dōngzhì)\n交節時刻：2020-
+ 12-21 18:02 (UTC+8 台灣標準時間)\n太陽黃經：270° (冬季)\n節
+ 氣說明：太陽到達黃經270度，北半球白晝最短、夜間最
+ 長\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20210105-小寒@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小寒 (11:23)
+DTSTART;VALUE=DATE:20210105
+DTEND;VALUE=DATE:20210106
+DESCRIPTION:【二十四節氣：小寒】(Xiǎohán)\n交節時刻：2021-
+ 01-05 11:23 (UTC+8 台灣標準時間)\n太陽黃經：285° (冬季)\n節
+ 氣說明：太陽到達黃經285度，天氣寒冷但尚未至極\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20210120-大寒@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：大寒 (04:40)
+DTSTART;VALUE=DATE:20210120
+DTEND;VALUE=DATE:20210121
+DESCRIPTION:【二十四節氣：大寒】(Dàhán)\n交節時刻：2021-01
+ -20 04:40 (UTC+8 台灣標準時間)\n太陽黃經：300° (冬季)\n節
+ 氣說明：太陽到達黃經300度，一年中最嚴寒的時節\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20210203-立春@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立春 (22:59)
+DTSTART;VALUE=DATE:20210203
+DTEND;VALUE=DATE:20210204
+DESCRIPTION:【二十四節氣：立春】(Lìchūn)\n交節時刻：2021-0
+ 2-03 22:59 (UTC+8 台灣標準時間)\n太陽黃經：315° (春季)\n節
+ 氣說明：太陽到達黃經315度，春季開始，萬物復甦\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20210218-雨水@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：雨水 (18:44)
+DTSTART;VALUE=DATE:20210218
+DTEND;VALUE=DATE:20210219
+DESCRIPTION:【二十四節氣：雨水】(Yǔshuǐ)\n交節時刻：2021-0
+ 2-18 18:44 (UTC+8 台灣標準時間)\n太陽黃經：330° (春季)\n節
+ 氣說明：太陽到達黃經330度，氣溫回升，降雪轉化為降
+ 雨\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20210305-驚蟄@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：驚蟄 (16:54)
+DTSTART;VALUE=DATE:20210305
+DTEND;VALUE=DATE:20210306
+DESCRIPTION:【二十四節氣：驚蟄】(Jīngzhé)\n交節時刻：2021-
+ 03-05 16:54 (UTC+8 台灣標準時間)\n太陽黃經：345° (春季)\n節
+ 氣說明：太陽到達黃經345度，春雷始鳴，驚醒冬眠動物\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20210320-春分@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：春分 (17:37)
+DTSTART;VALUE=DATE:20210320
+DTEND;VALUE=DATE:20210321
+DESCRIPTION:【二十四節氣：春分】(Chūnfēn)\n交節時刻：2021-
+ 03-20 17:37 (UTC+8 台灣標準時間)\n太陽黃經：0° (春季)\n節
+ 氣說明：太陽到達黃經0度，晝夜平分，春季中分點\n計
+ 算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差
+ 高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20210404-清明@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：清明 (21:35)
+DTSTART;VALUE=DATE:20210404
+DTEND;VALUE=DATE:20210405
+DESCRIPTION:【二十四節氣：清明】(Qīngmíng)\n交節時刻：2021
+ -04-04 21:35 (UTC+8 台灣標準時間)\n太陽黃經：15° (春季)\n節
+ 氣說明：太陽到達黃經15度，天朗氣清，惠風和暢\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20210420-穀雨@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：穀雨 (04:33)
+DTSTART;VALUE=DATE:20210420
+DTEND;VALUE=DATE:20210421
+DESCRIPTION:【二十四節氣：穀雨】(Gǔyǔ)\n交節時刻：2021-04-
+ 20 04:33 (UTC+8 台灣標準時間)\n太陽黃經：30° (春季)\n節氣
+ 說明：太陽到達黃經30度，雨生百穀，秧苗得潤\n計算來
+ 源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高精
+ 度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20210505-立夏@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立夏 (14:47)
+DTSTART;VALUE=DATE:20210505
+DTEND;VALUE=DATE:20210506
+DESCRIPTION:【二十四節氣：立夏】(Lìxià)\n交節時刻：2021-05
+ -05 14:47 (UTC+8 台灣標準時間)\n太陽黃經：45° (夏季)\n節氣
+ 說明：太陽到達黃經45度，夏季開始，萬物生長繁茂\n計
+ 算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差
+ 高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20210521-小滿@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小滿 (03:37)
+DTSTART;VALUE=DATE:20210521
+DTEND;VALUE=DATE:20210522
+DESCRIPTION:【二十四節氣：小滿】(Xiǎomǎn)\n交節時刻：2021-
+ 05-21 03:37 (UTC+8 台灣標準時間)\n太陽黃經：60° (夏季)\n節
+ 氣說明：太陽到達黃經60度，麥類等夏熟作物籽粒開始飽
+ 滿\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20210605-芒種@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：芒種 (18:52)
+DTSTART;VALUE=DATE:20210605
+DTEND;VALUE=DATE:20210606
+DESCRIPTION:【二十四節氣：芒種】(Mángzhòng)\n交節時刻：202
+ 1-06-05 18:52 (UTC+8 台灣標準時間)\n太陽黃經：75° (夏季)\n
+ 節氣說明：太陽到達黃經75度，有芒大麥小麥成熟搶收，
+ 秋熟作物播種\n計算來源：ytliu0.github.io/ChineseCalendar (DE441
+ 星曆與Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20210621-夏至@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：夏至 (11:32)
+DTSTART;VALUE=DATE:20210621
+DTEND;VALUE=DATE:20210622
+DESCRIPTION:【二十四節氣：夏至】(Xiàzhì)\n交節時刻：2021-0
+ 6-21 11:32 (UTC+8 台灣標準時間)\n太陽黃經：90° (夏季)\n節
+ 氣說明：太陽到達黃經90度，北半球白晝最長、夜間最短
+ \n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák
+ 歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20210707-小暑@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小暑 (05:05)
+DTSTART;VALUE=DATE:20210707
+DTEND;VALUE=DATE:20210708
+DESCRIPTION:【二十四節氣：小暑】(Xiǎoshǔ)\n交節時刻：2021-
+ 07-07 05:05 (UTC+8 台灣標準時間)\n太陽黃經：105° (夏季)\n節
+ 氣說明：太陽到達黃經105度，天氣炎熱但未達極致\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20210722-大暑@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：大暑 (22:26)
+DTSTART;VALUE=DATE:20210722
+DTEND;VALUE=DATE:20210723
+DESCRIPTION:【二十四節氣：大暑】(Dàshǔ)\n交節時刻：2021-07
+ -22 22:26 (UTC+8 台灣標準時間)\n太陽黃經：120° (夏季)\n節
+ 氣說明：太陽到達黃經120度，一年中日照最多、氣溫最
+ 高的時節\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆
+ 與Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20210807-立秋@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立秋 (14:54)
+DTSTART;VALUE=DATE:20210807
+DTEND;VALUE=DATE:20210808
+DESCRIPTION:【二十四節氣：立秋】(Lìqiū)\n交節時刻：2021-08
+ -07 14:54 (UTC+8 台灣標準時間)\n太陽黃經：135° (秋季)\n節
+ 氣說明：太陽到達黃經135度，秋季開始，氣溫漸漸轉涼\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20210823-處暑@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：處暑 (05:35)
+DTSTART;VALUE=DATE:20210823
+DTEND;VALUE=DATE:20210824
+DESCRIPTION:【二十四節氣：處暑】(Chùshǔ)\n交節時刻：2021-0
+ 8-23 05:35 (UTC+8 台灣標準時間)\n太陽黃經：150° (秋季)\n節
+ 氣說明：太陽到達黃經150度，暑氣至此結束，秋意漸濃\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20210907-白露@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：白露 (17:53)
+DTSTART;VALUE=DATE:20210907
+DTEND;VALUE=DATE:20210908
+DESCRIPTION:【二十四節氣：白露】(Báilù)\n交節時刻：2021-09
+ -07 17:53 (UTC+8 台灣標準時間)\n太陽黃經：165° (秋季)\n節
+ 氣說明：太陽到達黃經165度，水氣凝結為露珠，氣溫下
+ 降顯著\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與
+ Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20210923-秋分@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：秋分 (03:21)
+DTSTART;VALUE=DATE:20210923
+DTEND;VALUE=DATE:20210924
+DESCRIPTION:【二十四節氣：秋分】(Qiūfēn)\n交節時刻：2021-0
+ 9-23 03:21 (UTC+8 台灣標準時間)\n太陽黃經：180° (秋季)\n節
+ 氣說明：太陽到達黃經180度，晝夜再次平分，秋季中分
+ 點\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20211008-寒露@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：寒露 (09:39)
+DTSTART;VALUE=DATE:20211008
+DTEND;VALUE=DATE:20211009
+DESCRIPTION:【二十四節氣：寒露】(Hánlù)\n交節時刻：2021-10
+ -08 09:39 (UTC+8 台灣標準時間)\n太陽黃經：195° (秋季)\n節
+ 氣說明：太陽到達黃經195度，氣溫更低，露水寒涼將凝
+ 為霜\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Von
+ drák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20211023-霜降@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：霜降 (12:51)
+DTSTART;VALUE=DATE:20211023
+DTEND;VALUE=DATE:20211024
+DESCRIPTION:【二十四節氣：霜降】(Shuāngjiàng)\n交節時刻：2
+ 021-10-23 12:51 (UTC+8 台灣標準時間)\n太陽黃經：210° (秋季)\
+ n節氣說明：太陽到達黃經210度，天氣漸冷，初霜出現\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20211107-立冬@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立冬 (12:59)
+DTSTART;VALUE=DATE:20211107
+DTEND;VALUE=DATE:20211108
+DESCRIPTION:【二十四節氣：立冬】(Lìdōng)\n交節時刻：2021-1
+ 1-07 12:59 (UTC+8 台灣標準時間)\n太陽黃經：225° (冬季)\n節
+ 氣說明：太陽到達黃經225度，冬季開始，作物收割完畢\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20211122-小雪@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小雪 (10:34)
+DTSTART;VALUE=DATE:20211122
+DTEND;VALUE=DATE:20211123
+DESCRIPTION:【二十四節氣：小雪】(Xiǎoxuě)\n交節時刻：2021-
+ 11-22 10:34 (UTC+8 台灣標準時間)\n太陽黃經：240° (冬季)\n節
+ 氣說明：太陽到達黃經240度，氣溫降到零度以下，開始
+ 降小雪\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與
+ Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20211207-大雪@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：大雪 (05:57)
+DTSTART;VALUE=DATE:20211207
+DTEND;VALUE=DATE:20211208
+DESCRIPTION:【二十四節氣：大雪】(Dàxuě)\n交節時刻：2021-12
+ -07 05:57 (UTC+8 台灣標準時間)\n太陽黃經：255° (冬季)\n節
+ 氣說明：太陽到達黃經255度，降雪量增多，地面積雪\n計
+ 算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差
+ 高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20211221-冬至@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：冬至 (23:59)
+DTSTART;VALUE=DATE:20211221
+DTEND;VALUE=DATE:20211222
+DESCRIPTION:【二十四節氣：冬至】(Dōngzhì)\n交節時刻：2021-
+ 12-21 23:59 (UTC+8 台灣標準時間)\n太陽黃經：270° (冬季)\n節
+ 氣說明：太陽到達黃經270度，北半球白晝最短、夜間最
+ 長\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20220105-小寒@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小寒 (17:14)
+DTSTART;VALUE=DATE:20220105
+DTEND;VALUE=DATE:20220106
+DESCRIPTION:【二十四節氣：小寒】(Xiǎohán)\n交節時刻：2022-
+ 01-05 17:14 (UTC+8 台灣標準時間)\n太陽黃經：285° (冬季)\n節
+ 氣說明：太陽到達黃經285度，天氣寒冷但尚未至極\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20220120-大寒@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：大寒 (10:39)
+DTSTART;VALUE=DATE:20220120
+DTEND;VALUE=DATE:20220121
+DESCRIPTION:【二十四節氣：大寒】(Dàhán)\n交節時刻：2022-01
+ -20 10:39 (UTC+8 台灣標準時間)\n太陽黃經：300° (冬季)\n節
+ 氣說明：太陽到達黃經300度，一年中最嚴寒的時節\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20220204-立春@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立春 (04:51)
+DTSTART;VALUE=DATE:20220204
+DTEND;VALUE=DATE:20220205
+DESCRIPTION:【二十四節氣：立春】(Lìchūn)\n交節時刻：2022-0
+ 2-04 04:51 (UTC+8 台灣標準時間)\n太陽黃經：315° (春季)\n節
+ 氣說明：太陽到達黃經315度，春季開始，萬物復甦\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20220219-雨水@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：雨水 (00:43)
+DTSTART;VALUE=DATE:20220219
+DTEND;VALUE=DATE:20220220
+DESCRIPTION:【二十四節氣：雨水】(Yǔshuǐ)\n交節時刻：2022-0
+ 2-19 00:43 (UTC+8 台灣標準時間)\n太陽黃經：330° (春季)\n節
+ 氣說明：太陽到達黃經330度，氣溫回升，降雪轉化為降
+ 雨\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20220305-驚蟄@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：驚蟄 (22:44)
+DTSTART;VALUE=DATE:20220305
+DTEND;VALUE=DATE:20220306
+DESCRIPTION:【二十四節氣：驚蟄】(Jīngzhé)\n交節時刻：2022-
+ 03-05 22:44 (UTC+8 台灣標準時間)\n太陽黃經：345° (春季)\n節
+ 氣說明：太陽到達黃經345度，春雷始鳴，驚醒冬眠動物\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20220320-春分@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：春分 (23:33)
+DTSTART;VALUE=DATE:20220320
+DTEND;VALUE=DATE:20220321
+DESCRIPTION:【二十四節氣：春分】(Chūnfēn)\n交節時刻：2022-
+ 03-20 23:33 (UTC+8 台灣標準時間)\n太陽黃經：0° (春季)\n節
+ 氣說明：太陽到達黃經0度，晝夜平分，春季中分點\n計
+ 算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差
+ 高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20220405-清明@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：清明 (03:20)
+DTSTART;VALUE=DATE:20220405
+DTEND;VALUE=DATE:20220406
+DESCRIPTION:【二十四節氣：清明】(Qīngmíng)\n交節時刻：2022
+ -04-05 03:20 (UTC+8 台灣標準時間)\n太陽黃經：15° (春季)\n節
+ 氣說明：太陽到達黃經15度，天朗氣清，惠風和暢\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20220420-穀雨@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：穀雨 (10:24)
+DTSTART;VALUE=DATE:20220420
+DTEND;VALUE=DATE:20220421
+DESCRIPTION:【二十四節氣：穀雨】(Gǔyǔ)\n交節時刻：2022-04-
+ 20 10:24 (UTC+8 台灣標準時間)\n太陽黃經：30° (春季)\n節氣
+ 說明：太陽到達黃經30度，雨生百穀，秧苗得潤\n計算來
+ 源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高精
+ 度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20220505-立夏@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立夏 (20:26)
+DTSTART;VALUE=DATE:20220505
+DTEND;VALUE=DATE:20220506
+DESCRIPTION:【二十四節氣：立夏】(Lìxià)\n交節時刻：2022-05
+ -05 20:26 (UTC+8 台灣標準時間)\n太陽黃經：45° (夏季)\n節氣
+ 說明：太陽到達黃經45度，夏季開始，萬物生長繁茂\n計
+ 算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差
+ 高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20220521-小滿@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小滿 (09:23)
+DTSTART;VALUE=DATE:20220521
+DTEND;VALUE=DATE:20220522
+DESCRIPTION:【二十四節氣：小滿】(Xiǎomǎn)\n交節時刻：2022-
+ 05-21 09:23 (UTC+8 台灣標準時間)\n太陽黃經：60° (夏季)\n節
+ 氣說明：太陽到達黃經60度，麥類等夏熟作物籽粒開始飽
+ 滿\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20220606-芒種@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：芒種 (00:26)
+DTSTART;VALUE=DATE:20220606
+DTEND;VALUE=DATE:20220607
+DESCRIPTION:【二十四節氣：芒種】(Mángzhòng)\n交節時刻：202
+ 2-06-06 00:26 (UTC+8 台灣標準時間)\n太陽黃經：75° (夏季)\n
+ 節氣說明：太陽到達黃經75度，有芒大麥小麥成熟搶收，
+ 秋熟作物播種\n計算來源：ytliu0.github.io/ChineseCalendar (DE441
+ 星曆與Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20220621-夏至@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：夏至 (17:14)
+DTSTART;VALUE=DATE:20220621
+DTEND;VALUE=DATE:20220622
+DESCRIPTION:【二十四節氣：夏至】(Xiàzhì)\n交節時刻：2022-0
+ 6-21 17:14 (UTC+8 台灣標準時間)\n太陽黃經：90° (夏季)\n節
+ 氣說明：太陽到達黃經90度，北半球白晝最長、夜間最短
+ \n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák
+ 歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20220707-小暑@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小暑 (10:38)
+DTSTART;VALUE=DATE:20220707
+DTEND;VALUE=DATE:20220708
+DESCRIPTION:【二十四節氣：小暑】(Xiǎoshǔ)\n交節時刻：2022-
+ 07-07 10:38 (UTC+8 台灣標準時間)\n太陽黃經：105° (夏季)\n節
+ 氣說明：太陽到達黃經105度，天氣炎熱但未達極致\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20220723-大暑@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：大暑 (04:07)
+DTSTART;VALUE=DATE:20220723
+DTEND;VALUE=DATE:20220724
+DESCRIPTION:【二十四節氣：大暑】(Dàshǔ)\n交節時刻：2022-07
+ -23 04:07 (UTC+8 台灣標準時間)\n太陽黃經：120° (夏季)\n節
+ 氣說明：太陽到達黃經120度，一年中日照最多、氣溫最
+ 高的時節\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆
+ 與Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20220807-立秋@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立秋 (20:29)
+DTSTART;VALUE=DATE:20220807
+DTEND;VALUE=DATE:20220808
+DESCRIPTION:【二十四節氣：立秋】(Lìqiū)\n交節時刻：2022-08
+ -07 20:29 (UTC+8 台灣標準時間)\n太陽黃經：135° (秋季)\n節
+ 氣說明：太陽到達黃經135度，秋季開始，氣溫漸漸轉涼\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20220823-處暑@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：處暑 (11:16)
+DTSTART;VALUE=DATE:20220823
+DTEND;VALUE=DATE:20220824
+DESCRIPTION:【二十四節氣：處暑】(Chùshǔ)\n交節時刻：2022-0
+ 8-23 11:16 (UTC+8 台灣標準時間)\n太陽黃經：150° (秋季)\n節
+ 氣說明：太陽到達黃經150度，暑氣至此結束，秋意漸濃\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20220907-白露@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：白露 (23:32)
+DTSTART;VALUE=DATE:20220907
+DTEND;VALUE=DATE:20220908
+DESCRIPTION:【二十四節氣：白露】(Báilù)\n交節時刻：2022-09
+ -07 23:32 (UTC+8 台灣標準時間)\n太陽黃經：165° (秋季)\n節
+ 氣說明：太陽到達黃經165度，水氣凝結為露珠，氣溫下
+ 降顯著\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與
+ Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20220923-秋分@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：秋分 (09:04)
+DTSTART;VALUE=DATE:20220923
+DTEND;VALUE=DATE:20220924
+DESCRIPTION:【二十四節氣：秋分】(Qiūfēn)\n交節時刻：2022-0
+ 9-23 09:04 (UTC+8 台灣標準時間)\n太陽黃經：180° (秋季)\n節
+ 氣說明：太陽到達黃經180度，晝夜再次平分，秋季中分
+ 點\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20221008-寒露@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：寒露 (15:22)
+DTSTART;VALUE=DATE:20221008
+DTEND;VALUE=DATE:20221009
+DESCRIPTION:【二十四節氣：寒露】(Hánlù)\n交節時刻：2022-10
+ -08 15:22 (UTC+8 台灣標準時間)\n太陽黃經：195° (秋季)\n節
+ 氣說明：太陽到達黃經195度，氣溫更低，露水寒涼將凝
+ 為霜\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Von
+ drák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20221023-霜降@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：霜降 (18:36)
+DTSTART;VALUE=DATE:20221023
+DTEND;VALUE=DATE:20221024
+DESCRIPTION:【二十四節氣：霜降】(Shuāngjiàng)\n交節時刻：2
+ 022-10-23 18:36 (UTC+8 台灣標準時間)\n太陽黃經：210° (秋季)\
+ n節氣說明：太陽到達黃經210度，天氣漸冷，初霜出現\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20221107-立冬@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立冬 (18:45)
+DTSTART;VALUE=DATE:20221107
+DTEND;VALUE=DATE:20221108
+DESCRIPTION:【二十四節氣：立冬】(Lìdōng)\n交節時刻：2022-1
+ 1-07 18:45 (UTC+8 台灣標準時間)\n太陽黃經：225° (冬季)\n節
+ 氣說明：太陽到達黃經225度，冬季開始，作物收割完畢\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20221122-小雪@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小雪 (16:20)
+DTSTART;VALUE=DATE:20221122
+DTEND;VALUE=DATE:20221123
+DESCRIPTION:【二十四節氣：小雪】(Xiǎoxuě)\n交節時刻：2022-
+ 11-22 16:20 (UTC+8 台灣標準時間)\n太陽黃經：240° (冬季)\n節
+ 氣說明：太陽到達黃經240度，氣溫降到零度以下，開始
+ 降小雪\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與
+ Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20221207-大雪@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：大雪 (11:46)
+DTSTART;VALUE=DATE:20221207
+DTEND;VALUE=DATE:20221208
+DESCRIPTION:【二十四節氣：大雪】(Dàxuě)\n交節時刻：2022-12
+ -07 11:46 (UTC+8 台灣標準時間)\n太陽黃經：255° (冬季)\n節
+ 氣說明：太陽到達黃經255度，降雪量增多，地面積雪\n計
+ 算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差
+ 高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20221222-冬至@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：冬至 (05:48)
+DTSTART;VALUE=DATE:20221222
+DTEND;VALUE=DATE:20221223
+DESCRIPTION:【二十四節氣：冬至】(Dōngzhì)\n交節時刻：2022-
+ 12-22 05:48 (UTC+8 台灣標準時間)\n太陽黃經：270° (冬季)\n節
+ 氣說明：太陽到達黃經270度，北半球白晝最短、夜間最
+ 長\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20230105-小寒@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小寒 (23:05)
+DTSTART;VALUE=DATE:20230105
+DTEND;VALUE=DATE:20230106
+DESCRIPTION:【二十四節氣：小寒】(Xiǎohán)\n交節時刻：2023-
+ 01-05 23:05 (UTC+8 台灣標準時間)\n太陽黃經：285° (冬季)\n節
+ 氣說明：太陽到達黃經285度，天氣寒冷但尚未至極\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20230120-大寒@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：大寒 (16:30)
+DTSTART;VALUE=DATE:20230120
+DTEND;VALUE=DATE:20230121
+DESCRIPTION:【二十四節氣：大寒】(Dàhán)\n交節時刻：2023-01
+ -20 16:30 (UTC+8 台灣標準時間)\n太陽黃經：300° (冬季)\n節
+ 氣說明：太陽到達黃經300度，一年中最嚴寒的時節\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20230204-立春@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立春 (10:43)
+DTSTART;VALUE=DATE:20230204
+DTEND;VALUE=DATE:20230205
+DESCRIPTION:【二十四節氣：立春】(Lìchūn)\n交節時刻：2023-0
+ 2-04 10:43 (UTC+8 台灣標準時間)\n太陽黃經：315° (春季)\n節
+ 氣說明：太陽到達黃經315度，春季開始，萬物復甦\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20230219-雨水@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：雨水 (06:34)
+DTSTART;VALUE=DATE:20230219
+DTEND;VALUE=DATE:20230220
+DESCRIPTION:【二十四節氣：雨水】(Yǔshuǐ)\n交節時刻：2023-0
+ 2-19 06:34 (UTC+8 台灣標準時間)\n太陽黃經：330° (春季)\n節
+ 氣說明：太陽到達黃經330度，氣溫回升，降雪轉化為降
+ 雨\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20230306-驚蟄@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：驚蟄 (04:36)
+DTSTART;VALUE=DATE:20230306
+DTEND;VALUE=DATE:20230307
+DESCRIPTION:【二十四節氣：驚蟄】(Jīngzhé)\n交節時刻：2023-
+ 03-06 04:36 (UTC+8 台灣標準時間)\n太陽黃經：345° (春季)\n節
+ 氣說明：太陽到達黃經345度，春雷始鳴，驚醒冬眠動物\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20230321-春分@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：春分 (05:24)
+DTSTART;VALUE=DATE:20230321
+DTEND;VALUE=DATE:20230322
+DESCRIPTION:【二十四節氣：春分】(Chūnfēn)\n交節時刻：2023-
+ 03-21 05:24 (UTC+8 台灣標準時間)\n太陽黃經：0° (春季)\n節
+ 氣說明：太陽到達黃經0度，晝夜平分，春季中分點\n計
+ 算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差
+ 高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20230405-清明@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：清明 (09:13)
+DTSTART;VALUE=DATE:20230405
+DTEND;VALUE=DATE:20230406
+DESCRIPTION:【二十四節氣：清明】(Qīngmíng)\n交節時刻：2023
+ -04-05 09:13 (UTC+8 台灣標準時間)\n太陽黃經：15° (春季)\n節
+ 氣說明：太陽到達黃經15度，天朗氣清，惠風和暢\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20230420-穀雨@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：穀雨 (16:14)
+DTSTART;VALUE=DATE:20230420
+DTEND;VALUE=DATE:20230421
+DESCRIPTION:【二十四節氣：穀雨】(Gǔyǔ)\n交節時刻：2023-04-
+ 20 16:14 (UTC+8 台灣標準時間)\n太陽黃經：30° (春季)\n節氣
+ 說明：太陽到達黃經30度，雨生百穀，秧苗得潤\n計算來
+ 源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高精
+ 度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20230506-立夏@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立夏 (02:19)
+DTSTART;VALUE=DATE:20230506
+DTEND;VALUE=DATE:20230507
+DESCRIPTION:【二十四節氣：立夏】(Lìxià)\n交節時刻：2023-05
+ -06 02:19 (UTC+8 台灣標準時間)\n太陽黃經：45° (夏季)\n節氣
+ 說明：太陽到達黃經45度，夏季開始，萬物生長繁茂\n計
+ 算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差
+ 高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20230521-小滿@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小滿 (15:09)
+DTSTART;VALUE=DATE:20230521
+DTEND;VALUE=DATE:20230522
+DESCRIPTION:【二十四節氣：小滿】(Xiǎomǎn)\n交節時刻：2023-
+ 05-21 15:09 (UTC+8 台灣標準時間)\n太陽黃經：60° (夏季)\n節
+ 氣說明：太陽到達黃經60度，麥類等夏熟作物籽粒開始飽
+ 滿\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20230606-芒種@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：芒種 (06:18)
+DTSTART;VALUE=DATE:20230606
+DTEND;VALUE=DATE:20230607
+DESCRIPTION:【二十四節氣：芒種】(Mángzhòng)\n交節時刻：202
+ 3-06-06 06:18 (UTC+8 台灣標準時間)\n太陽黃經：75° (夏季)\n
+ 節氣說明：太陽到達黃經75度，有芒大麥小麥成熟搶收，
+ 秋熟作物播種\n計算來源：ytliu0.github.io/ChineseCalendar (DE441
+ 星曆與Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20230621-夏至@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：夏至 (22:58)
+DTSTART;VALUE=DATE:20230621
+DTEND;VALUE=DATE:20230622
+DESCRIPTION:【二十四節氣：夏至】(Xiàzhì)\n交節時刻：2023-0
+ 6-21 22:58 (UTC+8 台灣標準時間)\n太陽黃經：90° (夏季)\n節
+ 氣說明：太陽到達黃經90度，北半球白晝最長、夜間最短
+ \n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák
+ 歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20230707-小暑@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小暑 (16:31)
+DTSTART;VALUE=DATE:20230707
+DTEND;VALUE=DATE:20230708
+DESCRIPTION:【二十四節氣：小暑】(Xiǎoshǔ)\n交節時刻：2023-
+ 07-07 16:31 (UTC+8 台灣標準時間)\n太陽黃經：105° (夏季)\n節
+ 氣說明：太陽到達黃經105度，天氣炎熱但未達極致\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20230723-大暑@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：大暑 (09:50)
+DTSTART;VALUE=DATE:20230723
+DTEND;VALUE=DATE:20230724
+DESCRIPTION:【二十四節氣：大暑】(Dàshǔ)\n交節時刻：2023-07
+ -23 09:50 (UTC+8 台灣標準時間)\n太陽黃經：120° (夏季)\n節
+ 氣說明：太陽到達黃經120度，一年中日照最多、氣溫最
+ 高的時節\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆
+ 與Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20230808-立秋@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立秋 (02:23)
+DTSTART;VALUE=DATE:20230808
+DTEND;VALUE=DATE:20230809
+DESCRIPTION:【二十四節氣：立秋】(Lìqiū)\n交節時刻：2023-08
+ -08 02:23 (UTC+8 台灣標準時間)\n太陽黃經：135° (秋季)\n節
+ 氣說明：太陽到達黃經135度，秋季開始，氣溫漸漸轉涼\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20230823-處暑@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：處暑 (17:01)
+DTSTART;VALUE=DATE:20230823
+DTEND;VALUE=DATE:20230824
+DESCRIPTION:【二十四節氣：處暑】(Chùshǔ)\n交節時刻：2023-0
+ 8-23 17:01 (UTC+8 台灣標準時間)\n太陽黃經：150° (秋季)\n節
+ 氣說明：太陽到達黃經150度，暑氣至此結束，秋意漸濃\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20230908-白露@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：白露 (05:27)
+DTSTART;VALUE=DATE:20230908
+DTEND;VALUE=DATE:20230909
+DESCRIPTION:【二十四節氣：白露】(Báilù)\n交節時刻：2023-09
+ -08 05:27 (UTC+8 台灣標準時間)\n太陽黃經：165° (秋季)\n節
+ 氣說明：太陽到達黃經165度，水氣凝結為露珠，氣溫下
+ 降顯著\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與
+ Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20230923-秋分@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：秋分 (14:50)
+DTSTART;VALUE=DATE:20230923
+DTEND;VALUE=DATE:20230924
+DESCRIPTION:【二十四節氣：秋分】(Qiūfēn)\n交節時刻：2023-0
+ 9-23 14:50 (UTC+8 台灣標準時間)\n太陽黃經：180° (秋季)\n節
+ 氣說明：太陽到達黃經180度，晝夜再次平分，秋季中分
+ 點\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20231008-寒露@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：寒露 (21:16)
+DTSTART;VALUE=DATE:20231008
+DTEND;VALUE=DATE:20231009
+DESCRIPTION:【二十四節氣：寒露】(Hánlù)\n交節時刻：2023-10
+ -08 21:16 (UTC+8 台灣標準時間)\n太陽黃經：195° (秋季)\n節
+ 氣說明：太陽到達黃經195度，氣溫更低，露水寒涼將凝
+ 為霜\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Von
+ drák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20231024-霜降@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：霜降 (00:21)
+DTSTART;VALUE=DATE:20231024
+DTEND;VALUE=DATE:20231025
+DESCRIPTION:【二十四節氣：霜降】(Shuāngjiàng)\n交節時刻：2
+ 023-10-24 00:21 (UTC+8 台灣標準時間)\n太陽黃經：210° (秋季)\
+ n節氣說明：太陽到達黃經210度，天氣漸冷，初霜出現\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20231108-立冬@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立冬 (00:36)
+DTSTART;VALUE=DATE:20231108
+DTEND;VALUE=DATE:20231109
+DESCRIPTION:【二十四節氣：立冬】(Lìdōng)\n交節時刻：2023-1
+ 1-08 00:36 (UTC+8 台灣標準時間)\n太陽黃經：225° (冬季)\n節
+ 氣說明：太陽到達黃經225度，冬季開始，作物收割完畢\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20231122-小雪@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小雪 (22:03)
+DTSTART;VALUE=DATE:20231122
+DTEND;VALUE=DATE:20231123
+DESCRIPTION:【二十四節氣：小雪】(Xiǎoxuě)\n交節時刻：2023-
+ 11-22 22:03 (UTC+8 台灣標準時間)\n太陽黃經：240° (冬季)\n節
+ 氣說明：太陽到達黃經240度，氣溫降到零度以下，開始
+ 降小雪\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與
+ Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20231207-大雪@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：大雪 (17:33)
+DTSTART;VALUE=DATE:20231207
+DTEND;VALUE=DATE:20231208
+DESCRIPTION:【二十四節氣：大雪】(Dàxuě)\n交節時刻：2023-12
+ -07 17:33 (UTC+8 台灣標準時間)\n太陽黃經：255° (冬季)\n節
+ 氣說明：太陽到達黃經255度，降雪量增多，地面積雪\n計
+ 算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差
+ 高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20231222-冬至@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：冬至 (11:27)
+DTSTART;VALUE=DATE:20231222
+DTEND;VALUE=DATE:20231223
+DESCRIPTION:【二十四節氣：冬至】(Dōngzhì)\n交節時刻：2023-
+ 12-22 11:27 (UTC+8 台灣標準時間)\n太陽黃經：270° (冬季)\n節
+ 氣說明：太陽到達黃經270度，北半球白晝最短、夜間最
+ 長\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20240106-小寒@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小寒 (04:49)
+DTSTART;VALUE=DATE:20240106
+DTEND;VALUE=DATE:20240107
+DESCRIPTION:【二十四節氣：小寒】(Xiǎohán)\n交節時刻：2024-
+ 01-06 04:49 (UTC+8 台灣標準時間)\n太陽黃經：285° (冬季)\n節
+ 氣說明：太陽到達黃經285度，天氣寒冷但尚未至極\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20240120-大寒@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：大寒 (22:07)
+DTSTART;VALUE=DATE:20240120
+DTEND;VALUE=DATE:20240121
+DESCRIPTION:【二十四節氣：大寒】(Dàhán)\n交節時刻：2024-01
+ -20 22:07 (UTC+8 台灣標準時間)\n太陽黃經：300° (冬季)\n節
+ 氣說明：太陽到達黃經300度，一年中最嚴寒的時節\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20240204-立春@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立春 (16:27)
+DTSTART;VALUE=DATE:20240204
+DTEND;VALUE=DATE:20240205
+DESCRIPTION:【二十四節氣：立春】(Lìchūn)\n交節時刻：2024-0
+ 2-04 16:27 (UTC+8 台灣標準時間)\n太陽黃經：315° (春季)\n節
+ 氣說明：太陽到達黃經315度，春季開始，萬物復甦\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20240219-雨水@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：雨水 (12:13)
+DTSTART;VALUE=DATE:20240219
+DTEND;VALUE=DATE:20240220
+DESCRIPTION:【二十四節氣：雨水】(Yǔshuǐ)\n交節時刻：2024-0
+ 2-19 12:13 (UTC+8 台灣標準時間)\n太陽黃經：330° (春季)\n節
+ 氣說明：太陽到達黃經330度，氣溫回升，降雪轉化為降
+ 雨\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20240305-驚蟄@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：驚蟄 (10:23)
+DTSTART;VALUE=DATE:20240305
+DTEND;VALUE=DATE:20240306
+DESCRIPTION:【二十四節氣：驚蟄】(Jīngzhé)\n交節時刻：2024-
+ 03-05 10:23 (UTC+8 台灣標準時間)\n太陽黃經：345° (春季)\n節
+ 氣說明：太陽到達黃經345度，春雷始鳴，驚醒冬眠動物\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20240320-春分@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：春分 (11:06)
+DTSTART;VALUE=DATE:20240320
+DTEND;VALUE=DATE:20240321
+DESCRIPTION:【二十四節氣：春分】(Chūnfēn)\n交節時刻：2024-
+ 03-20 11:06 (UTC+8 台灣標準時間)\n太陽黃經：0° (春季)\n節
+ 氣說明：太陽到達黃經0度，晝夜平分，春季中分點\n計
+ 算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差
+ 高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20240404-清明@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：清明 (15:02)
+DTSTART;VALUE=DATE:20240404
+DTEND;VALUE=DATE:20240405
+DESCRIPTION:【二十四節氣：清明】(Qīngmíng)\n交節時刻：2024
+ -04-04 15:02 (UTC+8 台灣標準時間)\n太陽黃經：15° (春季)\n節
+ 氣說明：太陽到達黃經15度，天朗氣清，惠風和暢\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20240419-穀雨@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：穀雨 (22:00)
+DTSTART;VALUE=DATE:20240419
+DTEND;VALUE=DATE:20240420
+DESCRIPTION:【二十四節氣：穀雨】(Gǔyǔ)\n交節時刻：2024-04-
+ 19 22:00 (UTC+8 台灣標準時間)\n太陽黃經：30° (春季)\n節氣
+ 說明：太陽到達黃經30度，雨生百穀，秧苗得潤\n計算來
+ 源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高精
+ 度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20240505-立夏@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立夏 (08:10)
+DTSTART;VALUE=DATE:20240505
+DTEND;VALUE=DATE:20240506
+DESCRIPTION:【二十四節氣：立夏】(Lìxià)\n交節時刻：2024-05
+ -05 08:10 (UTC+8 台灣標準時間)\n太陽黃經：45° (夏季)\n節氣
+ 說明：太陽到達黃經45度，夏季開始，萬物生長繁茂\n計
+ 算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差
+ 高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20240520-小滿@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小滿 (21:00)
+DTSTART;VALUE=DATE:20240520
+DTEND;VALUE=DATE:20240521
+DESCRIPTION:【二十四節氣：小滿】(Xiǎomǎn)\n交節時刻：2024-
+ 05-20 21:00 (UTC+8 台灣標準時間)\n太陽黃經：60° (夏季)\n節
+ 氣說明：太陽到達黃經60度，麥類等夏熟作物籽粒開始飽
+ 滿\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20240605-芒種@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：芒種 (12:10)
+DTSTART;VALUE=DATE:20240605
+DTEND;VALUE=DATE:20240606
+DESCRIPTION:【二十四節氣：芒種】(Mángzhòng)\n交節時刻：202
+ 4-06-05 12:10 (UTC+8 台灣標準時間)\n太陽黃經：75° (夏季)\n
+ 節氣說明：太陽到達黃經75度，有芒大麥小麥成熟搶收，
+ 秋熟作物播種\n計算來源：ytliu0.github.io/ChineseCalendar (DE441
+ 星曆與Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20240621-夏至@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：夏至 (04:51)
+DTSTART;VALUE=DATE:20240621
+DTEND;VALUE=DATE:20240622
+DESCRIPTION:【二十四節氣：夏至】(Xiàzhì)\n交節時刻：2024-0
+ 6-21 04:51 (UTC+8 台灣標準時間)\n太陽黃經：90° (夏季)\n節
+ 氣說明：太陽到達黃經90度，北半球白晝最長、夜間最短
+ \n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák
+ 歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20240706-小暑@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小暑 (22:20)
+DTSTART;VALUE=DATE:20240706
+DTEND;VALUE=DATE:20240707
+DESCRIPTION:【二十四節氣：小暑】(Xiǎoshǔ)\n交節時刻：2024-
+ 07-06 22:20 (UTC+8 台灣標準時間)\n太陽黃經：105° (夏季)\n節
+ 氣說明：太陽到達黃經105度，天氣炎熱但未達極致\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20240722-大暑@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：大暑 (15:44)
+DTSTART;VALUE=DATE:20240722
+DTEND;VALUE=DATE:20240723
+DESCRIPTION:【二十四節氣：大暑】(Dàshǔ)\n交節時刻：2024-07
+ -22 15:44 (UTC+8 台灣標準時間)\n太陽黃經：120° (夏季)\n節
+ 氣說明：太陽到達黃經120度，一年中日照最多、氣溫最
+ 高的時節\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆
+ 與Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20240807-立秋@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立秋 (08:09)
+DTSTART;VALUE=DATE:20240807
+DTEND;VALUE=DATE:20240808
+DESCRIPTION:【二十四節氣：立秋】(Lìqiū)\n交節時刻：2024-08
+ -07 08:09 (UTC+8 台灣標準時間)\n太陽黃經：135° (秋季)\n節
+ 氣說明：太陽到達黃經135度，秋季開始，氣溫漸漸轉涼\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20240822-處暑@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：處暑 (22:55)
+DTSTART;VALUE=DATE:20240822
+DTEND;VALUE=DATE:20240823
+DESCRIPTION:【二十四節氣：處暑】(Chùshǔ)\n交節時刻：2024-0
+ 8-22 22:55 (UTC+8 台灣標準時間)\n太陽黃經：150° (秋季)\n節
+ 氣說明：太陽到達黃經150度，暑氣至此結束，秋意漸濃\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20240907-白露@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：白露 (11:11)
+DTSTART;VALUE=DATE:20240907
+DTEND;VALUE=DATE:20240908
+DESCRIPTION:【二十四節氣：白露】(Báilù)\n交節時刻：2024-09
+ -07 11:11 (UTC+8 台灣標準時間)\n太陽黃經：165° (秋季)\n節
+ 氣說明：太陽到達黃經165度，水氣凝結為露珠，氣溫下
+ 降顯著\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與
+ Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20240922-秋分@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：秋分 (20:44)
+DTSTART;VALUE=DATE:20240922
+DTEND;VALUE=DATE:20240923
+DESCRIPTION:【二十四節氣：秋分】(Qiūfēn)\n交節時刻：2024-0
+ 9-22 20:44 (UTC+8 台灣標準時間)\n太陽黃經：180° (秋季)\n節
+ 氣說明：太陽到達黃經180度，晝夜再次平分，秋季中分
+ 點\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20241008-寒露@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：寒露 (03:00)
+DTSTART;VALUE=DATE:20241008
+DTEND;VALUE=DATE:20241009
+DESCRIPTION:【二十四節氣：寒露】(Hánlù)\n交節時刻：2024-10
+ -08 03:00 (UTC+8 台灣標準時間)\n太陽黃經：195° (秋季)\n節
+ 氣說明：太陽到達黃經195度，氣溫更低，露水寒涼將凝
+ 為霜\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Von
+ drák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20241023-霜降@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：霜降 (06:15)
+DTSTART;VALUE=DATE:20241023
+DTEND;VALUE=DATE:20241024
+DESCRIPTION:【二十四節氣：霜降】(Shuāngjiàng)\n交節時刻：2
+ 024-10-23 06:15 (UTC+8 台灣標準時間)\n太陽黃經：210° (秋季)\
+ n節氣說明：太陽到達黃經210度，天氣漸冷，初霜出現\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20241107-立冬@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立冬 (06:20)
+DTSTART;VALUE=DATE:20241107
+DTEND;VALUE=DATE:20241108
+DESCRIPTION:【二十四節氣：立冬】(Lìdōng)\n交節時刻：2024-1
+ 1-07 06:20 (UTC+8 台灣標準時間)\n太陽黃經：225° (冬季)\n節
+ 氣說明：太陽到達黃經225度，冬季開始，作物收割完畢\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20241122-小雪@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小雪 (03:56)
+DTSTART;VALUE=DATE:20241122
+DTEND;VALUE=DATE:20241123
+DESCRIPTION:【二十四節氣：小雪】(Xiǎoxuě)\n交節時刻：2024-
+ 11-22 03:56 (UTC+8 台灣標準時間)\n太陽黃經：240° (冬季)\n節
+ 氣說明：太陽到達黃經240度，氣溫降到零度以下，開始
+ 降小雪\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與
+ Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20241206-大雪@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：大雪 (23:17)
+DTSTART;VALUE=DATE:20241206
+DTEND;VALUE=DATE:20241207
+DESCRIPTION:【二十四節氣：大雪】(Dàxuě)\n交節時刻：2024-12
+ -06 23:17 (UTC+8 台灣標準時間)\n太陽黃經：255° (冬季)\n節
+ 氣說明：太陽到達黃經255度，降雪量增多，地面積雪\n計
+ 算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差
+ 高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20241221-冬至@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：冬至 (17:21)
+DTSTART;VALUE=DATE:20241221
+DTEND;VALUE=DATE:20241222
+DESCRIPTION:【二十四節氣：冬至】(Dōngzhì)\n交節時刻：2024-
+ 12-21 17:21 (UTC+8 台灣標準時間)\n太陽黃經：270° (冬季)\n節
+ 氣說明：太陽到達黃經270度，北半球白晝最短、夜間最
+ 長\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20250105-小寒@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小寒 (10:33)
+DTSTART;VALUE=DATE:20250105
+DTEND;VALUE=DATE:20250106
+DESCRIPTION:【二十四節氣：小寒】(Xiǎohán)\n交節時刻：2025-
+ 01-05 10:33 (UTC+8 台灣標準時間)\n太陽黃經：285° (冬季)\n節
+ 氣說明：太陽到達黃經285度，天氣寒冷但尚未至極\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20250120-大寒@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：大寒 (04:00)
+DTSTART;VALUE=DATE:20250120
+DTEND;VALUE=DATE:20250121
+DESCRIPTION:【二十四節氣：大寒】(Dàhán)\n交節時刻：2025-01
+ -20 04:00 (UTC+8 台灣標準時間)\n太陽黃經：300° (冬季)\n節
+ 氣說明：太陽到達黃經300度，一年中最嚴寒的時節\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20250203-立春@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立春 (22:10)
+DTSTART;VALUE=DATE:20250203
+DTEND;VALUE=DATE:20250204
+DESCRIPTION:【二十四節氣：立春】(Lìchūn)\n交節時刻：2025-0
+ 2-03 22:10 (UTC+8 台灣標準時間)\n太陽黃經：315° (春季)\n節
+ 氣說明：太陽到達黃經315度，春季開始，萬物復甦\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20250218-雨水@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：雨水 (18:07)
+DTSTART;VALUE=DATE:20250218
+DTEND;VALUE=DATE:20250219
+DESCRIPTION:【二十四節氣：雨水】(Yǔshuǐ)\n交節時刻：2025-0
+ 2-18 18:07 (UTC+8 台灣標準時間)\n太陽黃經：330° (春季)\n節
+ 氣說明：太陽到達黃經330度，氣溫回升，降雪轉化為降
+ 雨\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20250305-驚蟄@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：驚蟄 (16:07)
+DTSTART;VALUE=DATE:20250305
+DTEND;VALUE=DATE:20250306
+DESCRIPTION:【二十四節氣：驚蟄】(Jīngzhé)\n交節時刻：2025-
+ 03-05 16:07 (UTC+8 台灣標準時間)\n太陽黃經：345° (春季)\n節
+ 氣說明：太陽到達黃經345度，春雷始鳴，驚醒冬眠動物\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20250320-春分@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：春分 (17:01)
+DTSTART;VALUE=DATE:20250320
+DTEND;VALUE=DATE:20250321
+DESCRIPTION:【二十四節氣：春分】(Chūnfēn)\n交節時刻：2025-
+ 03-20 17:01 (UTC+8 台灣標準時間)\n太陽黃經：0° (春季)\n節
+ 氣說明：太陽到達黃經0度，晝夜平分，春季中分點\n計
+ 算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差
+ 高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20250404-清明@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：清明 (20:49)
+DTSTART;VALUE=DATE:20250404
+DTEND;VALUE=DATE:20250405
+DESCRIPTION:【二十四節氣：清明】(Qīngmíng)\n交節時刻：2025
+ -04-04 20:49 (UTC+8 台灣標準時間)\n太陽黃經：15° (春季)\n節
+ 氣說明：太陽到達黃經15度，天朗氣清，惠風和暢\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20250420-穀雨@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：穀雨 (03:56)
+DTSTART;VALUE=DATE:20250420
+DTEND;VALUE=DATE:20250421
+DESCRIPTION:【二十四節氣：穀雨】(Gǔyǔ)\n交節時刻：2025-04-
+ 20 03:56 (UTC+8 台灣標準時間)\n太陽黃經：30° (春季)\n節氣
+ 說明：太陽到達黃經30度，雨生百穀，秧苗得潤\n計算來
+ 源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高精
+ 度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20250505-立夏@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立夏 (13:57)
+DTSTART;VALUE=DATE:20250505
+DTEND;VALUE=DATE:20250506
+DESCRIPTION:【二十四節氣：立夏】(Lìxià)\n交節時刻：2025-05
+ -05 13:57 (UTC+8 台灣標準時間)\n太陽黃經：45° (夏季)\n節氣
+ 說明：太陽到達黃經45度，夏季開始，萬物生長繁茂\n計
+ 算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差
+ 高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20250521-小滿@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小滿 (02:55)
+DTSTART;VALUE=DATE:20250521
+DTEND;VALUE=DATE:20250522
+DESCRIPTION:【二十四節氣：小滿】(Xiǎomǎn)\n交節時刻：2025-
+ 05-21 02:55 (UTC+8 台灣標準時間)\n太陽黃經：60° (夏季)\n節
+ 氣說明：太陽到達黃經60度，麥類等夏熟作物籽粒開始飽
+ 滿\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20250605-芒種@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：芒種 (17:57)
+DTSTART;VALUE=DATE:20250605
+DTEND;VALUE=DATE:20250606
+DESCRIPTION:【二十四節氣：芒種】(Mángzhòng)\n交節時刻：202
+ 5-06-05 17:57 (UTC+8 台灣標準時間)\n太陽黃經：75° (夏季)\n
+ 節氣說明：太陽到達黃經75度，有芒大麥小麥成熟搶收，
+ 秋熟作物播種\n計算來源：ytliu0.github.io/ChineseCalendar (DE441
+ 星曆與Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20250621-夏至@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：夏至 (10:42)
+DTSTART;VALUE=DATE:20250621
+DTEND;VALUE=DATE:20250622
+DESCRIPTION:【二十四節氣：夏至】(Xiàzhì)\n交節時刻：2025-0
+ 6-21 10:42 (UTC+8 台灣標準時間)\n太陽黃經：90° (夏季)\n節
+ 氣說明：太陽到達黃經90度，北半球白晝最長、夜間最短
+ \n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák
+ 歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20250707-小暑@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小暑 (04:05)
+DTSTART;VALUE=DATE:20250707
+DTEND;VALUE=DATE:20250708
+DESCRIPTION:【二十四節氣：小暑】(Xiǎoshǔ)\n交節時刻：2025-
+ 07-07 04:05 (UTC+8 台灣標準時間)\n太陽黃經：105° (夏季)\n節
+ 氣說明：太陽到達黃經105度，天氣炎熱但未達極致\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20250722-大暑@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：大暑 (21:29)
+DTSTART;VALUE=DATE:20250722
+DTEND;VALUE=DATE:20250723
+DESCRIPTION:【二十四節氣：大暑】(Dàshǔ)\n交節時刻：2025-07
+ -22 21:29 (UTC+8 台灣標準時間)\n太陽黃經：120° (夏季)\n節
+ 氣說明：太陽到達黃經120度，一年中日照最多、氣溫最
+ 高的時節\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆
+ 與Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20250807-立秋@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立秋 (13:52)
+DTSTART;VALUE=DATE:20250807
+DTEND;VALUE=DATE:20250808
+DESCRIPTION:【二十四節氣：立秋】(Lìqiū)\n交節時刻：2025-08
+ -07 13:52 (UTC+8 台灣標準時間)\n太陽黃經：135° (秋季)\n節
+ 氣說明：太陽到達黃經135度，秋季開始，氣溫漸漸轉涼\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20250823-處暑@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：處暑 (04:34)
+DTSTART;VALUE=DATE:20250823
+DTEND;VALUE=DATE:20250824
+DESCRIPTION:【二十四節氣：處暑】(Chùshǔ)\n交節時刻：2025-0
+ 8-23 04:34 (UTC+8 台灣標準時間)\n太陽黃經：150° (秋季)\n節
+ 氣說明：太陽到達黃經150度，暑氣至此結束，秋意漸濃\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20250907-白露@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：白露 (16:52)
+DTSTART;VALUE=DATE:20250907
+DTEND;VALUE=DATE:20250908
+DESCRIPTION:【二十四節氣：白露】(Báilù)\n交節時刻：2025-09
+ -07 16:52 (UTC+8 台灣標準時間)\n太陽黃經：165° (秋季)\n節
+ 氣說明：太陽到達黃經165度，水氣凝結為露珠，氣溫下
+ 降顯著\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與
+ Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20250923-秋分@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：秋分 (02:19)
+DTSTART;VALUE=DATE:20250923
+DTEND;VALUE=DATE:20250924
+DESCRIPTION:【二十四節氣：秋分】(Qiūfēn)\n交節時刻：2025-0
+ 9-23 02:19 (UTC+8 台灣標準時間)\n太陽黃經：180° (秋季)\n節
+ 氣說明：太陽到達黃經180度，晝夜再次平分，秋季中分
+ 點\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20251008-寒露@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：寒露 (08:41)
+DTSTART;VALUE=DATE:20251008
+DTEND;VALUE=DATE:20251009
+DESCRIPTION:【二十四節氣：寒露】(Hánlù)\n交節時刻：2025-10
+ -08 08:41 (UTC+8 台灣標準時間)\n太陽黃經：195° (秋季)\n節
+ 氣說明：太陽到達黃經195度，氣溫更低，露水寒涼將凝
+ 為霜\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Von
+ drák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20251023-霜降@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：霜降 (11:51)
+DTSTART;VALUE=DATE:20251023
+DTEND;VALUE=DATE:20251024
+DESCRIPTION:【二十四節氣：霜降】(Shuāngjiàng)\n交節時刻：2
+ 025-10-23 11:51 (UTC+8 台灣標準時間)\n太陽黃經：210° (秋季)\
+ n節氣說明：太陽到達黃經210度，天氣漸冷，初霜出現\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20251107-立冬@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立冬 (12:04)
+DTSTART;VALUE=DATE:20251107
+DTEND;VALUE=DATE:20251108
+DESCRIPTION:【二十四節氣：立冬】(Lìdōng)\n交節時刻：2025-1
+ 1-07 12:04 (UTC+8 台灣標準時間)\n太陽黃經：225° (冬季)\n節
+ 氣說明：太陽到達黃經225度，冬季開始，作物收割完畢\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20251122-小雪@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小雪 (09:36)
+DTSTART;VALUE=DATE:20251122
+DTEND;VALUE=DATE:20251123
+DESCRIPTION:【二十四節氣：小雪】(Xiǎoxuě)\n交節時刻：2025-
+ 11-22 09:36 (UTC+8 台灣標準時間)\n太陽黃經：240° (冬季)\n節
+ 氣說明：太陽到達黃經240度，氣溫降到零度以下，開始
+ 降小雪\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與
+ Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20251207-大雪@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：大雪 (05:05)
+DTSTART;VALUE=DATE:20251207
+DTEND;VALUE=DATE:20251208
+DESCRIPTION:【二十四節氣：大雪】(Dàxuě)\n交節時刻：2025-12
+ -07 05:05 (UTC+8 台灣標準時間)\n太陽黃經：255° (冬季)\n節
+ 氣說明：太陽到達黃經255度，降雪量增多，地面積雪\n計
+ 算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差
+ 高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20251221-冬至@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：冬至 (23:03)
+DTSTART;VALUE=DATE:20251221
+DTEND;VALUE=DATE:20251222
+DESCRIPTION:【二十四節氣：冬至】(Dōngzhì)\n交節時刻：2025-
+ 12-21 23:03 (UTC+8 台灣標準時間)\n太陽黃經：270° (冬季)\n節
+ 氣說明：太陽到達黃經270度，北半球白晝最短、夜間最
+ 長\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20260105-小寒@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小寒 (16:23)
+DTSTART;VALUE=DATE:20260105
+DTEND;VALUE=DATE:20260106
+DESCRIPTION:【二十四節氣：小寒】(Xiǎohán)\n交節時刻：2026-
+ 01-05 16:23 (UTC+8 台灣標準時間)\n太陽黃經：285° (冬季)\n節
+ 氣說明：太陽到達黃經285度，天氣寒冷但尚未至極\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20260120-大寒@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：大寒 (09:45)
+DTSTART;VALUE=DATE:20260120
+DTEND;VALUE=DATE:20260121
+DESCRIPTION:【二十四節氣：大寒】(Dàhán)\n交節時刻：2026-01
+ -20 09:45 (UTC+8 台灣標準時間)\n太陽黃經：300° (冬季)\n節
+ 氣說明：太陽到達黃經300度，一年中最嚴寒的時節\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20260204-立春@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立春 (04:02)
+DTSTART;VALUE=DATE:20260204
+DTEND;VALUE=DATE:20260205
+DESCRIPTION:【二十四節氣：立春】(Lìchūn)\n交節時刻：2026-0
+ 2-04 04:02 (UTC+8 台灣標準時間)\n太陽黃經：315° (春季)\n節
+ 氣說明：太陽到達黃經315度，春季開始，萬物復甦\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20260218-雨水@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：雨水 (23:52)
+DTSTART;VALUE=DATE:20260218
+DTEND;VALUE=DATE:20260219
+DESCRIPTION:【二十四節氣：雨水】(Yǔshuǐ)\n交節時刻：2026-0
+ 2-18 23:52 (UTC+8 台灣標準時間)\n太陽黃經：330° (春季)\n節
+ 氣說明：太陽到達黃經330度，氣溫回升，降雪轉化為降
+ 雨\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20260305-驚蟄@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：驚蟄 (21:59)
+DTSTART;VALUE=DATE:20260305
+DTEND;VALUE=DATE:20260306
+DESCRIPTION:【二十四節氣：驚蟄】(Jīngzhé)\n交節時刻：2026-
+ 03-05 21:59 (UTC+8 台灣標準時間)\n太陽黃經：345° (春季)\n節
+ 氣說明：太陽到達黃經345度，春雷始鳴，驚醒冬眠動物\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20260320-春分@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：春分 (22:46)
+DTSTART;VALUE=DATE:20260320
+DTEND;VALUE=DATE:20260321
+DESCRIPTION:【二十四節氣：春分】(Chūnfēn)\n交節時刻：2026-
+ 03-20 22:46 (UTC+8 台灣標準時間)\n太陽黃經：0° (春季)\n節
+ 氣說明：太陽到達黃經0度，晝夜平分，春季中分點\n計
+ 算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差
+ 高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20260405-清明@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：清明 (02:40)
+DTSTART;VALUE=DATE:20260405
+DTEND;VALUE=DATE:20260406
+DESCRIPTION:【二十四節氣：清明】(Qīngmíng)\n交節時刻：2026
+ -04-05 02:40 (UTC+8 台灣標準時間)\n太陽黃經：15° (春季)\n節
+ 氣說明：太陽到達黃經15度，天朗氣清，惠風和暢\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20260420-穀雨@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：穀雨 (09:39)
+DTSTART;VALUE=DATE:20260420
+DTEND;VALUE=DATE:20260421
+DESCRIPTION:【二十四節氣：穀雨】(Gǔyǔ)\n交節時刻：2026-04-
+ 20 09:39 (UTC+8 台灣標準時間)\n太陽黃經：30° (春季)\n節氣
+ 說明：太陽到達黃經30度，雨生百穀，秧苗得潤\n計算來
+ 源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高精
+ 度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20260505-立夏@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立夏 (19:49)
+DTSTART;VALUE=DATE:20260505
+DTEND;VALUE=DATE:20260506
+DESCRIPTION:【二十四節氣：立夏】(Lìxià)\n交節時刻：2026-05
+ -05 19:49 (UTC+8 台灣標準時間)\n太陽黃經：45° (夏季)\n節氣
+ 說明：太陽到達黃經45度，夏季開始，萬物生長繁茂\n計
+ 算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差
+ 高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20260521-小滿@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小滿 (08:37)
+DTSTART;VALUE=DATE:20260521
+DTEND;VALUE=DATE:20260522
+DESCRIPTION:【二十四節氣：小滿】(Xiǎomǎn)\n交節時刻：2026-
+ 05-21 08:37 (UTC+8 台灣標準時間)\n太陽黃經：60° (夏季)\n節
+ 氣說明：太陽到達黃經60度，麥類等夏熟作物籽粒開始飽
+ 滿\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20260605-芒種@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：芒種 (23:48)
+DTSTART;VALUE=DATE:20260605
+DTEND;VALUE=DATE:20260606
+DESCRIPTION:【二十四節氣：芒種】(Mángzhòng)\n交節時刻：202
+ 6-06-05 23:48 (UTC+8 台灣標準時間)\n太陽黃經：75° (夏季)\n
+ 節氣說明：太陽到達黃經75度，有芒大麥小麥成熟搶收，
+ 秋熟作物播種\n計算來源：ytliu0.github.io/ChineseCalendar (DE441
+ 星曆與Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20260621-夏至@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：夏至 (16:25)
+DTSTART;VALUE=DATE:20260621
+DTEND;VALUE=DATE:20260622
+DESCRIPTION:【二十四節氣：夏至】(Xiàzhì)\n交節時刻：2026-0
+ 6-21 16:25 (UTC+8 台灣標準時間)\n太陽黃經：90° (夏季)\n節
+ 氣說明：太陽到達黃經90度，北半球白晝最長、夜間最短
+ \n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák
+ 歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20260707-小暑@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小暑 (09:57)
+DTSTART;VALUE=DATE:20260707
+DTEND;VALUE=DATE:20260708
+DESCRIPTION:【二十四節氣：小暑】(Xiǎoshǔ)\n交節時刻：2026-
+ 07-07 09:57 (UTC+8 台灣標準時間)\n太陽黃經：105° (夏季)\n節
+ 氣說明：太陽到達黃經105度，天氣炎熱但未達極致\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20260723-大暑@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：大暑 (03:13)
+DTSTART;VALUE=DATE:20260723
+DTEND;VALUE=DATE:20260724
+DESCRIPTION:【二十四節氣：大暑】(Dàshǔ)\n交節時刻：2026-07
+ -23 03:13 (UTC+8 台灣標準時間)\n太陽黃經：120° (夏季)\n節
+ 氣說明：太陽到達黃經120度，一年中日照最多、氣溫最
+ 高的時節\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆
+ 與Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20260807-立秋@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立秋 (19:43)
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+DESCRIPTION:【二十四節氣：立秋】(Lìqiū)\n交節時刻：2026-08
+ -07 19:43 (UTC+8 台灣標準時間)\n太陽黃經：135° (秋季)\n節
+ 氣說明：太陽到達黃經135度，秋季開始，氣溫漸漸轉涼\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20260823-處暑@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：處暑 (10:19)
+DTSTART;VALUE=DATE:20260823
+DTEND;VALUE=DATE:20260824
+DESCRIPTION:【二十四節氣：處暑】(Chùshǔ)\n交節時刻：2026-0
+ 8-23 10:19 (UTC+8 台灣標準時間)\n太陽黃經：150° (秋季)\n節
+ 氣說明：太陽到達黃經150度，暑氣至此結束，秋意漸濃\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20260907-白露@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：白露 (22:41)
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+DESCRIPTION:【二十四節氣：白露】(Báilù)\n交節時刻：2026-09
+ -07 22:41 (UTC+8 台灣標準時間)\n太陽黃經：165° (秋季)\n節
+ 氣說明：太陽到達黃經165度，水氣凝結為露珠，氣溫下
+ 降顯著\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與
+ Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20260923-秋分@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：秋分 (08:05)
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
+DESCRIPTION:【二十四節氣：秋分】(Qiūfēn)\n交節時刻：2026-0
+ 9-23 08:05 (UTC+8 台灣標準時間)\n太陽黃經：180° (秋季)\n節
+ 氣說明：太陽到達黃經180度，晝夜再次平分，秋季中分
+ 點\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20261008-寒露@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：寒露 (14:29)
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+DESCRIPTION:【二十四節氣：寒露】(Hánlù)\n交節時刻：2026-10
+ -08 14:29 (UTC+8 台灣標準時間)\n太陽黃經：195° (秋季)\n節
+ 氣說明：太陽到達黃經195度，氣溫更低，露水寒涼將凝
+ 為霜\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Von
+ drák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20261023-霜降@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：霜降 (17:38)
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+DESCRIPTION:【二十四節氣：霜降】(Shuāngjiàng)\n交節時刻：2
+ 026-10-23 17:38 (UTC+8 台灣標準時間)\n太陽黃經：210° (秋季)\
+ n節氣說明：太陽到達黃經210度，天氣漸冷，初霜出現\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20261107-立冬@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立冬 (17:52)
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+DESCRIPTION:【二十四節氣：立冬】(Lìdōng)\n交節時刻：2026-1
+ 1-07 17:52 (UTC+8 台灣標準時間)\n太陽黃經：225° (冬季)\n節
+ 氣說明：太陽到達黃經225度，冬季開始，作物收割完畢\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20261122-小雪@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小雪 (15:23)
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+DESCRIPTION:【二十四節氣：小雪】(Xiǎoxuě)\n交節時刻：2026-
+ 11-22 15:23 (UTC+8 台灣標準時間)\n太陽黃經：240° (冬季)\n節
+ 氣說明：太陽到達黃經240度，氣溫降到零度以下，開始
+ 降小雪\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與
+ Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20261207-大雪@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：大雪 (10:53)
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+DESCRIPTION:【二十四節氣：大雪】(Dàxuě)\n交節時刻：2026-12
+ -07 10:53 (UTC+8 台灣標準時間)\n太陽黃經：255° (冬季)\n節
+ 氣說明：太陽到達黃經255度，降雪量增多，地面積雪\n計
+ 算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差
+ 高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20261222-冬至@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：冬至 (04:50)
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
+DESCRIPTION:【二十四節氣：冬至】(Dōngzhì)\n交節時刻：2026-
+ 12-22 04:50 (UTC+8 台灣標準時間)\n太陽黃經：270° (冬季)\n節
+ 氣說明：太陽到達黃經270度，北半球白晝最短、夜間最
+ 長\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20270105-小寒@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小寒 (22:10)
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270106
+DESCRIPTION:【二十四節氣：小寒】(Xiǎohán)\n交節時刻：2027-
+ 01-05 22:10 (UTC+8 台灣標準時間)\n太陽黃經：285° (冬季)\n節
+ 氣說明：太陽到達黃經285度，天氣寒冷但尚未至極\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20270120-大寒@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：大寒 (15:30)
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+DESCRIPTION:【二十四節氣：大寒】(Dàhán)\n交節時刻：2027-01
+ -20 15:30 (UTC+8 台灣標準時間)\n太陽黃經：300° (冬季)\n節
+ 氣說明：太陽到達黃經300度，一年中最嚴寒的時節\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20270204-立春@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立春 (09:46)
+DTSTART;VALUE=DATE:20270204
+DTEND;VALUE=DATE:20270205
+DESCRIPTION:【二十四節氣：立春】(Lìchūn)\n交節時刻：2027-0
+ 2-04 09:46 (UTC+8 台灣標準時間)\n太陽黃經：315° (春季)\n節
+ 氣說明：太陽到達黃經315度，春季開始，萬物復甦\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20270219-雨水@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：雨水 (05:33)
+DTSTART;VALUE=DATE:20270219
+DTEND;VALUE=DATE:20270220
+DESCRIPTION:【二十四節氣：雨水】(Yǔshuǐ)\n交節時刻：2027-0
+ 2-19 05:33 (UTC+8 台灣標準時間)\n太陽黃經：330° (春季)\n節
+ 氣說明：太陽到達黃經330度，氣溫回升，降雪轉化為降
+ 雨\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20270306-驚蟄@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：驚蟄 (03:40)
+DTSTART;VALUE=DATE:20270306
+DTEND;VALUE=DATE:20270307
+DESCRIPTION:【二十四節氣：驚蟄】(Jīngzhé)\n交節時刻：2027-
+ 03-06 03:40 (UTC+8 台灣標準時間)\n太陽黃經：345° (春季)\n節
+ 氣說明：太陽到達黃經345度，春雷始鳴，驚醒冬眠動物\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20270321-春分@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：春分 (04:25)
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270322
+DESCRIPTION:【二十四節氣：春分】(Chūnfēn)\n交節時刻：2027-
+ 03-21 04:25 (UTC+8 台灣標準時間)\n太陽黃經：0° (春季)\n節
+ 氣說明：太陽到達黃經0度，晝夜平分，春季中分點\n計
+ 算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差
+ 高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20270405-清明@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：清明 (08:17)
+DTSTART;VALUE=DATE:20270405
+DTEND;VALUE=DATE:20270406
+DESCRIPTION:【二十四節氣：清明】(Qīngmíng)\n交節時刻：2027
+ -04-05 08:17 (UTC+8 台灣標準時間)\n太陽黃經：15° (春季)\n節
+ 氣說明：太陽到達黃經15度，天朗氣清，惠風和暢\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20270420-穀雨@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：穀雨 (15:18)
+DTSTART;VALUE=DATE:20270420
+DTEND;VALUE=DATE:20270421
+DESCRIPTION:【二十四節氣：穀雨】(Gǔyǔ)\n交節時刻：2027-04-
+ 20 15:18 (UTC+8 台灣標準時間)\n太陽黃經：30° (春季)\n節氣
+ 說明：太陽到達黃經30度，雨生百穀，秧苗得潤\n計算來
+ 源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高精
+ 度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20270506-立夏@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立夏 (01:25)
+DTSTART;VALUE=DATE:20270506
+DTEND;VALUE=DATE:20270507
+DESCRIPTION:【二十四節氣：立夏】(Lìxià)\n交節時刻：2027-05
+ -06 01:25 (UTC+8 台灣標準時間)\n太陽黃經：45° (夏季)\n節氣
+ 說明：太陽到達黃經45度，夏季開始，萬物生長繁茂\n計
+ 算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差
+ 高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20270521-小滿@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小滿 (14:18)
+DTSTART;VALUE=DATE:20270521
+DTEND;VALUE=DATE:20270522
+DESCRIPTION:【二十四節氣：小滿】(Xiǎomǎn)\n交節時刻：2027-
+ 05-21 14:18 (UTC+8 台灣標準時間)\n太陽黃經：60° (夏季)\n節
+ 氣說明：太陽到達黃經60度，麥類等夏熟作物籽粒開始飽
+ 滿\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20270606-芒種@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：芒種 (05:26)
+DTSTART;VALUE=DATE:20270606
+DTEND;VALUE=DATE:20270607
+DESCRIPTION:【二十四節氣：芒種】(Mángzhòng)\n交節時刻：202
+ 7-06-06 05:26 (UTC+8 台灣標準時間)\n太陽黃經：75° (夏季)\n
+ 節氣說明：太陽到達黃經75度，有芒大麥小麥成熟搶收，
+ 秋熟作物播種\n計算來源：ytliu0.github.io/ChineseCalendar (DE441
+ 星曆與Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20270621-夏至@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：夏至 (22:11)
+DTSTART;VALUE=DATE:20270621
+DTEND;VALUE=DATE:20270622
+DESCRIPTION:【二十四節氣：夏至】(Xiàzhì)\n交節時刻：2027-0
+ 6-21 22:11 (UTC+8 台灣標準時間)\n太陽黃經：90° (夏季)\n節
+ 氣說明：太陽到達黃經90度，北半球白晝最長、夜間最短
+ \n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák
+ 歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20270707-小暑@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小暑 (15:37)
+DTSTART;VALUE=DATE:20270707
+DTEND;VALUE=DATE:20270708
+DESCRIPTION:【二十四節氣：小暑】(Xiǎoshǔ)\n交節時刻：2027-
+ 07-07 15:37 (UTC+8 台灣標準時間)\n太陽黃經：105° (夏季)\n節
+ 氣說明：太陽到達黃經105度，天氣炎熱但未達極致\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20270723-大暑@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：大暑 (09:05)
+DTSTART;VALUE=DATE:20270723
+DTEND;VALUE=DATE:20270724
+DESCRIPTION:【二十四節氣：大暑】(Dàshǔ)\n交節時刻：2027-07
+ -23 09:05 (UTC+8 台灣標準時間)\n太陽黃經：120° (夏季)\n節
+ 氣說明：太陽到達黃經120度，一年中日照最多、氣溫最
+ 高的時節\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆
+ 與Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20270808-立秋@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立秋 (01:27)
+DTSTART;VALUE=DATE:20270808
+DTEND;VALUE=DATE:20270809
+DESCRIPTION:【二十四節氣：立秋】(Lìqiū)\n交節時刻：2027-08
+ -08 01:27 (UTC+8 台灣標準時間)\n太陽黃經：135° (秋季)\n節
+ 氣說明：太陽到達黃經135度，秋季開始，氣溫漸漸轉涼\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20270823-處暑@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：處暑 (16:14)
+DTSTART;VALUE=DATE:20270823
+DTEND;VALUE=DATE:20270824
+DESCRIPTION:【二十四節氣：處暑】(Chùshǔ)\n交節時刻：2027-0
+ 8-23 16:14 (UTC+8 台灣標準時間)\n太陽黃經：150° (秋季)\n節
+ 氣說明：太陽到達黃經150度，暑氣至此結束，秋意漸濃\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20270908-白露@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：白露 (04:28)
+DTSTART;VALUE=DATE:20270908
+DTEND;VALUE=DATE:20270909
+DESCRIPTION:【二十四節氣：白露】(Báilù)\n交節時刻：2027-09
+ -08 04:28 (UTC+8 台灣標準時間)\n太陽黃經：165° (秋季)\n節
+ 氣說明：太陽到達黃經165度，水氣凝結為露珠，氣溫下
+ 降顯著\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與
+ Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20270923-秋分@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：秋分 (14:02)
+DTSTART;VALUE=DATE:20270923
+DTEND;VALUE=DATE:20270924
+DESCRIPTION:【二十四節氣：秋分】(Qiūfēn)\n交節時刻：2027-0
+ 9-23 14:02 (UTC+8 台灣標準時間)\n太陽黃經：180° (秋季)\n節
+ 氣說明：太陽到達黃經180度，晝夜再次平分，秋季中分
+ 點\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20271008-寒露@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：寒露 (20:17)
+DTSTART;VALUE=DATE:20271008
+DTEND;VALUE=DATE:20271009
+DESCRIPTION:【二十四節氣：寒露】(Hánlù)\n交節時刻：2027-10
+ -08 20:17 (UTC+8 台灣標準時間)\n太陽黃經：195° (秋季)\n節
+ 氣說明：太陽到達黃經195度，氣溫更低，露水寒涼將凝
+ 為霜\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Von
+ drák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20271023-霜降@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：霜降 (23:33)
+DTSTART;VALUE=DATE:20271023
+DTEND;VALUE=DATE:20271024
+DESCRIPTION:【二十四節氣：霜降】(Shuāngjiàng)\n交節時刻：2
+ 027-10-23 23:33 (UTC+8 台灣標準時間)\n太陽黃經：210° (秋季)\
+ n節氣說明：太陽到達黃經210度，天氣漸冷，初霜出現\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20271107-立冬@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立冬 (23:39)
+DTSTART;VALUE=DATE:20271107
+DTEND;VALUE=DATE:20271108
+DESCRIPTION:【二十四節氣：立冬】(Lìdōng)\n交節時刻：2027-1
+ 1-07 23:39 (UTC+8 台灣標準時間)\n太陽黃經：225° (冬季)\n節
+ 氣說明：太陽到達黃經225度，冬季開始，作物收割完畢\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20271122-小雪@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小雪 (21:16)
+DTSTART;VALUE=DATE:20271122
+DTEND;VALUE=DATE:20271123
+DESCRIPTION:【二十四節氣：小雪】(Xiǎoxuě)\n交節時刻：2027-
+ 11-22 21:16 (UTC+8 台灣標準時間)\n太陽黃經：240° (冬季)\n節
+ 氣說明：太陽到達黃經240度，氣溫降到零度以下，開始
+ 降小雪\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與
+ Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20271207-大雪@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：大雪 (16:38)
+DTSTART;VALUE=DATE:20271207
+DTEND;VALUE=DATE:20271208
+DESCRIPTION:【二十四節氣：大雪】(Dàxuě)\n交節時刻：2027-12
+ -07 16:38 (UTC+8 台灣標準時間)\n太陽黃經：255° (冬季)\n節
+ 氣說明：太陽到達黃經255度，降雪量增多，地面積雪\n計
+ 算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差
+ 高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20271222-冬至@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：冬至 (10:42)
+DTSTART;VALUE=DATE:20271222
+DTEND;VALUE=DATE:20271223
+DESCRIPTION:【二十四節氣：冬至】(Dōngzhì)\n交節時刻：2027-
+ 12-22 10:42 (UTC+8 台灣標準時間)\n太陽黃經：270° (冬季)\n節
+ 氣說明：太陽到達黃經270度，北半球白晝最短、夜間最
+ 長\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20280106-小寒@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小寒 (03:55)
+DTSTART;VALUE=DATE:20280106
+DTEND;VALUE=DATE:20280107
+DESCRIPTION:【二十四節氣：小寒】(Xiǎohán)\n交節時刻：2028-
+ 01-06 03:55 (UTC+8 台灣標準時間)\n太陽黃經：285° (冬季)\n節
+ 氣說明：太陽到達黃經285度，天氣寒冷但尚未至極\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20280120-大寒@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：大寒 (21:22)
+DTSTART;VALUE=DATE:20280120
+DTEND;VALUE=DATE:20280121
+DESCRIPTION:【二十四節氣：大寒】(Dàhán)\n交節時刻：2028-01
+ -20 21:22 (UTC+8 台灣標準時間)\n太陽黃經：300° (冬季)\n節
+ 氣說明：太陽到達黃經300度，一年中最嚴寒的時節\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20280204-立春@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立春 (15:31)
+DTSTART;VALUE=DATE:20280204
+DTEND;VALUE=DATE:20280205
+DESCRIPTION:【二十四節氣：立春】(Lìchūn)\n交節時刻：2028-0
+ 2-04 15:31 (UTC+8 台灣標準時間)\n太陽黃經：315° (春季)\n節
+ 氣說明：太陽到達黃經315度，春季開始，萬物復甦\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20280219-雨水@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：雨水 (11:26)
+DTSTART;VALUE=DATE:20280219
+DTEND;VALUE=DATE:20280220
+DESCRIPTION:【二十四節氣：雨水】(Yǔshuǐ)\n交節時刻：2028-0
+ 2-19 11:26 (UTC+8 台灣標準時間)\n太陽黃經：330° (春季)\n節
+ 氣說明：太陽到達黃經330度，氣溫回升，降雪轉化為降
+ 雨\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20280305-驚蟄@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：驚蟄 (09:25)
+DTSTART;VALUE=DATE:20280305
+DTEND;VALUE=DATE:20280306
+DESCRIPTION:【二十四節氣：驚蟄】(Jīngzhé)\n交節時刻：2028-
+ 03-05 09:25 (UTC+8 台灣標準時間)\n太陽黃經：345° (春季)\n節
+ 氣說明：太陽到達黃經345度，春雷始鳴，驚醒冬眠動物\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20280320-春分@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：春分 (10:17)
+DTSTART;VALUE=DATE:20280320
+DTEND;VALUE=DATE:20280321
+DESCRIPTION:【二十四節氣：春分】(Chūnfēn)\n交節時刻：2028-
+ 03-20 10:17 (UTC+8 台灣標準時間)\n太陽黃經：0° (春季)\n節
+ 氣說明：太陽到達黃經0度，晝夜平分，春季中分點\n計
+ 算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差
+ 高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20280404-清明@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：清明 (14:03)
+DTSTART;VALUE=DATE:20280404
+DTEND;VALUE=DATE:20280405
+DESCRIPTION:【二十四節氣：清明】(Qīngmíng)\n交節時刻：2028
+ -04-04 14:03 (UTC+8 台灣標準時間)\n太陽黃經：15° (春季)\n節
+ 氣說明：太陽到達黃經15度，天朗氣清，惠風和暢\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20280419-穀雨@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：穀雨 (21:09)
+DTSTART;VALUE=DATE:20280419
+DTEND;VALUE=DATE:20280420
+DESCRIPTION:【二十四節氣：穀雨】(Gǔyǔ)\n交節時刻：2028-04-
+ 19 21:09 (UTC+8 台灣標準時間)\n太陽黃經：30° (春季)\n節氣
+ 說明：太陽到達黃經30度，雨生百穀，秧苗得潤\n計算來
+ 源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高精
+ 度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20280505-立夏@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立夏 (07:12)
+DTSTART;VALUE=DATE:20280505
+DTEND;VALUE=DATE:20280506
+DESCRIPTION:【二十四節氣：立夏】(Lìxià)\n交節時刻：2028-05
+ -05 07:12 (UTC+8 台灣標準時間)\n太陽黃經：45° (夏季)\n節氣
+ 說明：太陽到達黃經45度，夏季開始，萬物生長繁茂\n計
+ 算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差
+ 高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20280520-小滿@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小滿 (20:10)
+DTSTART;VALUE=DATE:20280520
+DTEND;VALUE=DATE:20280521
+DESCRIPTION:【二十四節氣：小滿】(Xiǎomǎn)\n交節時刻：2028-
+ 05-20 20:10 (UTC+8 台灣標準時間)\n太陽黃經：60° (夏季)\n節
+ 氣說明：太陽到達黃經60度，麥類等夏熟作物籽粒開始飽
+ 滿\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20280605-芒種@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：芒種 (11:16)
+DTSTART;VALUE=DATE:20280605
+DTEND;VALUE=DATE:20280606
+DESCRIPTION:【二十四節氣：芒種】(Mángzhòng)\n交節時刻：202
+ 8-06-05 11:16 (UTC+8 台灣標準時間)\n太陽黃經：75° (夏季)\n
+ 節氣說明：太陽到達黃經75度，有芒大麥小麥成熟搶收，
+ 秋熟作物播種\n計算來源：ytliu0.github.io/ChineseCalendar (DE441
+ 星曆與Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20280621-夏至@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：夏至 (04:02)
+DTSTART;VALUE=DATE:20280621
+DTEND;VALUE=DATE:20280622
+DESCRIPTION:【二十四節氣：夏至】(Xiàzhì)\n交節時刻：2028-0
+ 6-21 04:02 (UTC+8 台灣標準時間)\n太陽黃經：90° (夏季)\n節
+ 氣說明：太陽到達黃經90度，北半球白晝最長、夜間最短
+ \n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák
+ 歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20280706-小暑@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小暑 (21:30)
+DTSTART;VALUE=DATE:20280706
+DTEND;VALUE=DATE:20280707
+DESCRIPTION:【二十四節氣：小暑】(Xiǎoshǔ)\n交節時刻：2028-
+ 07-06 21:30 (UTC+8 台灣標準時間)\n太陽黃經：105° (夏季)\n節
+ 氣說明：太陽到達黃經105度，天氣炎熱但未達極致\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20280722-大暑@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：大暑 (14:54)
+DTSTART;VALUE=DATE:20280722
+DTEND;VALUE=DATE:20280723
+DESCRIPTION:【二十四節氣：大暑】(Dàshǔ)\n交節時刻：2028-07
+ -22 14:54 (UTC+8 台灣標準時間)\n太陽黃經：120° (夏季)\n節
+ 氣說明：太陽到達黃經120度，一年中日照最多、氣溫最
+ 高的時節\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆
+ 與Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20280807-立秋@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立秋 (07:21)
+DTSTART;VALUE=DATE:20280807
+DTEND;VALUE=DATE:20280808
+DESCRIPTION:【二十四節氣：立秋】(Lìqiū)\n交節時刻：2028-08
+ -07 07:21 (UTC+8 台灣標準時間)\n太陽黃經：135° (秋季)\n節
+ 氣說明：太陽到達黃經135度，秋季開始，氣溫漸漸轉涼\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20280822-處暑@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：處暑 (22:01)
+DTSTART;VALUE=DATE:20280822
+DTEND;VALUE=DATE:20280823
+DESCRIPTION:【二十四節氣：處暑】(Chùshǔ)\n交節時刻：2028-0
+ 8-22 22:01 (UTC+8 台灣標準時間)\n太陽黃經：150° (秋季)\n節
+ 氣說明：太陽到達黃經150度，暑氣至此結束，秋意漸濃\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20280907-白露@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：白露 (10:22)
+DTSTART;VALUE=DATE:20280907
+DTEND;VALUE=DATE:20280908
+DESCRIPTION:【二十四節氣：白露】(Báilù)\n交節時刻：2028-09
+ -07 10:22 (UTC+8 台灣標準時間)\n太陽黃經：165° (秋季)\n節
+ 氣說明：太陽到達黃經165度，水氣凝結為露珠，氣溫下
+ 降顯著\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與
+ Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20280922-秋分@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：秋分 (19:45)
+DTSTART;VALUE=DATE:20280922
+DTEND;VALUE=DATE:20280923
+DESCRIPTION:【二十四節氣：秋分】(Qiūfēn)\n交節時刻：2028-0
+ 9-22 19:45 (UTC+8 台灣標準時間)\n太陽黃經：180° (秋季)\n節
+ 氣說明：太陽到達黃經180度，晝夜再次平分，秋季中分
+ 點\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20281008-寒露@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：寒露 (02:09)
+DTSTART;VALUE=DATE:20281008
+DTEND;VALUE=DATE:20281009
+DESCRIPTION:【二十四節氣：寒露】(Hánlù)\n交節時刻：2028-10
+ -08 02:09 (UTC+8 台灣標準時間)\n太陽黃經：195° (秋季)\n節
+ 氣說明：太陽到達黃經195度，氣溫更低，露水寒涼將凝
+ 為霜\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Von
+ drák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20281023-霜降@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：霜降 (05:13)
+DTSTART;VALUE=DATE:20281023
+DTEND;VALUE=DATE:20281024
+DESCRIPTION:【二十四節氣：霜降】(Shuāngjiàng)\n交節時刻：2
+ 028-10-23 05:13 (UTC+8 台灣標準時間)\n太陽黃經：210° (秋季)\
+ n節氣說明：太陽到達黃經210度，天氣漸冷，初霜出現\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20281107-立冬@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立冬 (05:27)
+DTSTART;VALUE=DATE:20281107
+DTEND;VALUE=DATE:20281108
+DESCRIPTION:【二十四節氣：立冬】(Lìdōng)\n交節時刻：2028-1
+ 1-07 05:27 (UTC+8 台灣標準時間)\n太陽黃經：225° (冬季)\n節
+ 氣說明：太陽到達黃經225度，冬季開始，作物收割完畢\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20281122-小雪@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小雪 (02:54)
+DTSTART;VALUE=DATE:20281122
+DTEND;VALUE=DATE:20281123
+DESCRIPTION:【二十四節氣：小雪】(Xiǎoxuě)\n交節時刻：2028-
+ 11-22 02:54 (UTC+8 台灣標準時間)\n太陽黃經：240° (冬季)\n節
+ 氣說明：太陽到達黃經240度，氣溫降到零度以下，開始
+ 降小雪\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與
+ Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20281206-大雪@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：大雪 (22:25)
+DTSTART;VALUE=DATE:20281206
+DTEND;VALUE=DATE:20281207
+DESCRIPTION:【二十四節氣：大雪】(Dàxuě)\n交節時刻：2028-12
+ -06 22:25 (UTC+8 台灣標準時間)\n太陽黃經：255° (冬季)\n節
+ 氣說明：太陽到達黃經255度，降雪量增多，地面積雪\n計
+ 算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差
+ 高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20281221-冬至@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：冬至 (16:20)
+DTSTART;VALUE=DATE:20281221
+DTEND;VALUE=DATE:20281222
+DESCRIPTION:【二十四節氣：冬至】(Dōngzhì)\n交節時刻：2028-
+ 12-21 16:20 (UTC+8 台灣標準時間)\n太陽黃經：270° (冬季)\n節
+ 氣說明：太陽到達黃經270度，北半球白晝最短、夜間最
+ 長\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20290105-小寒@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小寒 (09:42)
+DTSTART;VALUE=DATE:20290105
+DTEND;VALUE=DATE:20290106
+DESCRIPTION:【二十四節氣：小寒】(Xiǎohán)\n交節時刻：2029-
+ 01-05 09:42 (UTC+8 台灣標準時間)\n太陽黃經：285° (冬季)\n節
+ 氣說明：太陽到達黃經285度，天氣寒冷但尚未至極\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20290120-大寒@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：大寒 (03:01)
+DTSTART;VALUE=DATE:20290120
+DTEND;VALUE=DATE:20290121
+DESCRIPTION:【二十四節氣：大寒】(Dàhán)\n交節時刻：2029-01
+ -20 03:01 (UTC+8 台灣標準時間)\n太陽黃經：300° (冬季)\n節
+ 氣說明：太陽到達黃經300度，一年中最嚴寒的時節\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20290203-立春@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立春 (21:21)
+DTSTART;VALUE=DATE:20290203
+DTEND;VALUE=DATE:20290204
+DESCRIPTION:【二十四節氣：立春】(Lìchūn)\n交節時刻：2029-0
+ 2-03 21:21 (UTC+8 台灣標準時間)\n太陽黃經：315° (春季)\n節
+ 氣說明：太陽到達黃經315度，春季開始，萬物復甦\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20290218-雨水@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：雨水 (17:08)
+DTSTART;VALUE=DATE:20290218
+DTEND;VALUE=DATE:20290219
+DESCRIPTION:【二十四節氣：雨水】(Yǔshuǐ)\n交節時刻：2029-0
+ 2-18 17:08 (UTC+8 台灣標準時間)\n太陽黃經：330° (春季)\n節
+ 氣說明：太陽到達黃經330度，氣溫回升，降雪轉化為降
+ 雨\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20290305-驚蟄@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：驚蟄 (15:18)
+DTSTART;VALUE=DATE:20290305
+DTEND;VALUE=DATE:20290306
+DESCRIPTION:【二十四節氣：驚蟄】(Jīngzhé)\n交節時刻：2029-
+ 03-05 15:18 (UTC+8 台灣標準時間)\n太陽黃經：345° (春季)\n節
+ 氣說明：太陽到達黃經345度，春雷始鳴，驚醒冬眠動物\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20290320-春分@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：春分 (16:02)
+DTSTART;VALUE=DATE:20290320
+DTEND;VALUE=DATE:20290321
+DESCRIPTION:【二十四節氣：春分】(Chūnfēn)\n交節時刻：2029-
+ 03-20 16:02 (UTC+8 台灣標準時間)\n太陽黃經：0° (春季)\n節
+ 氣說明：太陽到達黃經0度，晝夜平分，春季中分點\n計
+ 算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差
+ 高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20290404-清明@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：清明 (19:58)
+DTSTART;VALUE=DATE:20290404
+DTEND;VALUE=DATE:20290405
+DESCRIPTION:【二十四節氣：清明】(Qīngmíng)\n交節時刻：2029
+ -04-04 19:58 (UTC+8 台灣標準時間)\n太陽黃經：15° (春季)\n節
+ 氣說明：太陽到達黃經15度，天朗氣清，惠風和暢\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20290420-穀雨@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：穀雨 (02:56)
+DTSTART;VALUE=DATE:20290420
+DTEND;VALUE=DATE:20290421
+DESCRIPTION:【二十四節氣：穀雨】(Gǔyǔ)\n交節時刻：2029-04-
+ 20 02:56 (UTC+8 台灣標準時間)\n太陽黃經：30° (春季)\n節氣
+ 說明：太陽到達黃經30度，雨生百穀，秧苗得潤\n計算來
+ 源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高精
+ 度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20290505-立夏@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立夏 (13:08)
+DTSTART;VALUE=DATE:20290505
+DTEND;VALUE=DATE:20290506
+DESCRIPTION:【二十四節氣：立夏】(Lìxià)\n交節時刻：2029-05
+ -05 13:08 (UTC+8 台灣標準時間)\n太陽黃經：45° (夏季)\n節氣
+ 說明：太陽到達黃經45度，夏季開始，萬物生長繁茂\n計
+ 算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差
+ 高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20290521-小滿@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小滿 (01:56)
+DTSTART;VALUE=DATE:20290521
+DTEND;VALUE=DATE:20290522
+DESCRIPTION:【二十四節氣：小滿】(Xiǎomǎn)\n交節時刻：2029-
+ 05-21 01:56 (UTC+8 台灣標準時間)\n太陽黃經：60° (夏季)\n節
+ 氣說明：太陽到達黃經60度，麥類等夏熟作物籽粒開始飽
+ 滿\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20290605-芒種@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：芒種 (17:10)
+DTSTART;VALUE=DATE:20290605
+DTEND;VALUE=DATE:20290606
+DESCRIPTION:【二十四節氣：芒種】(Mángzhòng)\n交節時刻：202
+ 9-06-05 17:10 (UTC+8 台灣標準時間)\n太陽黃經：75° (夏季)\n
+ 節氣說明：太陽到達黃經75度，有芒大麥小麥成熟搶收，
+ 秋熟作物播種\n計算來源：ytliu0.github.io/ChineseCalendar (DE441
+ 星曆與Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20290621-夏至@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：夏至 (09:48)
+DTSTART;VALUE=DATE:20290621
+DTEND;VALUE=DATE:20290622
+DESCRIPTION:【二十四節氣：夏至】(Xiàzhì)\n交節時刻：2029-0
+ 6-21 09:48 (UTC+8 台灣標準時間)\n太陽黃經：90° (夏季)\n節
+ 氣說明：太陽到達黃經90度，北半球白晝最長、夜間最短
+ \n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák
+ 歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20290707-小暑@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小暑 (03:22)
+DTSTART;VALUE=DATE:20290707
+DTEND;VALUE=DATE:20290708
+DESCRIPTION:【二十四節氣：小暑】(Xiǎoshǔ)\n交節時刻：2029-
+ 07-07 03:22 (UTC+8 台灣標準時間)\n太陽黃經：105° (夏季)\n節
+ 氣說明：太陽到達黃經105度，天氣炎熱但未達極致\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20290722-大暑@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：大暑 (20:42)
+DTSTART;VALUE=DATE:20290722
+DTEND;VALUE=DATE:20290723
+DESCRIPTION:【二十四節氣：大暑】(Dàshǔ)\n交節時刻：2029-07
+ -22 20:42 (UTC+8 台灣標準時間)\n太陽黃經：120° (夏季)\n節
+ 氣說明：太陽到達黃經120度，一年中日照最多、氣溫最
+ 高的時節\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆
+ 與Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20290807-立秋@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立秋 (13:12)
+DTSTART;VALUE=DATE:20290807
+DTEND;VALUE=DATE:20290808
+DESCRIPTION:【二十四節氣：立秋】(Lìqiū)\n交節時刻：2029-08
+ -07 13:12 (UTC+8 台灣標準時間)\n太陽黃經：135° (秋季)\n節
+ 氣說明：太陽到達黃經135度，秋季開始，氣溫漸漸轉涼\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20290823-處暑@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：處暑 (03:52)
+DTSTART;VALUE=DATE:20290823
+DTEND;VALUE=DATE:20290824
+DESCRIPTION:【二十四節氣：處暑】(Chùshǔ)\n交節時刻：2029-0
+ 8-23 03:52 (UTC+8 台灣標準時間)\n太陽黃經：150° (秋季)\n節
+ 氣說明：太陽到達黃經150度，暑氣至此結束，秋意漸濃\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20290907-白露@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：白露 (16:12)
+DTSTART;VALUE=DATE:20290907
+DTEND;VALUE=DATE:20290908
+DESCRIPTION:【二十四節氣：白露】(Báilù)\n交節時刻：2029-09
+ -07 16:12 (UTC+8 台灣標準時間)\n太陽黃經：165° (秋季)\n節
+ 氣說明：太陽到達黃經165度，水氣凝結為露珠，氣溫下
+ 降顯著\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與
+ Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20290923-秋分@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：秋分 (01:38)
+DTSTART;VALUE=DATE:20290923
+DTEND;VALUE=DATE:20290924
+DESCRIPTION:【二十四節氣：秋分】(Qiūfēn)\n交節時刻：2029-0
+ 9-23 01:38 (UTC+8 台灣標準時間)\n太陽黃經：180° (秋季)\n節
+ 氣說明：太陽到達黃經180度，晝夜再次平分，秋季中分
+ 點\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20291008-寒露@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：寒露 (07:58)
+DTSTART;VALUE=DATE:20291008
+DTEND;VALUE=DATE:20291009
+DESCRIPTION:【二十四節氣：寒露】(Hánlù)\n交節時刻：2029-10
+ -08 07:58 (UTC+8 台灣標準時間)\n太陽黃經：195° (秋季)\n節
+ 氣說明：太陽到達黃經195度，氣溫更低，露水寒涼將凝
+ 為霜\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Von
+ drák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20291023-霜降@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：霜降 (11:08)
+DTSTART;VALUE=DATE:20291023
+DTEND;VALUE=DATE:20291024
+DESCRIPTION:【二十四節氣：霜降】(Shuāngjiàng)\n交節時刻：2
+ 029-10-23 11:08 (UTC+8 台灣標準時間)\n太陽黃經：210° (秋季)\
+ n節氣說明：太陽到達黃經210度，天氣漸冷，初霜出現\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20291107-立冬@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立冬 (11:17)
+DTSTART;VALUE=DATE:20291107
+DTEND;VALUE=DATE:20291108
+DESCRIPTION:【二十四節氣：立冬】(Lìdōng)\n交節時刻：2029-1
+ 1-07 11:17 (UTC+8 台灣標準時間)\n太陽黃經：225° (冬季)\n節
+ 氣說明：太陽到達黃經225度，冬季開始，作物收割完畢\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20291122-小雪@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小雪 (08:49)
+DTSTART;VALUE=DATE:20291122
+DTEND;VALUE=DATE:20291123
+DESCRIPTION:【二十四節氣：小雪】(Xiǎoxuě)\n交節時刻：2029-
+ 11-22 08:49 (UTC+8 台灣標準時間)\n太陽黃經：240° (冬季)\n節
+ 氣說明：太陽到達黃經240度，氣溫降到零度以下，開始
+ 降小雪\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與
+ Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20291207-大雪@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：大雪 (04:14)
+DTSTART;VALUE=DATE:20291207
+DTEND;VALUE=DATE:20291208
+DESCRIPTION:【二十四節氣：大雪】(Dàxuě)\n交節時刻：2029-12
+ -07 04:14 (UTC+8 台灣標準時間)\n太陽黃經：255° (冬季)\n節
+ 氣說明：太陽到達黃經255度，降雪量增多，地面積雪\n計
+ 算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差
+ 高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20291221-冬至@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：冬至 (22:14)
+DTSTART;VALUE=DATE:20291221
+DTEND;VALUE=DATE:20291222
+DESCRIPTION:【二十四節氣：冬至】(Dōngzhì)\n交節時刻：2029-
+ 12-21 22:14 (UTC+8 台灣標準時間)\n太陽黃經：270° (冬季)\n節
+ 氣說明：太陽到達黃經270度，北半球白晝最短、夜間最
+ 長\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20300105-小寒@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小寒 (15:31)
+DTSTART;VALUE=DATE:20300105
+DTEND;VALUE=DATE:20300106
+DESCRIPTION:【二十四節氣：小寒】(Xiǎohán)\n交節時刻：2030-
+ 01-05 15:31 (UTC+8 台灣標準時間)\n太陽黃經：285° (冬季)\n節
+ 氣說明：太陽到達黃經285度，天氣寒冷但尚未至極\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20300120-大寒@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：大寒 (08:54)
+DTSTART;VALUE=DATE:20300120
+DTEND;VALUE=DATE:20300121
+DESCRIPTION:【二十四節氣：大寒】(Dàhán)\n交節時刻：2030-01
+ -20 08:54 (UTC+8 台灣標準時間)\n太陽黃經：300° (冬季)\n節
+ 氣說明：太陽到達黃經300度，一年中最嚴寒的時節\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20300204-立春@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立春 (03:08)
+DTSTART;VALUE=DATE:20300204
+DTEND;VALUE=DATE:20300205
+DESCRIPTION:【二十四節氣：立春】(Lìchūn)\n交節時刻：2030-0
+ 2-04 03:08 (UTC+8 台灣標準時間)\n太陽黃經：315° (春季)\n節
+ 氣說明：太陽到達黃經315度，春季開始，萬物復甦\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20300218-雨水@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：雨水 (23:00)
+DTSTART;VALUE=DATE:20300218
+DTEND;VALUE=DATE:20300219
+DESCRIPTION:【二十四節氣：雨水】(Yǔshuǐ)\n交節時刻：2030-0
+ 2-18 23:00 (UTC+8 台灣標準時間)\n太陽黃經：330° (春季)\n節
+ 氣說明：太陽到達黃經330度，氣溫回升，降雪轉化為降
+ 雨\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20300305-驚蟄@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：驚蟄 (21:03)
+DTSTART;VALUE=DATE:20300305
+DTEND;VALUE=DATE:20300306
+DESCRIPTION:【二十四節氣：驚蟄】(Jīngzhé)\n交節時刻：2030-
+ 03-05 21:03 (UTC+8 台灣標準時間)\n太陽黃經：345° (春季)\n節
+ 氣說明：太陽到達黃經345度，春雷始鳴，驚醒冬眠動物\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20300320-春分@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：春分 (21:52)
+DTSTART;VALUE=DATE:20300320
+DTEND;VALUE=DATE:20300321
+DESCRIPTION:【二十四節氣：春分】(Chūnfēn)\n交節時刻：2030-
+ 03-20 21:52 (UTC+8 台灣標準時間)\n太陽黃經：0° (春季)\n節
+ 氣說明：太陽到達黃經0度，晝夜平分，春季中分點\n計
+ 算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差
+ 高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20300405-清明@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：清明 (01:41)
+DTSTART;VALUE=DATE:20300405
+DTEND;VALUE=DATE:20300406
+DESCRIPTION:【二十四節氣：清明】(Qīngmíng)\n交節時刻：2030
+ -04-05 01:41 (UTC+8 台灣標準時間)\n太陽黃經：15° (春季)\n節
+ 氣說明：太陽到達黃經15度，天朗氣清，惠風和暢\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20300420-穀雨@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：穀雨 (08:44)
+DTSTART;VALUE=DATE:20300420
+DTEND;VALUE=DATE:20300421
+DESCRIPTION:【二十四節氣：穀雨】(Gǔyǔ)\n交節時刻：2030-04-
+ 20 08:44 (UTC+8 台灣標準時間)\n太陽黃經：30° (春季)\n節氣
+ 說明：太陽到達黃經30度，雨生百穀，秧苗得潤\n計算來
+ 源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高精
+ 度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20300505-立夏@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立夏 (18:46)
+DTSTART;VALUE=DATE:20300505
+DTEND;VALUE=DATE:20300506
+DESCRIPTION:【二十四節氣：立夏】(Lìxià)\n交節時刻：2030-05
+ -05 18:46 (UTC+8 台灣標準時間)\n太陽黃經：45° (夏季)\n節氣
+ 說明：太陽到達黃經45度，夏季開始，萬物生長繁茂\n計
+ 算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差
+ 高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20300521-小滿@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小滿 (07:41)
+DTSTART;VALUE=DATE:20300521
+DTEND;VALUE=DATE:20300522
+DESCRIPTION:【二十四節氣：小滿】(Xiǎomǎn)\n交節時刻：2030-
+ 05-21 07:41 (UTC+8 台灣標準時間)\n太陽黃經：60° (夏季)\n節
+ 氣說明：太陽到達黃經60度，麥類等夏熟作物籽粒開始飽
+ 滿\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20300605-芒種@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：芒種 (22:44)
+DTSTART;VALUE=DATE:20300605
+DTEND;VALUE=DATE:20300606
+DESCRIPTION:【二十四節氣：芒種】(Mángzhòng)\n交節時刻：203
+ 0-06-05 22:44 (UTC+8 台灣標準時間)\n太陽黃經：75° (夏季)\n
+ 節氣說明：太陽到達黃經75度，有芒大麥小麥成熟搶收，
+ 秋熟作物播種\n計算來源：ytliu0.github.io/ChineseCalendar (DE441
+ 星曆與Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20300621-夏至@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：夏至 (15:31)
+DTSTART;VALUE=DATE:20300621
+DTEND;VALUE=DATE:20300622
+DESCRIPTION:【二十四節氣：夏至】(Xiàzhì)\n交節時刻：2030-0
+ 6-21 15:31 (UTC+8 台灣標準時間)\n太陽黃經：90° (夏季)\n節
+ 氣說明：太陽到達黃經90度，北半球白晝最長、夜間最短
+ \n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák
+ 歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20300707-小暑@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小暑 (08:55)
+DTSTART;VALUE=DATE:20300707
+DTEND;VALUE=DATE:20300708
+DESCRIPTION:【二十四節氣：小暑】(Xiǎoshǔ)\n交節時刻：2030-
+ 07-07 08:55 (UTC+8 台灣標準時間)\n太陽黃經：105° (夏季)\n節
+ 氣說明：太陽到達黃經105度，天氣炎熱但未達極致\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20300723-大暑@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：大暑 (02:25)
+DTSTART;VALUE=DATE:20300723
+DTEND;VALUE=DATE:20300724
+DESCRIPTION:【二十四節氣：大暑】(Dàshǔ)\n交節時刻：2030-07
+ -23 02:25 (UTC+8 台灣標準時間)\n太陽黃經：120° (夏季)\n節
+ 氣說明：太陽到達黃經120度，一年中日照最多、氣溫最
+ 高的時節\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆
+ 與Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20300807-立秋@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立秋 (18:47)
+DTSTART;VALUE=DATE:20300807
+DTEND;VALUE=DATE:20300808
+DESCRIPTION:【二十四節氣：立秋】(Lìqiū)\n交節時刻：2030-08
+ -07 18:47 (UTC+8 台灣標準時間)\n太陽黃經：135° (秋季)\n節
+ 氣說明：太陽到達黃經135度，秋季開始，氣溫漸漸轉涼\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20300823-處暑@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：處暑 (09:36)
+DTSTART;VALUE=DATE:20300823
+DTEND;VALUE=DATE:20300824
+DESCRIPTION:【二十四節氣：處暑】(Chùshǔ)\n交節時刻：2030-0
+ 8-23 09:36 (UTC+8 台灣標準時間)\n太陽黃經：150° (秋季)\n節
+ 氣說明：太陽到達黃經150度，暑氣至此結束，秋意漸濃\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20300907-白露@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：白露 (21:53)
+DTSTART;VALUE=DATE:20300907
+DTEND;VALUE=DATE:20300908
+DESCRIPTION:【二十四節氣：白露】(Báilù)\n交節時刻：2030-09
+ -07 21:53 (UTC+8 台灣標準時間)\n太陽黃經：165° (秋季)\n節
+ 氣說明：太陽到達黃經165度，水氣凝結為露珠，氣溫下
+ 降顯著\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與
+ Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20300923-秋分@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：秋分 (07:27)
+DTSTART;VALUE=DATE:20300923
+DTEND;VALUE=DATE:20300924
+DESCRIPTION:【二十四節氣：秋分】(Qiūfēn)\n交節時刻：2030-0
+ 9-23 07:27 (UTC+8 台灣標準時間)\n太陽黃經：180° (秋季)\n節
+ 氣說明：太陽到達黃經180度，晝夜再次平分，秋季中分
+ 點\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20301008-寒露@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：寒露 (13:45)
+DTSTART;VALUE=DATE:20301008
+DTEND;VALUE=DATE:20301009
+DESCRIPTION:【二十四節氣：寒露】(Hánlù)\n交節時刻：2030-10
+ -08 13:45 (UTC+8 台灣標準時間)\n太陽黃經：195° (秋季)\n節
+ 氣說明：太陽到達黃經195度，氣溫更低，露水寒涼將凝
+ 為霜\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Von
+ drák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20301023-霜降@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：霜降 (17:01)
+DTSTART;VALUE=DATE:20301023
+DTEND;VALUE=DATE:20301024
+DESCRIPTION:【二十四節氣：霜降】(Shuāngjiàng)\n交節時刻：2
+ 030-10-23 17:01 (UTC+8 台灣標準時間)\n太陽黃經：210° (秋季)\
+ n節氣說明：太陽到達黃經210度，天氣漸冷，初霜出現\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20301107-立冬@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立冬 (17:09)
+DTSTART;VALUE=DATE:20301107
+DTEND;VALUE=DATE:20301108
+DESCRIPTION:【二十四節氣：立冬】(Lìdōng)\n交節時刻：2030-1
+ 1-07 17:09 (UTC+8 台灣標準時間)\n太陽黃經：225° (冬季)\n節
+ 氣說明：太陽到達黃經225度，冬季開始，作物收割完畢\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20301122-小雪@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小雪 (14:45)
+DTSTART;VALUE=DATE:20301122
+DTEND;VALUE=DATE:20301123
+DESCRIPTION:【二十四節氣：小雪】(Xiǎoxuě)\n交節時刻：2030-
+ 11-22 14:45 (UTC+8 台灣標準時間)\n太陽黃經：240° (冬季)\n節
+ 氣說明：太陽到達黃經240度，氣溫降到零度以下，開始
+ 降小雪\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與
+ Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20301207-大雪@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：大雪 (10:08)
+DTSTART;VALUE=DATE:20301207
+DTEND;VALUE=DATE:20301208
+DESCRIPTION:【二十四節氣：大雪】(Dàxuě)\n交節時刻：2030-12
+ -07 10:08 (UTC+8 台灣標準時間)\n太陽黃經：255° (冬季)\n節
+ 氣說明：太陽到達黃經255度，降雪量增多，地面積雪\n計
+ 算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差
+ 高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20301222-冬至@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：冬至 (04:10)
+DTSTART;VALUE=DATE:20301222
+DTEND;VALUE=DATE:20301223
+DESCRIPTION:【二十四節氣：冬至】(Dōngzhì)\n交節時刻：2030-
+ 12-22 04:10 (UTC+8 台灣標準時間)\n太陽黃經：270° (冬季)\n節
+ 氣說明：太陽到達黃經270度，北半球白晝最短、夜間最
+ 長\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20310105-小寒@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小寒 (21:23)
+DTSTART;VALUE=DATE:20310105
+DTEND;VALUE=DATE:20310106
+DESCRIPTION:【二十四節氣：小寒】(Xiǎohán)\n交節時刻：2031-
+ 01-05 21:23 (UTC+8 台灣標準時間)\n太陽黃經：285° (冬季)\n節
+ 氣說明：太陽到達黃經285度，天氣寒冷但尚未至極\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20310120-大寒@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：大寒 (14:48)
+DTSTART;VALUE=DATE:20310120
+DTEND;VALUE=DATE:20310121
+DESCRIPTION:【二十四節氣：大寒】(Dàhán)\n交節時刻：2031-01
+ -20 14:48 (UTC+8 台灣標準時間)\n太陽黃經：300° (冬季)\n節
+ 氣說明：太陽到達黃經300度，一年中最嚴寒的時節\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20310204-立春@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立春 (08:58)
+DTSTART;VALUE=DATE:20310204
+DTEND;VALUE=DATE:20310205
+DESCRIPTION:【二十四節氣：立春】(Lìchūn)\n交節時刻：2031-0
+ 2-04 08:58 (UTC+8 台灣標準時間)\n太陽黃經：315° (春季)\n節
+ 氣說明：太陽到達黃經315度，春季開始，萬物復甦\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20310219-雨水@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：雨水 (04:51)
+DTSTART;VALUE=DATE:20310219
+DTEND;VALUE=DATE:20310220
+DESCRIPTION:【二十四節氣：雨水】(Yǔshuǐ)\n交節時刻：2031-0
+ 2-19 04:51 (UTC+8 台灣標準時間)\n太陽黃經：330° (春季)\n節
+ 氣說明：太陽到達黃經330度，氣溫回升，降雪轉化為降
+ 雨\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20310306-驚蟄@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：驚蟄 (02:51)
+DTSTART;VALUE=DATE:20310306
+DTEND;VALUE=DATE:20310307
+DESCRIPTION:【二十四節氣：驚蟄】(Jīngzhé)\n交節時刻：2031-
+ 03-06 02:51 (UTC+8 台灣標準時間)\n太陽黃經：345° (春季)\n節
+ 氣說明：太陽到達黃經345度，春雷始鳴，驚醒冬眠動物\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20310321-春分@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：春分 (03:41)
+DTSTART;VALUE=DATE:20310321
+DTEND;VALUE=DATE:20310322
+DESCRIPTION:【二十四節氣：春分】(Chūnfēn)\n交節時刻：2031-
+ 03-21 03:41 (UTC+8 台灣標準時間)\n太陽黃經：0° (春季)\n節
+ 氣說明：太陽到達黃經0度，晝夜平分，春季中分點\n計
+ 算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差
+ 高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20310405-清明@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：清明 (07:28)
+DTSTART;VALUE=DATE:20310405
+DTEND;VALUE=DATE:20310406
+DESCRIPTION:【二十四節氣：清明】(Qīngmíng)\n交節時刻：2031
+ -04-05 07:28 (UTC+8 台灣標準時間)\n太陽黃經：15° (春季)\n節
+ 氣說明：太陽到達黃經15度，天朗氣清，惠風和暢\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20310420-穀雨@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：穀雨 (14:31)
+DTSTART;VALUE=DATE:20310420
+DTEND;VALUE=DATE:20310421
+DESCRIPTION:【二十四節氣：穀雨】(Gǔyǔ)\n交節時刻：2031-04-
+ 20 14:31 (UTC+8 台灣標準時間)\n太陽黃經：30° (春季)\n節氣
+ 說明：太陽到達黃經30度，雨生百穀，秧苗得潤\n計算來
+ 源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高精
+ 度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20310506-立夏@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立夏 (00:35)
+DTSTART;VALUE=DATE:20310506
+DTEND;VALUE=DATE:20310507
+DESCRIPTION:【二十四節氣：立夏】(Lìxià)\n交節時刻：2031-05
+ -06 00:35 (UTC+8 台灣標準時間)\n太陽黃經：45° (夏季)\n節氣
+ 說明：太陽到達黃經45度，夏季開始，萬物生長繁茂\n計
+ 算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差
+ 高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20310521-小滿@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小滿 (13:28)
+DTSTART;VALUE=DATE:20310521
+DTEND;VALUE=DATE:20310522
+DESCRIPTION:【二十四節氣：小滿】(Xiǎomǎn)\n交節時刻：2031-
+ 05-21 13:28 (UTC+8 台灣標準時間)\n太陽黃經：60° (夏季)\n節
+ 氣說明：太陽到達黃經60度，麥類等夏熟作物籽粒開始飽
+ 滿\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20310606-芒種@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：芒種 (04:36)
+DTSTART;VALUE=DATE:20310606
+DTEND;VALUE=DATE:20310607
+DESCRIPTION:【二十四節氣：芒種】(Mángzhòng)\n交節時刻：203
+ 1-06-06 04:36 (UTC+8 台灣標準時間)\n太陽黃經：75° (夏季)\n
+ 節氣說明：太陽到達黃經75度，有芒大麥小麥成熟搶收，
+ 秋熟作物播種\n計算來源：ytliu0.github.io/ChineseCalendar (DE441
+ 星曆與Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20310621-夏至@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：夏至 (21:17)
+DTSTART;VALUE=DATE:20310621
+DTEND;VALUE=DATE:20310622
+DESCRIPTION:【二十四節氣：夏至】(Xiàzhì)\n交節時刻：2031-0
+ 6-21 21:17 (UTC+8 台灣標準時間)\n太陽黃經：90° (夏季)\n節
+ 氣說明：太陽到達黃經90度，北半球白晝最長、夜間最短
+ \n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák
+ 歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20310707-小暑@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小暑 (14:49)
+DTSTART;VALUE=DATE:20310707
+DTEND;VALUE=DATE:20310708
+DESCRIPTION:【二十四節氣：小暑】(Xiǎoshǔ)\n交節時刻：2031-
+ 07-07 14:49 (UTC+8 台灣標準時間)\n太陽黃經：105° (夏季)\n節
+ 氣說明：太陽到達黃經105度，天氣炎熱但未達極致\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20310723-大暑@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：大暑 (08:10)
+DTSTART;VALUE=DATE:20310723
+DTEND;VALUE=DATE:20310724
+DESCRIPTION:【二十四節氣：大暑】(Dàshǔ)\n交節時刻：2031-07
+ -23 08:10 (UTC+8 台灣標準時間)\n太陽黃經：120° (夏季)\n節
+ 氣說明：太陽到達黃經120度，一年中日照最多、氣溫最
+ 高的時節\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆
+ 與Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20310808-立秋@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立秋 (00:43)
+DTSTART;VALUE=DATE:20310808
+DTEND;VALUE=DATE:20310809
+DESCRIPTION:【二十四節氣：立秋】(Lìqiū)\n交節時刻：2031-08
+ -08 00:43 (UTC+8 台灣標準時間)\n太陽黃經：135° (秋季)\n節
+ 氣說明：太陽到達黃經135度，秋季開始，氣溫漸漸轉涼\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20310823-處暑@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：處暑 (15:23)
+DTSTART;VALUE=DATE:20310823
+DTEND;VALUE=DATE:20310824
+DESCRIPTION:【二十四節氣：處暑】(Chùshǔ)\n交節時刻：2031-0
+ 8-23 15:23 (UTC+8 台灣標準時間)\n太陽黃經：150° (秋季)\n節
+ 氣說明：太陽到達黃經150度，暑氣至此結束，秋意漸濃\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20310908-白露@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：白露 (03:50)
+DTSTART;VALUE=DATE:20310908
+DTEND;VALUE=DATE:20310909
+DESCRIPTION:【二十四節氣：白露】(Báilù)\n交節時刻：2031-09
+ -08 03:50 (UTC+8 台灣標準時間)\n太陽黃經：165° (秋季)\n節
+ 氣說明：太陽到達黃經165度，水氣凝結為露珠，氣溫下
+ 降顯著\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與
+ Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20310923-秋分@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：秋分 (13:15)
+DTSTART;VALUE=DATE:20310923
+DTEND;VALUE=DATE:20310924
+DESCRIPTION:【二十四節氣：秋分】(Qiūfēn)\n交節時刻：2031-0
+ 9-23 13:15 (UTC+8 台灣標準時間)\n太陽黃經：180° (秋季)\n節
+ 氣說明：太陽到達黃經180度，晝夜再次平分，秋季中分
+ 點\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20311008-寒露@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：寒露 (19:43)
+DTSTART;VALUE=DATE:20311008
+DTEND;VALUE=DATE:20311009
+DESCRIPTION:【二十四節氣：寒露】(Hánlù)\n交節時刻：2031-10
+ -08 19:43 (UTC+8 台灣標準時間)\n太陽黃經：195° (秋季)\n節
+ 氣說明：太陽到達黃經195度，氣溫更低，露水寒涼將凝
+ 為霜\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Von
+ drák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20311023-霜降@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：霜降 (22:49)
+DTSTART;VALUE=DATE:20311023
+DTEND;VALUE=DATE:20311024
+DESCRIPTION:【二十四節氣：霜降】(Shuāngjiàng)\n交節時刻：2
+ 031-10-23 22:49 (UTC+8 台灣標準時間)\n太陽黃經：210° (秋季)\
+ n節氣說明：太陽到達黃經210度，天氣漸冷，初霜出現\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20311107-立冬@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立冬 (23:06)
+DTSTART;VALUE=DATE:20311107
+DTEND;VALUE=DATE:20311108
+DESCRIPTION:【二十四節氣：立冬】(Lìdōng)\n交節時刻：2031-1
+ 1-07 23:06 (UTC+8 台灣標準時間)\n太陽黃經：225° (冬季)\n節
+ 氣說明：太陽到達黃經225度，冬季開始，作物收割完畢\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20311122-小雪@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小雪 (20:33)
+DTSTART;VALUE=DATE:20311122
+DTEND;VALUE=DATE:20311123
+DESCRIPTION:【二十四節氣：小雪】(Xiǎoxuě)\n交節時刻：2031-
+ 11-22 20:33 (UTC+8 台灣標準時間)\n太陽黃經：240° (冬季)\n節
+ 氣說明：太陽到達黃經240度，氣溫降到零度以下，開始
+ 降小雪\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與
+ Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20311207-大雪@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：大雪 (16:03)
+DTSTART;VALUE=DATE:20311207
+DTEND;VALUE=DATE:20311208
+DESCRIPTION:【二十四節氣：大雪】(Dàxuě)\n交節時刻：2031-12
+ -07 16:03 (UTC+8 台灣標準時間)\n太陽黃經：255° (冬季)\n節
+ 氣說明：太陽到達黃經255度，降雪量增多，地面積雪\n計
+ 算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差
+ 高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20311222-冬至@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：冬至 (09:56)
+DTSTART;VALUE=DATE:20311222
+DTEND;VALUE=DATE:20311223
+DESCRIPTION:【二十四節氣：冬至】(Dōngzhì)\n交節時刻：2031-
+ 12-22 09:56 (UTC+8 台灣標準時間)\n太陽黃經：270° (冬季)\n節
+ 氣說明：太陽到達黃經270度，北半球白晝最短、夜間最
+ 長\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20320106-小寒@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小寒 (03:16)
+DTSTART;VALUE=DATE:20320106
+DTEND;VALUE=DATE:20320107
+DESCRIPTION:【二十四節氣：小寒】(Xiǎohán)\n交節時刻：2032-
+ 01-06 03:16 (UTC+8 台灣標準時間)\n太陽黃經：285° (冬季)\n節
+ 氣說明：太陽到達黃經285度，天氣寒冷但尚未至極\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20320120-大寒@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：大寒 (20:31)
+DTSTART;VALUE=DATE:20320120
+DTEND;VALUE=DATE:20320121
+DESCRIPTION:【二十四節氣：大寒】(Dàhán)\n交節時刻：2032-01
+ -20 20:31 (UTC+8 台灣標準時間)\n太陽黃經：300° (冬季)\n節
+ 氣說明：太陽到達黃經300度，一年中最嚴寒的時節\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20320204-立春@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立春 (14:49)
+DTSTART;VALUE=DATE:20320204
+DTEND;VALUE=DATE:20320205
+DESCRIPTION:【二十四節氣：立春】(Lìchūn)\n交節時刻：2032-0
+ 2-04 14:49 (UTC+8 台灣標準時間)\n太陽黃經：315° (春季)\n節
+ 氣說明：太陽到達黃經315度，春季開始，萬物復甦\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20320219-雨水@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：雨水 (10:32)
+DTSTART;VALUE=DATE:20320219
+DTEND;VALUE=DATE:20320220
+DESCRIPTION:【二十四節氣：雨水】(Yǔshuǐ)\n交節時刻：2032-0
+ 2-19 10:32 (UTC+8 台灣標準時間)\n太陽黃經：330° (春季)\n節
+ 氣說明：太陽到達黃經330度，氣溫回升，降雪轉化為降
+ 雨\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20320305-驚蟄@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：驚蟄 (08:40)
+DTSTART;VALUE=DATE:20320305
+DTEND;VALUE=DATE:20320306
+DESCRIPTION:【二十四節氣：驚蟄】(Jīngzhé)\n交節時刻：2032-
+ 03-05 08:40 (UTC+8 台灣標準時間)\n太陽黃經：345° (春季)\n節
+ 氣說明：太陽到達黃經345度，春雷始鳴，驚醒冬眠動物\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20320320-春分@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：春分 (09:22)
+DTSTART;VALUE=DATE:20320320
+DTEND;VALUE=DATE:20320321
+DESCRIPTION:【二十四節氣：春分】(Chūnfēn)\n交節時刻：2032-
+ 03-20 09:22 (UTC+8 台灣標準時間)\n太陽黃經：0° (春季)\n節
+ 氣說明：太陽到達黃經0度，晝夜平分，春季中分點\n計
+ 算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差
+ 高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20320404-清明@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：清明 (13:18)
+DTSTART;VALUE=DATE:20320404
+DTEND;VALUE=DATE:20320405
+DESCRIPTION:【二十四節氣：清明】(Qīngmíng)\n交節時刻：2032
+ -04-04 13:18 (UTC+8 台灣標準時間)\n太陽黃經：15° (春季)\n節
+ 氣說明：太陽到達黃經15度，天朗氣清，惠風和暢\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20320419-穀雨@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：穀雨 (20:14)
+DTSTART;VALUE=DATE:20320419
+DTEND;VALUE=DATE:20320420
+DESCRIPTION:【二十四節氣：穀雨】(Gǔyǔ)\n交節時刻：2032-04-
+ 19 20:14 (UTC+8 台灣標準時間)\n太陽黃經：30° (春季)\n節氣
+ 說明：太陽到達黃經30度，雨生百穀，秧苗得潤\n計算來
+ 源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高精
+ 度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20320505-立夏@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立夏 (06:26)
+DTSTART;VALUE=DATE:20320505
+DTEND;VALUE=DATE:20320506
+DESCRIPTION:【二十四節氣：立夏】(Lìxià)\n交節時刻：2032-05
+ -05 06:26 (UTC+8 台灣標準時間)\n太陽黃經：45° (夏季)\n節氣
+ 說明：太陽到達黃經45度，夏季開始，萬物生長繁茂\n計
+ 算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差
+ 高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20320520-小滿@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小滿 (19:15)
+DTSTART;VALUE=DATE:20320520
+DTEND;VALUE=DATE:20320521
+DESCRIPTION:【二十四節氣：小滿】(Xiǎomǎn)\n交節時刻：2032-
+ 05-20 19:15 (UTC+8 台灣標準時間)\n太陽黃經：60° (夏季)\n節
+ 氣說明：太陽到達黃經60度，麥類等夏熟作物籽粒開始飽
+ 滿\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20320605-芒種@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：芒種 (10:28)
+DTSTART;VALUE=DATE:20320605
+DTEND;VALUE=DATE:20320606
+DESCRIPTION:【二十四節氣：芒種】(Mángzhòng)\n交節時刻：203
+ 2-06-05 10:28 (UTC+8 台灣標準時間)\n太陽黃經：75° (夏季)\n
+ 節氣說明：太陽到達黃經75度，有芒大麥小麥成熟搶收，
+ 秋熟作物播種\n計算來源：ytliu0.github.io/ChineseCalendar (DE441
+ 星曆與Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20320621-夏至@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：夏至 (03:09)
+DTSTART;VALUE=DATE:20320621
+DTEND;VALUE=DATE:20320622
+DESCRIPTION:【二十四節氣：夏至】(Xiàzhì)\n交節時刻：2032-0
+ 6-21 03:09 (UTC+8 台灣標準時間)\n太陽黃經：90° (夏季)\n節
+ 氣說明：太陽到達黃經90度，北半球白晝最長、夜間最短
+ \n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák
+ 歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20320706-小暑@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小暑 (20:41)
+DTSTART;VALUE=DATE:20320706
+DTEND;VALUE=DATE:20320707
+DESCRIPTION:【二十四節氣：小暑】(Xiǎoshǔ)\n交節時刻：2032-
+ 07-06 20:41 (UTC+8 台灣標準時間)\n太陽黃經：105° (夏季)\n節
+ 氣說明：太陽到達黃經105度，天氣炎熱但未達極致\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20320722-大暑@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：大暑 (14:05)
+DTSTART;VALUE=DATE:20320722
+DTEND;VALUE=DATE:20320723
+DESCRIPTION:【二十四節氣：大暑】(Dàshǔ)\n交節時刻：2032-07
+ -22 14:05 (UTC+8 台灣標準時間)\n太陽黃經：120° (夏季)\n節
+ 氣說明：太陽到達黃經120度，一年中日照最多、氣溫最
+ 高的時節\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆
+ 與Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20320807-立秋@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立秋 (06:33)
+DTSTART;VALUE=DATE:20320807
+DTEND;VALUE=DATE:20320808
+DESCRIPTION:【二十四節氣：立秋】(Lìqiū)\n交節時刻：2032-08
+ -07 06:33 (UTC+8 台灣標準時間)\n太陽黃經：135° (秋季)\n節
+ 氣說明：太陽到達黃經135度，秋季開始，氣溫漸漸轉涼\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20320822-處暑@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：處暑 (21:18)
+DTSTART;VALUE=DATE:20320822
+DTEND;VALUE=DATE:20320823
+DESCRIPTION:【二十四節氣：處暑】(Chùshǔ)\n交節時刻：2032-0
+ 8-22 21:18 (UTC+8 台灣標準時間)\n太陽黃經：150° (秋季)\n節
+ 氣說明：太陽到達黃經150度，暑氣至此結束，秋意漸濃\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20320907-白露@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：白露 (09:38)
+DTSTART;VALUE=DATE:20320907
+DTEND;VALUE=DATE:20320908
+DESCRIPTION:【二十四節氣：白露】(Báilù)\n交節時刻：2032-09
+ -07 09:38 (UTC+8 台灣標準時間)\n太陽黃經：165° (秋季)\n節
+ 氣說明：太陽到達黃經165度，水氣凝結為露珠，氣溫下
+ 降顯著\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與
+ Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20320922-秋分@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：秋分 (19:11)
+DTSTART;VALUE=DATE:20320922
+DTEND;VALUE=DATE:20320923
+DESCRIPTION:【二十四節氣：秋分】(Qiūfēn)\n交節時刻：2032-0
+ 9-22 19:11 (UTC+8 台灣標準時間)\n太陽黃經：180° (秋季)\n節
+ 氣說明：太陽到達黃經180度，晝夜再次平分，秋季中分
+ 點\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20321008-寒露@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：寒露 (01:30)
+DTSTART;VALUE=DATE:20321008
+DTEND;VALUE=DATE:20321009
+DESCRIPTION:【二十四節氣：寒露】(Hánlù)\n交節時刻：2032-10
+ -08 01:30 (UTC+8 台灣標準時間)\n太陽黃經：195° (秋季)\n節
+ 氣說明：太陽到達黃經195度，氣溫更低，露水寒涼將凝
+ 為霜\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Von
+ drák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20321023-霜降@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：霜降 (04:46)
+DTSTART;VALUE=DATE:20321023
+DTEND;VALUE=DATE:20321024
+DESCRIPTION:【二十四節氣：霜降】(Shuāngjiàng)\n交節時刻：2
+ 032-10-23 04:46 (UTC+8 台灣標準時間)\n太陽黃經：210° (秋季)\
+ n節氣說明：太陽到達黃經210度，天氣漸冷，初霜出現\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20321107-立冬@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立冬 (04:54)
+DTSTART;VALUE=DATE:20321107
+DTEND;VALUE=DATE:20321108
+DESCRIPTION:【二十四節氣：立冬】(Lìdōng)\n交節時刻：2032-1
+ 1-07 04:54 (UTC+8 台灣標準時間)\n太陽黃經：225° (冬季)\n節
+ 氣說明：太陽到達黃經225度，冬季開始，作物收割完畢\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20321122-小雪@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小雪 (02:31)
+DTSTART;VALUE=DATE:20321122
+DTEND;VALUE=DATE:20321123
+DESCRIPTION:【二十四節氣：小雪】(Xiǎoxuě)\n交節時刻：2032-
+ 11-22 02:31 (UTC+8 台灣標準時間)\n太陽黃經：240° (冬季)\n節
+ 氣說明：太陽到達黃經240度，氣溫降到零度以下，開始
+ 降小雪\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與
+ Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20321206-大雪@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：大雪 (21:53)
+DTSTART;VALUE=DATE:20321206
+DTEND;VALUE=DATE:20321207
+DESCRIPTION:【二十四節氣：大雪】(Dàxuě)\n交節時刻：2032-12
+ -06 21:53 (UTC+8 台灣標準時間)\n太陽黃經：255° (冬季)\n節
+ 氣說明：太陽到達黃經255度，降雪量增多，地面積雪\n計
+ 算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差
+ 高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20321221-冬至@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：冬至 (15:56)
+DTSTART;VALUE=DATE:20321221
+DTEND;VALUE=DATE:20321222
+DESCRIPTION:【二十四節氣：冬至】(Dōngzhì)\n交節時刻：2032-
+ 12-21 15:56 (UTC+8 台灣標準時間)\n太陽黃經：270° (冬季)\n節
+ 氣說明：太陽到達黃經270度，北半球白晝最短、夜間最
+ 長\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20330105-小寒@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小寒 (09:08)
+DTSTART;VALUE=DATE:20330105
+DTEND;VALUE=DATE:20330106
+DESCRIPTION:【二十四節氣：小寒】(Xiǎohán)\n交節時刻：2033-
+ 01-05 09:08 (UTC+8 台灣標準時間)\n太陽黃經：285° (冬季)\n節
+ 氣說明：太陽到達黃經285度，天氣寒冷但尚未至極\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20330120-大寒@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：大寒 (02:33)
+DTSTART;VALUE=DATE:20330120
+DTEND;VALUE=DATE:20330121
+DESCRIPTION:【二十四節氣：大寒】(Dàhán)\n交節時刻：2033-01
+ -20 02:33 (UTC+8 台灣標準時間)\n太陽黃經：300° (冬季)\n節
+ 氣說明：太陽到達黃經300度，一年中最嚴寒的時節\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20330203-立春@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立春 (20:42)
+DTSTART;VALUE=DATE:20330203
+DTEND;VALUE=DATE:20330204
+DESCRIPTION:【二十四節氣：立春】(Lìchūn)\n交節時刻：2033-0
+ 2-03 20:42 (UTC+8 台灣標準時間)\n太陽黃經：315° (春季)\n節
+ 氣說明：太陽到達黃經315度，春季開始，萬物復甦\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20330218-雨水@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：雨水 (16:34)
+DTSTART;VALUE=DATE:20330218
+DTEND;VALUE=DATE:20330219
+DESCRIPTION:【二十四節氣：雨水】(Yǔshuǐ)\n交節時刻：2033-0
+ 2-18 16:34 (UTC+8 台灣標準時間)\n太陽黃經：330° (春季)\n節
+ 氣說明：太陽到達黃經330度，氣溫回升，降雪轉化為降
+ 雨\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20330305-驚蟄@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：驚蟄 (14:32)
+DTSTART;VALUE=DATE:20330305
+DTEND;VALUE=DATE:20330306
+DESCRIPTION:【二十四節氣：驚蟄】(Jīngzhé)\n交節時刻：2033-
+ 03-05 14:32 (UTC+8 台灣標準時間)\n太陽黃經：345° (春季)\n節
+ 氣說明：太陽到達黃經345度，春雷始鳴，驚醒冬眠動物\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20330320-春分@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：春分 (15:23)
+DTSTART;VALUE=DATE:20330320
+DTEND;VALUE=DATE:20330321
+DESCRIPTION:【二十四節氣：春分】(Chūnfēn)\n交節時刻：2033-
+ 03-20 15:23 (UTC+8 台灣標準時間)\n太陽黃經：0° (春季)\n節
+ 氣說明：太陽到達黃經0度，晝夜平分，春季中分點\n計
+ 算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差
+ 高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20330404-清明@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：清明 (19:08)
+DTSTART;VALUE=DATE:20330404
+DTEND;VALUE=DATE:20330405
+DESCRIPTION:【二十四節氣：清明】(Qīngmíng)\n交節時刻：2033
+ -04-04 19:08 (UTC+8 台灣標準時間)\n太陽黃經：15° (春季)\n節
+ 氣說明：太陽到達黃經15度，天朗氣清，惠風和暢\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20330420-穀雨@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：穀雨 (02:13)
+DTSTART;VALUE=DATE:20330420
+DTEND;VALUE=DATE:20330421
+DESCRIPTION:【二十四節氣：穀雨】(Gǔyǔ)\n交節時刻：2033-04-
+ 20 02:13 (UTC+8 台灣標準時間)\n太陽黃經：30° (春季)\n節氣
+ 說明：太陽到達黃經30度，雨生百穀，秧苗得潤\n計算來
+ 源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高精
+ 度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20330505-立夏@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立夏 (12:14)
+DTSTART;VALUE=DATE:20330505
+DTEND;VALUE=DATE:20330506
+DESCRIPTION:【二十四節氣：立夏】(Lìxià)\n交節時刻：2033-05
+ -05 12:14 (UTC+8 台灣標準時間)\n太陽黃經：45° (夏季)\n節氣
+ 說明：太陽到達黃經45度，夏季開始，萬物生長繁茂\n計
+ 算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差
+ 高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20330521-小滿@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小滿 (01:11)
+DTSTART;VALUE=DATE:20330521
+DTEND;VALUE=DATE:20330522
+DESCRIPTION:【二十四節氣：小滿】(Xiǎomǎn)\n交節時刻：2033-
+ 05-21 01:11 (UTC+8 台灣標準時間)\n太陽黃經：60° (夏季)\n節
+ 氣說明：太陽到達黃經60度，麥類等夏熟作物籽粒開始飽
+ 滿\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20330605-芒種@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：芒種 (16:13)
+DTSTART;VALUE=DATE:20330605
+DTEND;VALUE=DATE:20330606
+DESCRIPTION:【二十四節氣：芒種】(Mángzhòng)\n交節時刻：203
+ 3-06-05 16:13 (UTC+8 台灣標準時間)\n太陽黃經：75° (夏季)\n
+ 節氣說明：太陽到達黃經75度，有芒大麥小麥成熟搶收，
+ 秋熟作物播種\n計算來源：ytliu0.github.io/ChineseCalendar (DE441
+ 星曆與Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20330621-夏至@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：夏至 (09:01)
+DTSTART;VALUE=DATE:20330621
+DTEND;VALUE=DATE:20330622
+DESCRIPTION:【二十四節氣：夏至】(Xiàzhì)\n交節時刻：2033-0
+ 6-21 09:01 (UTC+8 台灣標準時間)\n太陽黃經：90° (夏季)\n節
+ 氣說明：太陽到達黃經90度，北半球白晝最長、夜間最短
+ \n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák
+ 歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20330707-小暑@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小暑 (02:25)
+DTSTART;VALUE=DATE:20330707
+DTEND;VALUE=DATE:20330708
+DESCRIPTION:【二十四節氣：小暑】(Xiǎoshǔ)\n交節時刻：2033-
+ 07-07 02:25 (UTC+8 台灣標準時間)\n太陽黃經：105° (夏季)\n節
+ 氣說明：太陽到達黃經105度，天氣炎熱但未達極致\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20330722-大暑@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：大暑 (19:53)
+DTSTART;VALUE=DATE:20330722
+DTEND;VALUE=DATE:20330723
+DESCRIPTION:【二十四節氣：大暑】(Dàshǔ)\n交節時刻：2033-07
+ -22 19:53 (UTC+8 台灣標準時間)\n太陽黃經：120° (夏季)\n節
+ 氣說明：太陽到達黃經120度，一年中日照最多、氣溫最
+ 高的時節\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆
+ 與Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20330807-立秋@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立秋 (12:16)
+DTSTART;VALUE=DATE:20330807
+DTEND;VALUE=DATE:20330808
+DESCRIPTION:【二十四節氣：立秋】(Lìqiū)\n交節時刻：2033-08
+ -07 12:16 (UTC+8 台灣標準時間)\n太陽黃經：135° (秋季)\n節
+ 氣說明：太陽到達黃經135度，秋季開始，氣溫漸漸轉涼\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20330823-處暑@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：處暑 (03:02)
+DTSTART;VALUE=DATE:20330823
+DTEND;VALUE=DATE:20330824
+DESCRIPTION:【二十四節氣：處暑】(Chùshǔ)\n交節時刻：2033-0
+ 8-23 03:02 (UTC+8 台灣標準時間)\n太陽黃經：150° (秋季)\n節
+ 氣說明：太陽到達黃經150度，暑氣至此結束，秋意漸濃\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20330907-白露@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：白露 (15:20)
+DTSTART;VALUE=DATE:20330907
+DTEND;VALUE=DATE:20330908
+DESCRIPTION:【二十四節氣：白露】(Báilù)\n交節時刻：2033-09
+ -07 15:20 (UTC+8 台灣標準時間)\n太陽黃經：165° (秋季)\n節
+ 氣說明：太陽到達黃經165度，水氣凝結為露珠，氣溫下
+ 降顯著\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與
+ Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20330923-秋分@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：秋分 (00:52)
+DTSTART;VALUE=DATE:20330923
+DTEND;VALUE=DATE:20330924
+DESCRIPTION:【二十四節氣：秋分】(Qiūfēn)\n交節時刻：2033-0
+ 9-23 00:52 (UTC+8 台灣標準時間)\n太陽黃經：180° (秋季)\n節
+ 氣說明：太陽到達黃經180度，晝夜再次平分，秋季中分
+ 點\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20331008-寒露@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：寒露 (07:14)
+DTSTART;VALUE=DATE:20331008
+DTEND;VALUE=DATE:20331009
+DESCRIPTION:【二十四節氣：寒露】(Hánlù)\n交節時刻：2033-10
+ -08 07:14 (UTC+8 台灣標準時間)\n太陽黃經：195° (秋季)\n節
+ 氣說明：太陽到達黃經195度，氣溫更低，露水寒涼將凝
+ 為霜\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Von
+ drák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20331023-霜降@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：霜降 (10:28)
+DTSTART;VALUE=DATE:20331023
+DTEND;VALUE=DATE:20331024
+DESCRIPTION:【二十四節氣：霜降】(Shuāngjiàng)\n交節時刻：2
+ 033-10-23 10:28 (UTC+8 台灣標準時間)\n太陽黃經：210° (秋季)\
+ n節氣說明：太陽到達黃經210度，天氣漸冷，初霜出現\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20331107-立冬@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立冬 (10:41)
+DTSTART;VALUE=DATE:20331107
+DTEND;VALUE=DATE:20331108
+DESCRIPTION:【二十四節氣：立冬】(Lìdōng)\n交節時刻：2033-1
+ 1-07 10:41 (UTC+8 台灣標準時間)\n太陽黃經：225° (冬季)\n節
+ 氣說明：太陽到達黃經225度，冬季開始，作物收割完畢\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20331122-小雪@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小雪 (08:16)
+DTSTART;VALUE=DATE:20331122
+DTEND;VALUE=DATE:20331123
+DESCRIPTION:【二十四節氣：小雪】(Xiǎoxuě)\n交節時刻：2033-
+ 11-22 08:16 (UTC+8 台灣標準時間)\n太陽黃經：240° (冬季)\n節
+ 氣說明：太陽到達黃經240度，氣溫降到零度以下，開始
+ 降小雪\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與
+ Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20331207-大雪@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：大雪 (03:45)
+DTSTART;VALUE=DATE:20331207
+DTEND;VALUE=DATE:20331208
+DESCRIPTION:【二十四節氣：大雪】(Dàxuě)\n交節時刻：2033-12
+ -07 03:45 (UTC+8 台灣標準時間)\n太陽黃經：255° (冬季)\n節
+ 氣說明：太陽到達黃經255度，降雪量增多，地面積雪\n計
+ 算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差
+ 高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20331221-冬至@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：冬至 (21:46)
+DTSTART;VALUE=DATE:20331221
+DTEND;VALUE=DATE:20331222
+DESCRIPTION:【二十四節氣：冬至】(Dōngzhì)\n交節時刻：2033-
+ 12-21 21:46 (UTC+8 台灣標準時間)\n太陽黃經：270° (冬季)\n節
+ 氣說明：太陽到達黃經270度，北半球白晝最短、夜間最
+ 長\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20340105-小寒@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小寒 (15:05)
+DTSTART;VALUE=DATE:20340105
+DTEND;VALUE=DATE:20340106
+DESCRIPTION:【二十四節氣：小寒】(Xiǎohán)\n交節時刻：2034-
+ 01-05 15:05 (UTC+8 台灣標準時間)\n太陽黃經：285° (冬季)\n節
+ 氣說明：太陽到達黃經285度，天氣寒冷但尚未至極\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20340120-大寒@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：大寒 (08:27)
+DTSTART;VALUE=DATE:20340120
+DTEND;VALUE=DATE:20340121
+DESCRIPTION:【二十四節氣：大寒】(Dàhán)\n交節時刻：2034-01
+ -20 08:27 (UTC+8 台灣標準時間)\n太陽黃經：300° (冬季)\n節
+ 氣說明：太陽到達黃經300度，一年中最嚴寒的時節\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20340204-立春@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立春 (02:41)
+DTSTART;VALUE=DATE:20340204
+DTEND;VALUE=DATE:20340205
+DESCRIPTION:【二十四節氣：立春】(Lìchūn)\n交節時刻：2034-0
+ 2-04 02:41 (UTC+8 台灣標準時間)\n太陽黃經：315° (春季)\n節
+ 氣說明：太陽到達黃經315度，春季開始，萬物復甦\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20340218-雨水@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：雨水 (22:30)
+DTSTART;VALUE=DATE:20340218
+DTEND;VALUE=DATE:20340219
+DESCRIPTION:【二十四節氣：雨水】(Yǔshuǐ)\n交節時刻：2034-0
+ 2-18 22:30 (UTC+8 台灣標準時間)\n太陽黃經：330° (春季)\n節
+ 氣說明：太陽到達黃經330度，氣溫回升，降雪轉化為降
+ 雨\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20340305-驚蟄@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：驚蟄 (20:32)
+DTSTART;VALUE=DATE:20340305
+DTEND;VALUE=DATE:20340306
+DESCRIPTION:【二十四節氣：驚蟄】(Jīngzhé)\n交節時刻：2034-
+ 03-05 20:32 (UTC+8 台灣標準時間)\n太陽黃經：345° (春季)\n節
+ 氣說明：太陽到達黃經345度，春雷始鳴，驚醒冬眠動物\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20340320-春分@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：春分 (21:17)
+DTSTART;VALUE=DATE:20340320
+DTEND;VALUE=DATE:20340321
+DESCRIPTION:【二十四節氣：春分】(Chūnfēn)\n交節時刻：2034-
+ 03-20 21:17 (UTC+8 台灣標準時間)\n太陽黃經：0° (春季)\n節
+ 氣說明：太陽到達黃經0度，晝夜平分，春季中分點\n計
+ 算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差
+ 高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20340405-清明@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：清明 (01:06)
+DTSTART;VALUE=DATE:20340405
+DTEND;VALUE=DATE:20340406
+DESCRIPTION:【二十四節氣：清明】(Qīngmíng)\n交節時刻：2034
+ -04-05 01:06 (UTC+8 台灣標準時間)\n太陽黃經：15° (春季)\n節
+ 氣說明：太陽到達黃經15度，天朗氣清，惠風和暢\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20340420-穀雨@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：穀雨 (08:04)
+DTSTART;VALUE=DATE:20340420
+DTEND;VALUE=DATE:20340421
+DESCRIPTION:【二十四節氣：穀雨】(Gǔyǔ)\n交節時刻：2034-04-
+ 20 08:04 (UTC+8 台灣標準時間)\n太陽黃經：30° (春季)\n節氣
+ 說明：太陽到達黃經30度，雨生百穀，秧苗得潤\n計算來
+ 源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高精
+ 度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20340505-立夏@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立夏 (18:09)
+DTSTART;VALUE=DATE:20340505
+DTEND;VALUE=DATE:20340506
+DESCRIPTION:【二十四節氣：立夏】(Lìxià)\n交節時刻：2034-05
+ -05 18:09 (UTC+8 台灣標準時間)\n太陽黃經：45° (夏季)\n節氣
+ 說明：太陽到達黃經45度，夏季開始，萬物生長繁茂\n計
+ 算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差
+ 高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20340521-小滿@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小滿 (06:57)
+DTSTART;VALUE=DATE:20340521
+DTEND;VALUE=DATE:20340522
+DESCRIPTION:【二十四節氣：小滿】(Xiǎomǎn)\n交節時刻：2034-
+ 05-21 06:57 (UTC+8 台灣標準時間)\n太陽黃經：60° (夏季)\n節
+ 氣說明：太陽到達黃經60度，麥類等夏熟作物籽粒開始飽
+ 滿\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20340605-芒種@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：芒種 (22:07)
+DTSTART;VALUE=DATE:20340605
+DTEND;VALUE=DATE:20340606
+DESCRIPTION:【二十四節氣：芒種】(Mángzhòng)\n交節時刻：203
+ 4-06-05 22:07 (UTC+8 台灣標準時間)\n太陽黃經：75° (夏季)\n
+ 節氣說明：太陽到達黃經75度，有芒大麥小麥成熟搶收，
+ 秋熟作物播種\n計算來源：ytliu0.github.io/ChineseCalendar (DE441
+ 星曆與Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20340621-夏至@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：夏至 (14:44)
+DTSTART;VALUE=DATE:20340621
+DTEND;VALUE=DATE:20340622
+DESCRIPTION:【二十四節氣：夏至】(Xiàzhì)\n交節時刻：2034-0
+ 6-21 14:44 (UTC+8 台灣標準時間)\n太陽黃經：90° (夏季)\n節
+ 氣說明：太陽到達黃經90度，北半球白晝最長、夜間最短
+ \n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák
+ 歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20340707-小暑@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小暑 (08:18)
+DTSTART;VALUE=DATE:20340707
+DTEND;VALUE=DATE:20340708
+DESCRIPTION:【二十四節氣：小暑】(Xiǎoshǔ)\n交節時刻：2034-
+ 07-07 08:18 (UTC+8 台灣標準時間)\n太陽黃經：105° (夏季)\n節
+ 氣說明：太陽到達黃經105度，天氣炎熱但未達極致\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20340723-大暑@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：大暑 (01:36)
+DTSTART;VALUE=DATE:20340723
+DTEND;VALUE=DATE:20340724
+DESCRIPTION:【二十四節氣：大暑】(Dàshǔ)\n交節時刻：2034-07
+ -23 01:36 (UTC+8 台灣標準時間)\n太陽黃經：120° (夏季)\n節
+ 氣說明：太陽到達黃經120度，一年中日照最多、氣溫最
+ 高的時節\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆
+ 與Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20340807-立秋@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立秋 (18:09)
+DTSTART;VALUE=DATE:20340807
+DTEND;VALUE=DATE:20340808
+DESCRIPTION:【二十四節氣：立秋】(Lìqiū)\n交節時刻：2034-08
+ -07 18:09 (UTC+8 台灣標準時間)\n太陽黃經：135° (秋季)\n節
+ 氣說明：太陽到達黃經135度，秋季開始，氣溫漸漸轉涼\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20340823-處暑@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：處暑 (08:48)
+DTSTART;VALUE=DATE:20340823
+DTEND;VALUE=DATE:20340824
+DESCRIPTION:【二十四節氣：處暑】(Chùshǔ)\n交節時刻：2034-0
+ 8-23 08:48 (UTC+8 台灣標準時間)\n太陽黃經：150° (秋季)\n節
+ 氣說明：太陽到達黃經150度，暑氣至此結束，秋意漸濃\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20340907-白露@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：白露 (21:14)
+DTSTART;VALUE=DATE:20340907
+DTEND;VALUE=DATE:20340908
+DESCRIPTION:【二十四節氣：白露】(Báilù)\n交節時刻：2034-09
+ -07 21:14 (UTC+8 台灣標準時間)\n太陽黃經：165° (秋季)\n節
+ 氣說明：太陽到達黃經165度，水氣凝結為露珠，氣溫下
+ 降顯著\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與
+ Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20340923-秋分@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：秋分 (06:40)
+DTSTART;VALUE=DATE:20340923
+DTEND;VALUE=DATE:20340924
+DESCRIPTION:【二十四節氣：秋分】(Qiūfēn)\n交節時刻：2034-0
+ 9-23 06:40 (UTC+8 台灣標準時間)\n太陽黃經：180° (秋季)\n節
+ 氣說明：太陽到達黃經180度，晝夜再次平分，秋季中分
+ 點\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20341008-寒露@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：寒露 (13:07)
+DTSTART;VALUE=DATE:20341008
+DTEND;VALUE=DATE:20341009
+DESCRIPTION:【二十四節氣：寒露】(Hánlù)\n交節時刻：2034-10
+ -08 13:07 (UTC+8 台灣標準時間)\n太陽黃經：195° (秋季)\n節
+ 氣說明：太陽到達黃經195度，氣溫更低，露水寒涼將凝
+ 為霜\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Von
+ drák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20341023-霜降@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：霜降 (16:16)
+DTSTART;VALUE=DATE:20341023
+DTEND;VALUE=DATE:20341024
+DESCRIPTION:【二十四節氣：霜降】(Shuāngjiàng)\n交節時刻：2
+ 034-10-23 16:16 (UTC+8 台灣標準時間)\n太陽黃經：210° (秋季)\
+ n節氣說明：太陽到達黃經210度，天氣漸冷，初霜出現\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20341107-立冬@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立冬 (16:34)
+DTSTART;VALUE=DATE:20341107
+DTEND;VALUE=DATE:20341108
+DESCRIPTION:【二十四節氣：立冬】(Lìdōng)\n交節時刻：2034-1
+ 1-07 16:34 (UTC+8 台灣標準時間)\n太陽黃經：225° (冬季)\n節
+ 氣說明：太陽到達黃經225度，冬季開始，作物收割完畢\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20341122-小雪@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小雪 (14:05)
+DTSTART;VALUE=DATE:20341122
+DTEND;VALUE=DATE:20341123
+DESCRIPTION:【二十四節氣：小雪】(Xiǎoxuě)\n交節時刻：2034-
+ 11-22 14:05 (UTC+8 台灣標準時間)\n太陽黃經：240° (冬季)\n節
+ 氣說明：太陽到達黃經240度，氣溫降到零度以下，開始
+ 降小雪\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與
+ Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20341207-大雪@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：大雪 (09:37)
+DTSTART;VALUE=DATE:20341207
+DTEND;VALUE=DATE:20341208
+DESCRIPTION:【二十四節氣：大雪】(Dàxuě)\n交節時刻：2034-12
+ -07 09:37 (UTC+8 台灣標準時間)\n太陽黃經：255° (冬季)\n節
+ 氣說明：太陽到達黃經255度，降雪量增多，地面積雪\n計
+ 算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差
+ 高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20341222-冬至@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：冬至 (03:34)
+DTSTART;VALUE=DATE:20341222
+DTEND;VALUE=DATE:20341223
+DESCRIPTION:【二十四節氣：冬至】(Dōngzhì)\n交節時刻：2034-
+ 12-22 03:34 (UTC+8 台灣標準時間)\n太陽黃經：270° (冬季)\n節
+ 氣說明：太陽到達黃經270度，北半球白晝最短、夜間最
+ 長\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20350105-小寒@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小寒 (20:56)
+DTSTART;VALUE=DATE:20350105
+DTEND;VALUE=DATE:20350106
+DESCRIPTION:【二十四節氣：小寒】(Xiǎohán)\n交節時刻：2035-
+ 01-05 20:56 (UTC+8 台灣標準時間)\n太陽黃經：285° (冬季)\n節
+ 氣說明：太陽到達黃經285度，天氣寒冷但尚未至極\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20350120-大寒@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：大寒 (14:14)
+DTSTART;VALUE=DATE:20350120
+DTEND;VALUE=DATE:20350121
+DESCRIPTION:【二十四節氣：大寒】(Dàhán)\n交節時刻：2035-01
+ -20 14:14 (UTC+8 台灣標準時間)\n太陽黃經：300° (冬季)\n節
+ 氣說明：太陽到達黃經300度，一年中最嚴寒的時節\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20350204-立春@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立春 (08:32)
+DTSTART;VALUE=DATE:20350204
+DTEND;VALUE=DATE:20350205
+DESCRIPTION:【二十四節氣：立春】(Lìchūn)\n交節時刻：2035-0
+ 2-04 08:32 (UTC+8 台灣標準時間)\n太陽黃經：315° (春季)\n節
+ 氣說明：太陽到達黃經315度，春季開始，萬物復甦\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20350219-雨水@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：雨水 (04:16)
+DTSTART;VALUE=DATE:20350219
+DTEND;VALUE=DATE:20350220
+DESCRIPTION:【二十四節氣：雨水】(Yǔshuǐ)\n交節時刻：2035-0
+ 2-19 04:16 (UTC+8 台灣標準時間)\n太陽黃經：330° (春季)\n節
+ 氣說明：太陽到達黃經330度，氣溫回升，降雪轉化為降
+ 雨\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20350306-驚蟄@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：驚蟄 (02:22)
+DTSTART;VALUE=DATE:20350306
+DTEND;VALUE=DATE:20350307
+DESCRIPTION:【二十四節氣：驚蟄】(Jīngzhé)\n交節時刻：2035-
+ 03-06 02:22 (UTC+8 台灣標準時間)\n太陽黃經：345° (春季)\n節
+ 氣說明：太陽到達黃經345度，春雷始鳴，驚醒冬眠動物\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20350321-春分@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：春分 (03:03)
+DTSTART;VALUE=DATE:20350321
+DTEND;VALUE=DATE:20350322
+DESCRIPTION:【二十四節氣：春分】(Chūnfēn)\n交節時刻：2035-
+ 03-21 03:03 (UTC+8 台灣標準時間)\n太陽黃經：0° (春季)\n節
+ 氣說明：太陽到達黃經0度，晝夜平分，春季中分點\n計
+ 算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差
+ 高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20350405-清明@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：清明 (06:54)
+DTSTART;VALUE=DATE:20350405
+DTEND;VALUE=DATE:20350406
+DESCRIPTION:【二十四節氣：清明】(Qīngmíng)\n交節時刻：2035
+ -04-05 06:54 (UTC+8 台灣標準時間)\n太陽黃經：15° (春季)\n節
+ 氣說明：太陽到達黃經15度，天朗氣清，惠風和暢\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20350420-穀雨@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：穀雨 (13:49)
+DTSTART;VALUE=DATE:20350420
+DTEND;VALUE=DATE:20350421
+DESCRIPTION:【二十四節氣：穀雨】(Gǔyǔ)\n交節時刻：2035-04-
+ 20 13:49 (UTC+8 台灣標準時間)\n太陽黃經：30° (春季)\n節氣
+ 說明：太陽到達黃經30度，雨生百穀，秧苗得潤\n計算來
+ 源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高精
+ 度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20350505-立夏@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立夏 (23:55)
+DTSTART;VALUE=DATE:20350505
+DTEND;VALUE=DATE:20350506
+DESCRIPTION:【二十四節氣：立夏】(Lìxià)\n交節時刻：2035-05
+ -05 23:55 (UTC+8 台灣標準時間)\n太陽黃經：45° (夏季)\n節氣
+ 說明：太陽到達黃經45度，夏季開始，萬物生長繁茂\n計
+ 算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差
+ 高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20350521-小滿@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小滿 (12:43)
+DTSTART;VALUE=DATE:20350521
+DTEND;VALUE=DATE:20350522
+DESCRIPTION:【二十四節氣：小滿】(Xiǎomǎn)\n交節時刻：2035-
+ 05-21 12:43 (UTC+8 台灣標準時間)\n太陽黃經：60° (夏季)\n節
+ 氣說明：太陽到達黃經60度，麥類等夏熟作物籽粒開始飽
+ 滿\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20350606-芒種@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：芒種 (03:51)
+DTSTART;VALUE=DATE:20350606
+DTEND;VALUE=DATE:20350607
+DESCRIPTION:【二十四節氣：芒種】(Mángzhòng)\n交節時刻：203
+ 5-06-06 03:51 (UTC+8 台灣標準時間)\n太陽黃經：75° (夏季)\n
+ 節氣說明：太陽到達黃經75度，有芒大麥小麥成熟搶收，
+ 秋熟作物播種\n計算來源：ytliu0.github.io/ChineseCalendar (DE441
+ 星曆與Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20350621-夏至@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：夏至 (20:33)
+DTSTART;VALUE=DATE:20350621
+DTEND;VALUE=DATE:20350622
+DESCRIPTION:【二十四節氣：夏至】(Xiàzhì)\n交節時刻：2035-0
+ 6-21 20:33 (UTC+8 台灣標準時間)\n太陽黃經：90° (夏季)\n節
+ 氣說明：太陽到達黃經90度，北半球白晝最長、夜間最短
+ \n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák
+ 歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20350707-小暑@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小暑 (14:01)
+DTSTART;VALUE=DATE:20350707
+DTEND;VALUE=DATE:20350708
+DESCRIPTION:【二十四節氣：小暑】(Xiǎoshǔ)\n交節時刻：2035-
+ 07-07 14:01 (UTC+8 台灣標準時間)\n太陽黃經：105° (夏季)\n節
+ 氣說明：太陽到達黃經105度，天氣炎熱但未達極致\n計算
+ 來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差高
+ 精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20350723-大暑@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：大暑 (07:29)
+DTSTART;VALUE=DATE:20350723
+DTEND;VALUE=DATE:20350724
+DESCRIPTION:【二十四節氣：大暑】(Dàshǔ)\n交節時刻：2035-07
+ -23 07:29 (UTC+8 台灣標準時間)\n太陽黃經：120° (夏季)\n節
+ 氣說明：太陽到達黃經120度，一年中日照最多、氣溫最
+ 高的時節\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆
+ 與Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20350807-立秋@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立秋 (23:54)
+DTSTART;VALUE=DATE:20350807
+DTEND;VALUE=DATE:20350808
+DESCRIPTION:【二十四節氣：立秋】(Lìqiū)\n交節時刻：2035-08
+ -07 23:54 (UTC+8 台灣標準時間)\n太陽黃經：135° (秋季)\n節
+ 氣說明：太陽到達黃經135度，秋季開始，氣溫漸漸轉涼\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20350823-處暑@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：處暑 (14:44)
+DTSTART;VALUE=DATE:20350823
+DTEND;VALUE=DATE:20350824
+DESCRIPTION:【二十四節氣：處暑】(Chùshǔ)\n交節時刻：2035-0
+ 8-23 14:44 (UTC+8 台灣標準時間)\n太陽黃經：150° (秋季)\n節
+ 氣說明：太陽到達黃經150度，暑氣至此結束，秋意漸濃\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20350908-白露@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：白露 (03:03)
+DTSTART;VALUE=DATE:20350908
+DTEND;VALUE=DATE:20350909
+DESCRIPTION:【二十四節氣：白露】(Báilù)\n交節時刻：2035-09
+ -08 03:03 (UTC+8 台灣標準時間)\n太陽黃經：165° (秋季)\n節
+ 氣說明：太陽到達黃經165度，水氣凝結為露珠，氣溫下
+ 降顯著\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與
+ Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20350923-秋分@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：秋分 (12:39)
+DTSTART;VALUE=DATE:20350923
+DTEND;VALUE=DATE:20350924
+DESCRIPTION:【二十四節氣：秋分】(Qiūfēn)\n交節時刻：2035-0
+ 9-23 12:39 (UTC+8 台灣標準時間)\n太陽黃經：180° (秋季)\n節
+ 氣說明：太陽到達黃經180度，晝夜再次平分，秋季中分
+ 點\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20351008-寒露@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：寒露 (18:58)
+DTSTART;VALUE=DATE:20351008
+DTEND;VALUE=DATE:20351009
+DESCRIPTION:【二十四節氣：寒露】(Hánlù)\n交節時刻：2035-10
+ -08 18:58 (UTC+8 台灣標準時間)\n太陽黃經：195° (秋季)\n節
+ 氣說明：太陽到達黃經195度，氣溫更低，露水寒涼將凝
+ 為霜\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Von
+ drák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20351023-霜降@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：霜降 (22:16)
+DTSTART;VALUE=DATE:20351023
+DTEND;VALUE=DATE:20351024
+DESCRIPTION:【二十四節氣：霜降】(Shuāngjiàng)\n交節時刻：2
+ 035-10-23 22:16 (UTC+8 台灣標準時間)\n太陽黃經：210° (秋季)\
+ n節氣說明：太陽到達黃經210度，天氣漸冷，初霜出現\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20351107-立冬@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：立冬 (22:24)
+DTSTART;VALUE=DATE:20351107
+DTEND;VALUE=DATE:20351108
+DESCRIPTION:【二十四節氣：立冬】(Lìdōng)\n交節時刻：2035-1
+ 1-07 22:24 (UTC+8 台灣標準時間)\n太陽黃經：225° (冬季)\n節
+ 氣說明：太陽到達黃經225度，冬季開始，作物收割完畢\n
+ 計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲
+ 差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20351122-小雪@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：小雪 (20:03)
+DTSTART;VALUE=DATE:20351122
+DTEND;VALUE=DATE:20351123
+DESCRIPTION:【二十四節氣：小雪】(Xiǎoxuě)\n交節時刻：2035-
+ 11-22 20:03 (UTC+8 台灣標準時間)\n太陽黃經：240° (冬季)\n節
+ 氣說明：太陽到達黃經240度，氣溫降到零度以下，開始
+ 降小雪\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與
+ Vondrák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20351207-大雪@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：大雪 (15:26)
+DTSTART;VALUE=DATE:20351207
+DTEND;VALUE=DATE:20351208
+DESCRIPTION:【二十四節氣：大雪】(Dàxuě)\n交節時刻：2035-12
+ -07 15:26 (UTC+8 台灣標準時間)\n太陽黃經：255° (冬季)\n節
+ 氣說明：太陽到達黃經255度，降雪量增多，地面積雪\n計
+ 算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondrák歲差
+ 高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:solar-term-20351222-冬至@chinese-calendar
+DTSTAMP:20261007T051847Z
+SUMMARY:節氣：冬至 (09:31)
+DTSTART;VALUE=DATE:20351222
+DTEND;VALUE=DATE:20351223
+DESCRIPTION:【二十四節氣：冬至】(Dōngzhì)\n交節時刻：2035-
+ 12-22 09:31 (UTC+8 台灣標準時間)\n太陽黃經：270° (冬季)\n節
+ 氣說明：太陽到達黃經270度，北半球白晝最短、夜間最
+ 長\n計算來源：ytliu0.github.io/ChineseCalendar (DE441星曆與Vondr
+ ák歲差高精度模型)
+CATEGORIES:二十四節氣
+URL:https://ytliu0.github.io/ChineseCalendar/sunMoon_chinese.html
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
