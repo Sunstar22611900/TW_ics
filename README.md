@@ -1,6 +1,6 @@
 # 台灣國定假日 & 二十四節氣 可訂閱行事曆 (iCalendar .ics)
 
-[![Auto Update Calendars](https://github.com/<USERNAME>/<REPO>/actions/workflows/update.yml/badge.svg)](https://github.com/<USERNAME>/<REPO>/actions/workflows/update.yml)
+[![Auto Update Calendars](https://github.com/Sunstar22611900/TW_ics/actions/workflows/update.yml/badge.svg)](https://github.com/Sunstar22611900/TW_ics/actions/workflows/update.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 本專案提供 **2 個高精度、自動持續更新、支援任何日曆軟體的 iCalendar (`.ics`) 訂閱源**：
@@ -16,12 +16,12 @@
 
 | 行事曆名稱 | 推薦 HTTPS 訂閱網址 (適用 Google / Outlook / Apple) | 點擊一鍵訂閱 (Apple / 系統日曆) |
 | :--- | :--- | :--- |
-| **🇹🇼 台灣國定假日** | `https://<USERNAME>.github.io/<REPO>/taiwan_holidays.ics` | [一鍵訂閱](webcal://<USERNAME>.github.io/<REPO>/taiwan_holidays.ics) |
-| **🌱 二十四節氣** | `https://<USERNAME>.github.io/<REPO>/solar_terms.ics` | [一鍵訂閱](webcal://<USERNAME>.github.io/<REPO>/solar_terms.ics) |
+| **🇹🇼 台灣國定假日** | `https://sunstar22611900.github.io/TW_ics/taiwan_holidays.ics` | [一鍵訂閱](webcal://sunstar22611900.github.io/TW_ics/taiwan_holidays.ics) |
+| **🌱 二十四節氣** | `https://sunstar22611900.github.io/TW_ics/solar_terms.ics` | [一鍵訂閱](webcal://sunstar22611900.github.io/TW_ics/solar_terms.ics) |
 
 > 💡 **備用 Raw 網址**（若未使用 GitHub Pages，亦可直接使用 GitHub Raw 網址訂閱）：
-> - 台灣國定假日：`https://raw.githubusercontent.com/<USERNAME>/<REPO>/main/dist/taiwan_holidays.ics`
-> - 二十四節氣：`https://raw.githubusercontent.com/<USERNAME>/<REPO>/main/dist/solar_terms.ics`
+> - 台灣國定假日：`https://raw.githubusercontent.com/Sunstar22611900/TW_ics/main/dist/taiwan_holidays.ics`
+> - 二十四節氣：`https://raw.githubusercontent.com/Sunstar22611900/TW_ics/main/dist/solar_terms.ics`
 
 ---
 
@@ -92,8 +92,8 @@
 
 ```bash
 # 複製專案
-git clone https://github.com/<USERNAME>/<REPO>.git
-cd <REPO>
+git clone https://github.com/Sunstar22611900/TW_ics.git
+cd TW_ics
 
 # 執行生成 (讀取快取並產出 dist/ 檔案)
 npm run build
